@@ -1,0 +1,337 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: contact_form\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-13 12:02+0200\n"
+"PO-Revision-Date: 2012-08-13 12:02+0200\n"
+"Last-Translator: Cosmin Berescu <b.cosmin@gmx.net>\n"
+"Language-Team: bestwebsoft.com <plugin@bestwebsoft.com>\n"
+"Language: ro_RO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: contact_form.php:76
+msgid "Activated plugins"
+msgstr "Plugin-uri activate"
+
+#: contact_form.php:78 contact_form.php:86 contact_form.php:94
+msgid "Read more"
+msgstr "Citeste mai multe"
+
+#: contact_form.php:78 contact_form.php:805 contact_form.php:814
+msgid "Settings"
+msgstr "Setari"
+
+#: contact_form.php:84
+msgid "Installed plugins"
+msgstr "Pluginuri instalate"
+
+#: contact_form.php:92
+msgid "Recommended plugins"
+msgstr "Pluginuri recomandate"
+
+#: contact_form.php:94
+msgid "Download"
+msgstr "Descarca"
+
+#: contact_form.php:94
+#, php-format
+msgid "Install %s"
+msgstr "Instaleaza %s"
+
+#: contact_form.php:94
+msgid "Install now from wordpress.org"
+msgstr "Instaleaza acum de pe wordpress.org"
+
+#: contact_form.php:96
+msgid ""
+"If you have any questions, please contact us via plugin@bestwebsoft.com or "
+"fill in our contact form on our site"
+msgstr ""
+"Daca aveti intrebari, va rugam sa ne contactati folosind plugin@bestwebsoft."
+"com sau completati formularul de contact de la noi de pe site"
+
+#: contact_form.php:108 contact_form.php:262
+msgid "Contact Form Options"
+msgstr "Optiuni formular de contact"
+
+#: contact_form.php:108
+msgid "Contact Form"
+msgstr "Formular de contact"
+
+#: contact_form.php:136 contact_form.php:180 contact_form.php:216
+#: contact_form.php:366
+msgid "Name:"
+msgstr "Nume:"
+
+#: contact_form.php:137 contact_form.php:181 contact_form.php:217
+#: contact_form.php:367
+msgid "E-Mail Address:"
+msgstr "Adresa email:"
+
+#: contact_form.php:138 contact_form.php:182 contact_form.php:218
+#: contact_form.php:368
+msgid "Subject:"
+msgstr "Subiect:"
+
+#: contact_form.php:139 contact_form.php:183 contact_form.php:219
+#: contact_form.php:369
+msgid "Message:"
+msgstr "Mesaj:"
+
+#: contact_form.php:140 contact_form.php:184 contact_form.php:220
+#: contact_form.php:370
+msgid "Attachment:"
+msgstr "Atasament:"
+
+#: contact_form.php:142 contact_form.php:186
+msgid "Thank you for contacting us."
+msgstr "Va multumim ca ati luat legatura cu noi."
+
+#: contact_form.php:230
+msgid ""
+"If the option 'Redirect to page' is selected then url field should be "
+"fillied in the following format"
+msgstr ""
+"Daca optiunea 'Redirectioneaza la pagina' este selectata, atunci campul url "
+"ar trebui completat in urmatorul format"
+
+#: contact_form.php:237 contact_form.php:242 contact_form.php:251
+msgid "Options saved."
+msgstr "Optiuni salvate."
+
+#: contact_form.php:245
+msgid "Such user is not exist. Settings are not saved."
+msgstr "Acest utilizator nu exista. Setarile nu au fost salvate."
+
+#: contact_form.php:254
+msgid "Please input correct email. Settings are not saved."
+msgstr "Va rugam introduceti un email corect. Setarile nu au fost salvate."
+
+#: contact_form.php:267
+msgid ""
+"If you would like to add a Contact Form to your website, just copy and put "
+"this shortcode onto your post or page or widget:"
+msgstr ""
+"Daca ati dori sa adaugati un Formular de Contact pe situl dumneavoastra, "
+"copiati si lipiti acest cod intr-o pagina sau widget:"
+
+#: contact_form.php:268
+msgid ""
+"If information in the below fields are empty then the message will be send "
+"to an address which was specified during registration."
+msgstr ""
+"Daca informatia din campurile urmatoare este nula, atunci mesajul va fi "
+"trimis la adresa specificata in timpul procesului de inregistrare."
+
+#: contact_form.php:272
+msgid "Use email of wordpress user:"
+msgstr "Foloseste email-ul utilizatorului Wordpress:"
+
+#: contact_form.php:278
+msgid "Select user name"
+msgstr "Alege numele utilizatorului"
+
+#: contact_form.php:283
+msgid "Set a name of user who will get messages from a contact form."
+msgstr ""
+"Alege numele utilizatorului care va primi mesaje de la formularul de contact."
+
+#: contact_form.php:287
+msgid "Use this email:"
+msgstr "Foloseste acest email:"
+
+#: contact_form.php:293
+msgid "Set an email address which will be used for messages receiving."
+msgstr "Alege o adresa email care sa fie folosita pentru primirea mesajelor."
+
+#: contact_form.php:297
+msgid "Additional options"
+msgstr "Optiuni aditionale"
+
+#: contact_form.php:300
+msgid "Display Attachment block"
+msgstr "Afisaza blocul de Atasamente"
+
+#: contact_form.php:305
+msgid "Users can attach files of the following types"
+msgstr "Utilizatorii pot atasa fisiere de urmatoarele tipuri"
+
+#: contact_form.php:309
+msgid "Display Attachment explanations"
+msgstr "Afisaza explicatii despre Atasamente"
+
+#: contact_form.php:314
+msgid "Display explanations after Attachment block"
+msgstr "Afisaza explicatiile dupa blocul Atasament"
+
+#: contact_form.php:318
+msgid "Display Send me a copy block"
+msgstr "Afisaza blocul Trimite-mi o copie"
+
+#: contact_form.php:324
+msgid "What use?"
+msgstr "Ce sa folosesc?"
+
+#: contact_form.php:329
+msgid "Wp-mail"
+msgstr "Wp-mail"
+
+#: contact_form.php:330
+msgid "To send mail you can use the wordpress wp_mail function"
+msgstr "Pentru a trimite mailuri puteti folosi functia Wordpress wp_mail"
+
+#: contact_form.php:338
+msgid "Mail"
+msgstr "Mail"
+
+#: contact_form.php:339
+msgid "To send mail you can use the php mail function"
+msgstr "Pentru a trimite mailuri puteti folosi functia PHP mail"
+
+#: contact_form.php:343
+msgid "Change FROM fields of the contact form"
+msgstr "Modifica linia DE LA din formularul de contact"
+
+#: contact_form.php:349
+msgid "Display additional info in email"
+msgstr "Afisaza informatii aditionale in email"
+
+#: contact_form.php:354 contact_form.php:676
+msgid "Sent from (ip address)"
+msgstr "Trimis de la (adresa IP)"
+
+#: contact_form.php:355 contact_form.php:681
+msgid "Date/Time"
+msgstr "Data/Ora"
+
+#: contact_form.php:356 contact_form.php:686
+msgid "Coming from (referer)"
+msgstr "Venind de la (referinta)"
+
+#: contact_form.php:357 contact_form.php:691
+msgid "Using (user agent)"
+msgstr "Folosind (Agent)"
+
+#: contact_form.php:361
+msgid "Change label for fields of the contact form"
+msgstr "Schimba etichetele pentru campurile formularului de contact"
+
+#: contact_form.php:374
+msgid "Action after the send mail"
+msgstr "Actiune dupa trimiterea mailului"
+
+#: contact_form.php:376
+msgid "Display text"
+msgstr "Afisaza text"
+
+#: contact_form.php:377
+msgid "Text"
+msgstr "Text"
+
+#: contact_form.php:378
+msgid "Redirect to page"
+msgstr "Redirectioneaza la pagina"
+
+#: contact_form.php:379
+msgid "Url"
+msgstr "Url"
+
+#: contact_form.php:384
+msgid "Save Changes"
+msgstr "Salveaza schimbarile"
+
+#: contact_form.php:420
+msgid "Sorry, your e-mail could not be delivered."
+msgstr "Ne pare rau, mailul dumneavoastra nu a putut fi livrat."
+
+#: contact_form.php:478
+msgid "You can attach files of the following types"
+msgstr "Puteti atasa fisiere de urmatoarele tipuri"
+
+#: contact_form.php:486
+msgid "Send me a copy"
+msgstr "Trimite-mi o copie"
+
+#: contact_form.php:496
+msgid "Submit"
+msgstr "Trimite"
+
+#: contact_form.php:535
+msgid "Your name is required."
+msgstr "Numele dumneavoastra este necesar."
+
+#: contact_form.php:536
+msgid "A proper e-mail address is required."
+msgstr "O adresa email valida este necesara."
+
+#: contact_form.php:537
+msgid "Subject text is required."
+msgstr "Subiectul mesajului este necesar"
+
+#: contact_form.php:538
+msgid "Message text is required."
+msgstr "Textul mesajului este necesar."
+
+#: contact_form.php:539
+msgid "Please make corrections below and try again."
+msgstr "Va rugam sa realizati corecturile de mai jos si sa incercati din nou."
+
+#: contact_form.php:570
+msgid "Attachment is broken."
+msgstr "Atasamentul este stricat."
+
+#: contact_form.php:583
+msgid "Please complete the CAPTCHA."
+msgstr "Va rugam completati CAPTCHA-ul"
+
+#: contact_form.php:699
+msgid "Contact from"
+msgstr "Formular de contact"
+
+#: contact_form.php:704
+msgid "Name"
+msgstr "Nume"
+
+#: contact_form.php:707
+msgid "Email"
+msgstr "Email"
+
+#: contact_form.php:710
+msgid "Subject"
+msgstr "Subiect"
+
+#: contact_form.php:713
+msgid "Message"
+msgstr "Mesaj"
+
+#: contact_form.php:716
+msgid "Site"
+msgstr "Site"
+
+#: contact_form.php:761
+msgid "If you can see this MIME than your client doesn't accept MIME types!"
+msgstr ""
+"Daca vedeti acest MIME atunci clientul dumneavoastra nu accepta tipuri MIME!"
+
+#: contact_form.php:815
+msgid "FAQ"
+msgstr "FAQ"
+
+#: contact_form.php:816
+msgid "Support"
+msgstr "Suport tehnic"
+
+#~ msgid "E-Mail Addresse:"
+#~ msgstr "Indirizzo e-mail:"
+
+#~ msgid "Install Now"
+#~ msgstr "Installa Ora"
+
+#~ msgid "BWS Plugins"
+#~ msgstr "BWS Plugins"

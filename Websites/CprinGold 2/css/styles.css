@@ -1,0 +1,325 @@
+BODY
+{
+    MARGIN-BOTTOM: 0px;
+    FONT: 12px Verdana;
+    TEXT-TRANSFORM: none;
+    COLOR: #525252
+}
+TD
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    COLOR: #111111;
+    FONT-FAMILY: Tahoma
+}
+TEXTAREA
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    COLOR: #9e9e9e;
+    FONT-FAMILY: Tahoma
+}
+INPUT
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    COLOR: #9e9e9e;
+    FONT-FAMILY: Tahoma
+}
+SELECT
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    COLOR: #9e9e9e;
+    FONT-FAMILY: Tahoma
+}
+.tableDetail
+{
+    FONT-SIZE: 12px;
+    COLOR: #49394e;
+    FONT-FAMILY: Verdana
+}
+A:link
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #9e9e9e;
+    FONT-FAMILY: tahoma;
+    TEXT-DECORATION: underline
+}
+A:hover
+{
+    BORDER-RIGHT: #ffffff thin;
+    BORDER-TOP: #ffffff thin;
+    FONT: bold 12px tahoma;
+    TEXT-TRANSFORM: none;
+    BORDER-LEFT: #ffffff thin;
+    COLOR: #aa0009;
+    BORDER-BOTTOM: #ffffff thin;
+    TEXT-DECORATION: underline
+}
+A:visited
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #9e9e9e;
+    FONT-STYLE: normal;
+    FONT-FAMILY: tahoma
+}
+.text1
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #aa0009;
+    FONT-FAMILY: tahoma
+}
+.text2
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #afb19b;
+    FONT-FAMILY: tahoma
+}
+.text3
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #a90b0a;
+    FONT-FAMILY: tahoma
+}
+.text4
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #699cb9;
+    FONT-FAMILY: tahoma
+}
+.text5
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    COLOR: #ffffff;
+    FONT-FAMILY: tahoma
+}
+.text6
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #74833a;
+    FONT-FAMILY: tahoma
+}
+.text7
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #000000;
+    FONT-FAMILY: tahoma
+}
+.text8
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    COLOR: #94aec5;
+    FONT-FAMILY: tahoma
+}
+.text9
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    COLOR: #4e4e4e;
+    FONT-FAMILY: tahoma
+}
+.frame
+{
+    BORDER-RIGHT: #9e9e9e 1px solid;
+    BORDER-TOP: #9e9e9e 1px solid;
+    BORDER-LEFT: #9e9e9e 1px solid;
+    BORDER-BOTTOM: #9e9e9e 1px solid
+}
+.designed_by
+{
+    FONT-WEIGHT: lighter;
+    FONT-SIZE: 8px;
+    COLOR: #000000;
+    FONT-FAMILY: Arial
+}
+A.a:link
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #afb19b;
+    FONT-FAMILY: tahoma;
+    TEXT-DECORATION: underline
+}
+A.a:hover
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #b90008;
+    FONT-FAMILY: tahoma;
+    TEXT-DECORATION: underline
+}
+A.a:visited
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #afb19b;
+    FONT-FAMILY: tahoma;
+    TEXT-DECORATION: underline
+}
+A.b:link
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #699cb9;
+    FONT-FAMILY: tahoma;
+    TEXT-DECORATION: underline
+}
+A.b:hover
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #aa0009;
+    FONT-FAMILY: tahoma;
+    TEXT-DECORATION: underline
+}
+A.b:visited
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #699cb9;
+    FONT-FAMILY: tahoma;
+    TEXT-DECORATION: underline
+}
+A.c:link
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    COLOR: #699cb9;
+    FONT-FAMILY: tahoma;
+    TEXT-DECORATION: underline
+}
+A.c:hover
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    COLOR: #000000;
+    FONT-FAMILY: tahoma;
+    TEXT-DECORATION: underline
+}
+A.c:visited
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    COLOR: #699cb9;
+    FONT-FAMILY: tahoma;
+    TEXT-DECORATION: underline
+}
+A.d:link
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    COLOR: #ffffff;
+    FONT-FAMILY: tahoma;
+    TEXT-DECORATION: underline
+}
+A.d:hover
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #ffffff;
+    FONT-FAMILY: tahoma;
+    TEXT-DECORATION: underline
+}
+A.d:visited
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    COLOR: #ffffff;
+    FONT-FAMILY: tahoma;
+    TEXT-DECORATION: underline
+}
+A.e:link
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #944f23;
+    FONT-FAMILY: tahoma;
+    TEXT-DECORATION: underline
+}
+A.e:hover
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #4e4e4e;
+    FONT-FAMILY: tahoma;
+    TEXT-DECORATION: underline
+}
+A.e:visited
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #944f23;
+    FONT-FAMILY: tahoma;
+    TEXT-DECORATION: underline
+}
+A.f:link
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    COLOR: #594b13;
+    FONT-FAMILY: tahoma;
+    TEXT-DECORATION: underline
+}
+A.f:hover
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    COLOR: #4e4e4e;
+    FONT-FAMILY: tahoma;
+    TEXT-DECORATION: underline
+}
+A.f:visited
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    COLOR: #594b13;
+    FONT-FAMILY: tahoma;
+    TEXT-DECORATION: underline
+}
+A.g:link
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #000000;
+    FONT-FAMILY: tahoma;
+    TEXT-DECORATION: underline
+}
+A.g:hover
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #ff6600;
+    FONT-FAMILY: tahoma;
+    TEXT-DECORATION: underline
+}
+A.g:visited
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #000000;
+    FONT-FAMILY: tahoma;
+    TEXT-DECORATION: underline
+}
+.inputstyle
+{
+    BORDER-RIGHT: #333333 1px solid;
+    BORDER-TOP: #333333 1px solid;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: #333333 1px solid;
+    COLOR: #5f726f;
+    BORDER-BOTTOM: #333333 1px solid;
+    FONT-FAMILY: tahoma;
+    BACKGROUND-COLOR: #e2edeb
+}

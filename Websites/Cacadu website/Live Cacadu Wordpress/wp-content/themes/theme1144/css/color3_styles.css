@@ -1,0 +1,101 @@
+#header-tail {
+	background: #acbca4 url(../images/header-tail-2.jpg) no-repeat 50% 0%;
+}
+
+#slider-bg {
+	background: url(../images/path-bg-2.png) no-repeat 50% 166px;
+}
+
+	body.home #slider-bg {
+		background: url(../images/slider-bg-2.png) no-repeat 50% 166px;
+	}
+
+.menu li.current-menu-item > a {
+	color: #ff8226 !important;
+}
+
+#header .menu li:hover, #header .menu li.sfHover,
+#header .menu a:focus, #header .menu a:hover, #header .menu a:active {
+	color: #ff8226;
+}
+
+#faded ul li ul li a {
+	background: url(../images/faded-line-2.gif) repeat-x 0% 0%;
+}
+
+.accordion dt a {
+	background: url(../images/accordion-divider-2.gif) no-repeat 12px 14px;
+}
+
+.entry-title a:hover {
+	color: #ff8226;
+}
+
+.entry-content a.more-link:hover {
+	color: #ff8226;
+}
+
+.navigation a:active,
+.navigation a:hover {
+	color: #ff8226;
+}
+
+.comment-meta a:hover {
+	color: #ff8226 !important;
+}
+
+#container ul li a:hover {
+	color: #ff8226;
+}
+
+.support-posts ul li i a:hover {
+	color: #ff8226;
+}
+
+.link-more:hover {
+	color: #ff8226 !important;
+}
+
+#commentform input[type="submit"]:hover {
+	color: #ff8226;
+}
+
+.module input[type="submit"]:hover {
+	color: #ff8226;
+}
+
+.list-1 dt a:hover {
+	color: #ff8226;
+}
+
+.list-1 dd b a:hover {
+	color: #ff8226;
+}
+
+.list-2 li em span {
+	color: #ff8226;
+}
+
+.list-2 li i span {
+	color: #ff8226;
+}
+
+.list-2 li b span {
+	color: #ff8226;
+}
+
+.list-2 li a span {
+	color: #ff8226;
+}
+
+.feature-posts ul li i a:hover {
+	color: #ff8226;
+}
+
+div.wpcf7 input[type="submit"]:hover {
+	color: #ff8226 !important;
+}
+
+.slide-out-div ul li a:hover {
+	color: #ff8226;
+}

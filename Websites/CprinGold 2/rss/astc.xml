@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<rss version="2.0">
+  <channel>
+    <title>Advanced System Tray Control</title>
+    <description>ASTC component provides an easy way to enable your VB, VC++, C#, VB.NET, or other COM environment applications to put an icon in system tray area It supports many advanced features such as show balloons and anitmated icons. &lt;br&gt;
+&lt;br&gt;
+ASTC consists of one object: TrayIcon object. &lt;br&gt;
+&lt;br&gt;
+TrayIcon object provides the ability to put your icon in system tray. It supports show and hide your icon, a tooltip balloon pointing to your icon in system tray area,also supports animateing your icon in system tray,change the tooltip in run time and popup specified menu. &lt;br&gt;
+&lt;br&gt;</description>
+    <link>http://www.cpringold.com/products/astc.html</link>
+    <category domain="www.dmoz.com">Computers/Software/Internet/Site Management/Content Management</category>
+    <copyright>Copyright &amp;#169; 2005 CprinGold Software. All rights reserved.</copyright>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 16 Nov 2005 13:44:09 +0200</lastBuildDate>
+    <managingEditor>marketing@cpringold.com</managingEditor>
+    <pubDate>Tue, 15 Nov 2005 22:57:03 +0200</pubDate>
+    <webMaster>webmaster@cpringold.com</webMaster>
+    <generator>FeedForAll v1.0 (1.0.2.0) unlicensed version</generator>
+    <item>
+      <title>Track Popup menu</title>
+      <description>Track Popup menu so whenever your program lost focus the icon popup menu will be closed.&lt;br&gt;</description>
+      <link></link>
+      <pubDate>Tue, 15 Nov 2005 22:55:42 +0200</pubDate>
+    </item>
+    <item>
+      <title>Show Hide your Icon</title>
+      <description>Show-Hide the icon in system Tray area.&lt;br&gt;</description>
+      <link>http://www.cpringold.com/products/astc.html</link>
+      <pubDate>Tue, 15 Nov 2005 22:55:01 +0200</pubDate>
+    </item>
+    <item>
+      <title>Tool tip balloon</title>
+      <description>ASTC give your application the ability to show a tool tip balloon pointing to your icon in the system tray area,displaying on win9x. &lt;br&gt;</description>
+      <link>http://www.cpringold.com/products/astc.html</link>
+      <pubDate>Tue, 15 Nov 2005 22:49:41 +0200</pubDate>
+    </item>
+  </channel>
+</rss>

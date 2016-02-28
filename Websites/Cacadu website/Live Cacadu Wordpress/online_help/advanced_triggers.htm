@@ -1,0 +1,220 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+   <title>Triggers &gt; Scheduled Triggers &gt; Advanced Triggers</title>
+   <meta name="generator" content="Help & Manual">
+   <meta name="keywords" content="Advanced Triggers">
+   <meta name="description" content="Advanced Triggers">
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <link type="text/css" href="default.css" rel="stylesheet">
+   <link type="text/css" href="custom.css" rel="stylesheet">
+   <script type="text/javascript" src="nsh.js"></script>
+
+<script type="text/javascript">   
+// Toggle Toggler 
+
+var toggleCount=false;
+var switchState;
+
+function toggleToggles() {
+
+    if (!toggleCount) {
+     toggleCount = true;
+     HMToggleExpandAll(true);
+     switchState = true;
+     }
+   
+     else if (switchState) {
+        HMToggleExpandAll(false);
+        switchState = false;
+        }
+        
+     else  {
+        HMToggleExpandAll(true);
+        switchState = true;
+        } 
+    }
+</script>
+   
+<!-- non-scrolling headers for CHM and browser-based help, local styles-->
+<style type="text/css" media="screen"> 
+html, body {    
+      margin:0; 
+      padding:0; 
+      overflow: hidden; 
+      background: #FFFFFF; 
+   }
+ 
+div#printheader { 
+   display: none;
+   }
+   #idheader { 
+      width:100%; 
+      height:auto; 
+      padding: 0; 
+      margin: 0; 
+} 
+    #idheaderbg  {
+    background: #6F6F6F; 
+}
+   #callout-table, #overview-table {display:block; position:relative; top:0; left:0;}
+   #callout-icon {display:block; position:absolute; top:-11px; left:-11px;}
+   #callout-icon-flag {display:block; position:absolute; top:-11px; left:-8px;}
+   #callout-table a {text-decoration: none; color: blue;}
+   #callout-table a:visited {text-decoration: none; color: blue;}
+   #overview-table a {text-decoration: none; color: black;}
+   #overview-table a:visited {text-decoration: none; color: black;}
+   #callout-table a:hover, #overview-table a:hover {text-decoration: underline;}
+   p.help-url { margin: 20px 0 5px 0; text-align: center; font-size: 80%; text-decoration: none }
+   </style>
+<!--[if lt IE 7]>
+<style type="text/css">
+  #idcontent {padding: 0px;} 
+  #innerdiv {padding: 10px 5px 5px 10px ;} 
+</style> 
+<![endif]-->
+   <noscript>
+   <style type="text/css">
+   html, body { overflow: auto; }
+   </style> 
+   </noscript>
+<style type="text/css" media="print">
+span.f_Heading1 { color: black; }
+#idheader, #printheader img { display:none; }
+#printheader { display: block; margin-top: 20px; }
+#idcontent { margin-top: 10px; }
+</style>   
+   <script type="text/javascript" src="jquery.js"></script>
+   <script type="text/javascript" src="helpman_settings.js"></script>
+   <script type="text/javascript" src="helpman_topicinit.js"></script>
+
+   <script type="text/javascript">
+     HMSyncTOC("index.html", "advanced_triggers.htm");
+   </script>
+   <script type="text/javascript" src="highlight.js"></script>
+   <script type="text/javascript">
+     $(document).ready(function(){highlight();});
+   </script>
+</head>
+<body>
+<!--ZOOMSTOP-->
+
+<div id="printheader"><h1 class="p_Heading1"><span class="f_Heading1">Advanced Triggers</span></h1>
+</div>
+<div id="idheader">
+<div id="idheaderbg">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" 
+       style="margin: 0px; background: url(header_bg.jpg);">
+
+  <tr valign="bottom">
+    <td align="left" valign="bottom" class="topichead">
+   <p class="crumbs" id="idnav"><b>Navigation:</b>&nbsp;
+   
+   Triggers &gt; Scheduled Triggers&nbsp;&gt;</p>
+   <h1 class="p_Heading1"><span class="f_Heading1">Advanced Triggers</span></h1>
+
+    </td>
+    <td align="right" width="120" valign="middle" class="topichead" id="idnav">
+    
+     <a href="simple_triggers.htm"
+        onmouseover="document.images.prev.src='btn_prev_h.gif'" 
+        onmouseout="document.images.prev.src='btn_prev_n.gif'"
+        ><img name=prev src="btn_prev_n.gif" border=0 alt="Previous page"
+        ></a><a href="cacadu_overview.htm"
+        onmouseover="document.images.main.src='btn_home_h.gif'" 
+        onmouseout="document.images.main.src='btn_home_n.gif'"><img name=main src="btn_home_n.gif" border=0 alt="Return to chapter overview"
+        ></a><a href="miss_fire.htm"
+        onmouseover="document.images.next.src='btn_next_h.gif'" 
+        onmouseout="document.images.next.src='btn_next_n.gif'"><img name=next src="btn_next_n.gif" border=0 alt="Next page"
+        ></a>
+    </td>
+  </tr>
+  <tr><td colspan="2" style="height: 3px; background: url(header_bg_shadow.gif)"></td></tr>
+</table>
+</div>
+
+<!-- The following code displays Expand All/Collapse All links  below the header in topics containing toggles -->
+  
+
+</div>  
+
+
+
+<div id="idcontent"><div id="innerdiv"> 
+<!--ZOOMRESTART-->
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table style="border:none; border-spacing:0px;">
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:389px; padding:0px;"><p>The advanced triggers in Cacadu provides more advanced patterns that will allow a task to be performed at a specific date and time.</p>
+<p>&nbsp;</p>
+<p>They are designed to give an administrator the flexibility to repeat the task at any required interval.</p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: justify;">Each of the drop-down boxes allows the selection of one or more options. Selecting specific days, months or years will cause the task to execute every time that interval has passed. </p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: justify;">The exception is the ordinal day of the week that will run the tasks when the specified day of the week appears the first, second, third or fourth time in a month. </p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: justify;">An advanced trigger can be set to exclude holidays so that tasks are not executed when an office is closed. </p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: justify;">Selecting multiple triggers such as a day and several months will provide better control over when the tasks are executed although only one advanced trigger is required. </p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: justify;">Setting the start and end times will stop triggers from activating tasks outside of the date range provided.</p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: justify;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; width:698px; padding:0px;"><p style="text-align: center;"><img src="advanced-scheduled-triggers.png" width="627" height="460" alt="advanced-scheduled-triggers" style="border:none" /></p>
+</td>
+</tr>
+</table>
+</div>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: justify;">Here is a complete list that describe all functions of every element in this form:</p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: left; padding: 0px 0px 0px 13px; margin: 0px 0px 0px 0px;"><span style="font-size:10pt; font-family: 'Arial Unicode MS','Lucida Sans Unicode','Arial';color:#000000;display:inline-block;width:13px;margin-left:-13px">&#8226;</span><span style="font-weight: bold;">Start Date &amp; Time</span>: Set the start date for the trigger to be fired.</p><p>&nbsp;</p>
+<p style="text-align: left; padding: 0px 0px 0px 13px; margin: 0px 0px 0px 0px;"><span style="font-size:10pt; font-family: 'Arial Unicode MS','Lucida Sans Unicode','Arial';color:#000000;display:inline-block;width:13px;margin-left:-13px">&#8226;</span><span style="font-weight: bold;">End Date &amp; Time</span>: Set the end date for the trigger to be fired.</p><p>&nbsp;</p>
+<p style="text-align: left; padding: 0px 0px 0px 13px; margin: 0px 0px 0px 0px;"><span style="font-size:10pt; font-family: 'Arial Unicode MS','Lucida Sans Unicode','Arial';color:#000000;display:inline-block;width:13px;margin-left:-13px">&#8226;</span><span style="font-weight: bold;">Repeat Time</span>: Selectable combo box where you can select the required time(s) to fire the trigger.</p><p>&nbsp;</p>
+<p style="text-align: left; padding: 0px 0px 0px 13px; margin: 0px 0px 0px 0px;"><span style="font-size:10pt; font-family: 'Arial Unicode MS','Lucida Sans Unicode','Arial';color:#000000;display:inline-block;width:13px;margin-left:-13px">&#8226;</span><span style="font-weight: bold;">Repeat Day Of Month</span>: Selectable combo box where you can select the required Day of month(s).</p><p>&nbsp;</p>
+<p style="text-align: left; padding: 0px 0px 0px 13px; margin: 0px 0px 0px 0px;"><span style="font-size:10pt; font-family: 'Arial Unicode MS','Lucida Sans Unicode','Arial';color:#000000;display:inline-block;width:13px;margin-left:-13px">&#8226;</span><span style="font-weight: bold;">Repeat Month</span>: Selectable combo box where you can select the required month(s).</p><p>&nbsp;</p>
+<p style="text-align: left; padding: 0px 0px 0px 13px; margin: 0px 0px 0px 0px;"><span style="font-size:10pt; font-family: 'Arial Unicode MS','Lucida Sans Unicode','Arial';color:#000000;display:inline-block;width:13px;margin-left:-13px">&#8226;</span><span style="font-weight: bold;">Repeat Day Of Week</span>: Combo box where user can select the required day of week(s).</p><p>&nbsp;</p>
+<p style="text-align: left; padding: 0px 0px 0px 13px; margin: 0px 0px 0px 0px;"><span style="font-size:10pt; font-family: 'Arial Unicode MS','Lucida Sans Unicode','Arial';color:#000000;display:inline-block;width:13px;margin-left:-13px">&#8226;</span><span style="font-weight: bold;">Ordinal Day Of Week</span>: Very amazing feature, 1st *day name* of the month.. like &quot;1st sunday of the month&quot;</p><p>&nbsp;</p>
+<p style="text-align: left; padding: 0px 0px 0px 13px; margin: 0px 0px 0px 0px;"><span style="font-size:10pt; font-family: 'Arial Unicode MS','Lucida Sans Unicode','Arial';color:#000000;display:inline-block;width:13px;margin-left:-13px">&#8226;</span><span style="font-weight: bold;">Repeat year(s): </span>year(s) of the execution.</p><p>&nbsp;</p>
+<p style="text-align: left; padding: 0px 0px 0px 13px; margin: 0px 0px 0px 0px;"><span style="font-size:10pt; font-family: 'Arial Unicode MS','Lucida Sans Unicode','Arial';color:#000000;display:inline-block;width:13px;margin-left:-13px">&#8226;</span><span style="font-weight: bold;">Exclude holidays</span>: Activate Holidays tab, where user can set a holiday pattern for the trigger to not fire on.</p><p>&nbsp;</p>
+<p>Note: For &quot;Repeat Day Of Month&quot;, &quot;Repeat Day Of Week&quot; and &quot;Ordinal Day Of Week&quot; check boxes; you can check only one of them at time.</p>
+<p>&nbsp;</p>
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=6776055; 
+var sc_invisible=1; 
+var sc_security="ebafcc73"; 
+</script>
+<script type="text/javascript"
+src="http://www.statcounter.com/counter/counter.js"></script>
+<noscript><div class="statcounter"><a title="tumblr visit
+counter" href="http://statcounter.com/tumblr/"
+target="_blank"><img class="statcounter"
+src="http://c.statcounter.com/6776055/0/ebafcc73/1/"
+alt="tumblr visit counter"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
+<!--ZOOMSTOP-->
+</div></div>
+<script type="text/javascript">
+
+var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
+if( document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh" )
+{
+ if (document.all) setTimeout(function() {nsrInit();},20); 
+    else nsrInit();
+ } 
+
+
+</script>
+</body>
+</html>
+
+
+
+
+
+
+

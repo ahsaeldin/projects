@@ -1,0 +1,192 @@
+<!DOCTYPE HTML>
+<html><head>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+   <!-- This line includes the general project style sheet (not required) -->
+   <link type="text/css" href="default.css" rel="stylesheet">
+
+   <style type="text/css">
+       a { color: black; text-decoration: none }
+       a:visited {color: black}
+       a:hover { text-decoration: underline }
+       .navtitle    { font-size: 14pt; font-weight: bold; margin-bottom: 16px; }
+       .navbar      { font-size: 10pt; }
+       .idxsection  { font-family: Arial,Helvetica; font-weight: bold; font-size: 21px; color: #000000; text-decoration: none;
+                    margin-top: 15px; margin-bottom: 0px; }
+       .idxkeyword  { font-family: Arial,Helvetica; font-weight: normal; font-size: 15px; color: #000000; text-decoration: none }
+       .idxkeyword2 { font-family: Arial,Helvetica; font-weight: normal; font-size: 15px; color: #000000; text-decoration: none }
+       .idxlink     { font-family: Arial,Helvetica; font-weight: normal; font-size: 14px; color: #000000; text-decoration: none }
+       TABLE.idxtable { background: #F4F4F4; border-width: 1px; border-color: #000000; border-collapse: collapse;
+                        filter: progid:DXImageTransform.Microsoft.Shadow(color=B0B0B0, Direction=135, Strength=4) }
+       TD.idxtable    { background: #F4F4F4; }
+       span#navsearch {display: none;}
+   </style>
+<!--[if lt IE 7]>
+<style type="text/css">
+html { overflow-x: hidden;} 
+</style> 
+<![endif]-->
+   <script type="text/javascript" src="jquery.js"></script>
+   <script type="text/javascript" src="helpman_settings.js"></script>
+</head>
+<body style="background-color: #FFFFFF; background-image: url(lines.gif); ">
+<p class="navtitle">Cacadu Help</p>
+<p class="navbar">
+<a href="cacaduproject_content.htm">Contents</a>&nbsp;
+|&nbsp;<b>Index</b>&nbsp;
+<span id="navsearch">|&nbsp;<a href="cacaduproject_ftsearch.htm">Search</a></span>
+</p><hr size="1" />
+
+<br/><a href="#A">A</a>
+  <a href="#B">B</a>
+  <a href="#C">C</a>
+  <a href="#D">D</a>
+  <a href="#E">E</a>
+  <a href="#F">F</a>
+  <a href="#G">G</a>
+  <a href="#H">H</a>
+  <a href="#I">I</a>
+  <a href="#J">J</a>
+  <a href="#K">K</a>
+  <a href="#L">L</a>
+  <a href="#M">M</a>
+  <a href="#N">N</a>
+  <a href="#O">O</a>
+  <a href="#P">P</a>
+  <a href="#Q">Q</a>
+  <a href="#R">R</a>
+  <a href="#S">S</a>
+  <a href="#T">T</a>
+  <a href="#U">U</a>
+  <a href="#V">V</a>
+  <a href="#W">W</a>
+  <a href="#X">X</a>
+  <a href="#Y">Y</a>
+  <a href="#Z">Z</a>
+
+<!-- Placeholder for the keyword index - this variable is REQUIRED! -->
+<script type="text/javascript">
+
+  function hmInitHideLinks(cssCode) {
+  	var styleElement = document.createElement("style");
+  	styleElement.type = "text/css";
+  	if (styleElement.styleSheet) {
+    	styleElement.styleSheet.cssText = cssCode;
+  	}
+  	else {
+    	styleElement.appendChild(document.createTextNode(cssCode));
+  	}
+  	document.getElementsByTagName("head")[0].appendChild(styleElement);
+  }
+
+  hmInitHideLinks("#idx div { display: none }");
+
+  var currentdiv = null;
+  var canhidelinks = true;
+
+  function hmshowLinks(divID) {
+    var thisdiv = document.getElementById(divID);
+    canhidelinks = true;
+    hmhideLinks();
+    if (thisdiv) {
+      currentdiv = thisdiv;
+      $(currentdiv).show();
+      $(currentdiv).mouseover(hmdivMouseOver).mouseout(hmdivMouseOut);
+      $(document).mouseup(hmhideLinks);
+    }
+  }
+  function hmdivMouseOver() { canhidelinks = false; };
+  function hmdivMouseOut() { canhidelinks = true; };
+  function hmhideLinks() {
+    if (canhidelinks) {
+      if (currentdiv) {
+        $(currentdiv).hide();
+        $(currentdiv).unbind("onmouseover", "onmouseout");
+      }
+      currentdiv = null;
+      $(document).unbind("onmouseup");
+    }
+  }
+</script>
+<div id="idx" style="margin:0;padding:0;border:none">
+<a name="A" id="A"></a><p class="idxsection">- A -</p>
+<p class="idxkeyword" style="margin:0 0 0 0px"><a href="delay.htm" target="hmcontent"><span class="idxkeyword">Action's Delay</span></a></p>
+<p class="idxkeyword" style="margin:0 0 0 0px"><a href="actions_gallery.htm" target="hmcontent"><span class="idxkeyword">Actions Gallery</span></a></p>
+<p class="idxkeyword" style="margin:0 0 0 0px"><a href="advanced_triggers.htm" target="hmcontent"><span class="idxkeyword">Advanced Triggers</span></a></p>
+<a name="D" id="D"></a><p class="idxsection">- D -</p>
+<p class="idxkeyword" style="margin:0 0 0 0px"><a href="enable_disable_cacadu.htm" target="hmcontent"><span class="idxkeyword">Disable Cacadu</span></a></p>
+<a name="E" id="E"></a><p class="idxsection">- E -</p>
+<p class="idxkeyword" style="margin:0 0 0 0px"><a href="error_reporter.htm" target="hmcontent"><span class="idxkeyword">Error Reporter</span></a></p>
+<p class="idxkeyword" style="margin:0 0 0 0px"><a href="errors_handler.htm" target="hmcontent"><span class="idxkeyword">Errors Handler</span></a></p>
+<p class="idxkeyword" style="margin:0 0 0 0px"><a href="errors_pane.htm" target="hmcontent"><span class="idxkeyword">Errors Pane</span></a></p>
+<p class="idxkeyword" style="margin:0 0 0 0px"><a href="exit_process.htm" target="hmcontent"><span class="idxkeyword">Exit Process Action</span></a></p>
+<a name="F" id="F"></a><p class="idxsection">- F -</p>
+<p class="idxkeyword" style="margin:0 0 0 0px"><a href="faqs.htm" target="hmcontent"><span class="idxkeyword">FAQs</span></a></p>
+<p class="idxkeyword" style="margin:0 0 0 0px"><a href="features.htm" target="hmcontent"><span class="idxkeyword">Features</span></a></p>
+<a name="G" id="G"></a><p class="idxsection">- G -</p>
+<p class="idxkeyword" style="margin:0 0 0 0px"><a href="global_constants.htm" target="hmcontent"><span class="idxkeyword">Global Constants</span></a></p>
+<p class="idxkeyword" style="margin:0 0 0 0px"><a href="global_variables.htm" target="hmcontent"><span class="idxkeyword">Global Variables</span></a></p>
+<p class="idxkeyword" style="margin:0 0 0 0px"><a href="groups_ribbon_page.htm" target="hmcontent"><span class="idxkeyword">Groups Ribbon Page</span></a></p>
+<a name="H" id="H"></a><p class="idxsection">- H -</p>
+<p class="idxkeyword" style="margin:0 0 0 0px"><a href="help_ribbon_page.htm" target="hmcontent"><span class="idxkeyword">Help Ribbon Page</span></a></p>
+<p class="idxkeyword" style="margin:0 0 0 0px"><a href="history_pane.htm" target="hmcontent"><span class="idxkeyword">History Pane</span></a></p>
+<p class="idxkeyword" style="margin:0 0 0 0px"><a href="holidays.htm" target="hmcontent"><span class="idxkeyword">Holidays</span></a></p>
+<p class="idxkeyword" style="margin:0 0 0 0px"><a href="home_ribbon_page.htm" target="hmcontent"><span class="idxkeyword">Home Ribbon Page</span></a></p>
+<p class="idxkeyword" style="margin:0 0 0 0px"><a href="start_application.htm" target="hmcontent"><span class="idxkeyword">How to add an action</span></a></p>
+<p class="idxkeyword" style="margin:0 0 0 0px"><a href="start_application.htm" target="hmcontent"><span class="idxkeyword">How to drag an action</span></a></p>
+<p class="idxkeyword" style="margin:0 0 0 0px"><a href="how_to_start_using_cacadu_in_l.htm" target="hmcontent"><span class="idxkeyword">How to start using Cacadu</span></a></p>
+<p class="idxkeyword" style="margin:0 0 0 0px"><a href="how_to_start_using_cacadu.htm" target="hmcontent"><span class="idxkeyword">How to start using Cacadu in 9 steps</span></a></p>
+<a name="I" id="I"></a><p class="idxsection">- I -</p>
+<p class="idxkeyword" style="margin:0 0 0 0px"><a href="import_and_export_tasks.htm" target="hmcontent"><span class="idxkeyword">Import And Export Tasks</span></a></p>
+<a name="M" id="M"></a><p class="idxsection">- M -</p>
+<p class="idxkeyword" style="margin:0 0 0 0px"><a href="main_menu.htm" target="hmcontent"><span class="idxkeyword">Main Menu</span></a></p>
+<p class="idxkeyword" style="margin:0 0 0 0px"><a href="main_window.htm" target="hmcontent"><span class="idxkeyword">Main Window</span></a></p>
+<p class="idxkeyword" style="margin:0 0 0 0px"><a href="message_boxes.htm" target="hmcontent"><span class="idxkeyword">Message Boxes Actions Set</span></a></p>
+<p class="idxkeyword" style="margin:0 0 0 0px"><a href="miss_fire.htm" target="hmcontent"><span class="idxkeyword">Miss Fire</span></a></p>
+<a name="N" id="N"></a><p class="idxsection">- N -</p>
+<p class="idxkeyword" style="margin:0 0 0 0px"><a href="notations.htm" target="hmcontent"><span class="idxkeyword">Notation</span></a></p>
+<a name="O" id="O"></a><p class="idxsection">- O -</p>
+<p class="idxkeyword" style="margin:0 0 0 0px"><a href="options.htm" target="hmcontent"><span class="idxkeyword">Options</span></a></p>
+<p class="idxkeyword" style="margin:0 0 0 0px"><a href="cacadu_overview.htm" target="hmcontent"><span class="idxkeyword">Overview Of Cacadu</span></a></p>
+<a name="P" id="P"></a><p class="idxsection">- P -</p>
+<p class="idxkeyword" style="margin:0 0 0 0px"><a href="orderingcacadu.htm" target="hmcontent"><span class="idxkeyword">Purchase, order</span></a></p>
+<a name="Q" id="Q"></a><p class="idxsection">- Q -</p>
+<p class="idxkeyword" style="margin:0 0 0 0px"><a href="quick_access.htm" target="hmcontent"><span class="idxkeyword">Quick Access</span></a></p>
+<a name="S" id="S"></a><p class="idxsection">- S -</p>
+<p class="idxkeyword" style="margin:0 0 0 0px"><a href="show_alert.htm" target="hmcontent"><span class="idxkeyword">Show Alert Action</span></a></p>
+<p class="idxkeyword" style="margin:0 0 0 0px"><a href="show_message_box.htm" target="hmcontent"><span class="idxkeyword">Show Message Box Action</span></a></p>
+<p class="idxkeyword" style="margin:0 0 0 0px"><a href="shutdown_pc.htm" target="hmcontent"><span class="idxkeyword">Shutdown PC Action</span></a></p>
+<p class="idxkeyword" style="margin:0 0 0 0px"><a href="simple_triggers.htm" target="hmcontent"><span class="idxkeyword">Simple Triggers</span></a></p>
+<p class="idxkeyword" style="margin:0 0 0 0px"><a href="start_application.htm" target="hmcontent"><span class="idxkeyword">Start Application Action</span></a></p>
+<p class="idxkeyword" style="margin:0 0 0 0px"><a href="support.htm" target="hmcontent"><span class="idxkeyword">Support</span></a></p>
+<p class="idxkeyword" style="margin:0 0 0 0px"><a href="system.htm" target="hmcontent"><span class="idxkeyword">System Actions Set</span></a></p>
+<p class="idxkeyword" style="margin:0 0 0 0px"><a href="system_requirements.htm" target="hmcontent"><span class="idxkeyword">System Requirements</span></a></p>
+<p class="idxkeyword" style="margin:0 0 0 0px"><a href="system_tray_icon.htm" target="hmcontent"><span class="idxkeyword">System Tray Icon</span></a></p>
+<a name="T" id="T"></a><p class="idxsection">- T -</p>
+<p class="idxkeyword" style="margin:0 0 0 0px"><a href="task_flow.htm" target="hmcontent"><span class="idxkeyword">Task Flow</span></a></p>
+<p class="idxkeyword" style="margin:0 0 0 0px"><a href="properties.htm" target="hmcontent"><span class="idxkeyword">Task Properties</span></a></p>
+<p class="idxkeyword" style="margin:0 0 0 0px"><a href="tasks_list.htm" target="hmcontent"><span class="idxkeyword">Tasks List</span></a></p>
+<p class="idxkeyword" style="margin:0 0 0 0px"><a href="tasks_ribbon_page.htm" target="hmcontent"><span class="idxkeyword">Tasks Ribbon Page</span></a></p>
+<p class="idxkeyword" style="margin:0 0 0 0px"><a href="tasks_tree.htm" target="hmcontent"><span class="idxkeyword">Tasks Tree</span></a></p>
+<p class="idxkeyword" style="margin:0 0 0 0px"><a href="change_cacadu_theme.htm" target="hmcontent"><span class="idxkeyword">Themes and Skins</span></a></p>
+<p class="idxkeyword" style="margin:0 0 0 0px"><a href="tools_ribbon_page.htm" target="hmcontent"><span class="idxkeyword">Tools Ribbon Page</span></a></p>
+<p class="idxkeyword" style="margin:0 0 0 0px"><a href="triggers_window.htm" target="hmcontent"><span class="idxkeyword">Triggers</span></a></p>
+<a name="V" id="V"></a><p class="idxsection">- V -</p>
+<p class="idxkeyword" style="margin:0 0 0 0px"><a href="variables.htm" target="hmcontent"><span class="idxkeyword">Variables</span></a></p>
+<p class="idxkeyword" style="margin:0 0 0 0px"><a href="how_to_start_using_cacadu_in_l.htm" target="hmcontent"><span class="idxkeyword">Video Tours</span></a></p>
+</div>
+
+<script type="text/javascript">
+document.getElementById("navsearch").style.display="inline";
+</script> 
+</body>
+</html>
+
+
+
+
+
+
+
+

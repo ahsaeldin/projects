@@ -1,0 +1,10 @@
+frmmain = 44, 58, 635, 472, Z, 22, 29, 613, 443, C
+ModGlobals = 0, 0, 0, 0, C
+frmabout = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+CWindows = 0, 0, 0, 0, C
+ModListView = 0, 0, 0, 0, C
+frmOptions = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+ModOptions = 0, 0, 0, 0, C
+ModGlobals2 = 0, 0, 0, 0, C
+frmtip = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+ModSysTrayList = 44, 58, 902, 472, 

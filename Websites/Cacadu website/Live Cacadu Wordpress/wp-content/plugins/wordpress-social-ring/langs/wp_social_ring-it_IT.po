@@ -1,0 +1,376 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress Social Ring\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-12 17:15+0100\n"
+"PO-Revision-Date: 2012-08-12 17:15+0100\n"
+"Last-Translator: Niccolo Tapparo\n"
+"Language-Team: AlterVista\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr__;esc_attr_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/admin.php:9
+msgid "WordPress Social Ring Settings"
+msgstr "Impostazioni WordPress Social Ring"
+
+#: admin/admin.php:19
+msgid "Extra"
+msgstr "Extra"
+
+#: admin/admin.php:22
+msgid "<b>Custom position</b>"
+msgstr "<b>Posizione personalizzata</b>"
+
+#: admin/admin.php:25
+msgid "You can give Social buttons a custom position by calling this function in your theme."
+msgstr "I bottoni social possono essere posizionati a piacere inserendo nel tema il seguente codice:"
+
+#: admin/admin.php:29
+msgid "Pay Attention: it must called <b>inside the loop</b> to work properly!"
+msgstr "Attenzione: deve essere utilizzato <b>all'interno del loop</b> per funzionare correttamente."
+
+#: admin/admin.php:32
+msgid "<b>Shortcode</b>"
+msgstr "<b>Shortcode</b>"
+
+#: admin/admin.php:35
+msgid "You can also place social buttons inside your posts by using the shortcode:"
+msgstr "I bottoni social possono essere anche inseriti all'interno dei post utilizzando il seguente shortcode:"
+
+#: admin/admin.php:40
+msgid "Save Changes"
+msgstr "Salva Impostazioni"
+
+#: admin/admin.php:46
+msgid "http://en.altervista.org/create-free-blog.html?ref=socialring"
+msgstr "http://it.altervista.org/crea-blog-gratis.php?ref=socialring"
+
+#: admin/admin.php:47
+msgid "Create your free blog!"
+msgstr "Crea il tuo blog gratis!"
+
+#: admin/admin.php:70
+#: includes/library.php:203
+msgid "en_US"
+msgstr "it_IT"
+
+#: admin/admin.php:90
+msgid "General Settings"
+msgstr "Impostazioni Generali"
+
+#: admin/admin.php:96
+msgid "Buttons"
+msgstr "Pulsanti"
+
+#: admin/admin.php:103
+msgid "Position"
+msgstr "Posizione"
+
+#: admin/admin.php:110
+msgid "Show on"
+msgstr "Mostra su"
+
+#: admin/admin.php:119
+msgid "Choose Social Ring position and behavior"
+msgstr "Scegli la posizione e il comportamento dei pulsanti di condivisione sui social network"
+
+#: admin/admin.php:133
+msgid "Before content"
+msgstr "Prima del contenuto"
+
+#: admin/admin.php:137
+msgid "After content"
+msgstr "Dopo il contenuto"
+
+#: admin/admin.php:152
+msgid "Facebook Like"
+msgstr "Facebook Mi Piace"
+
+#: admin/admin.php:157
+msgid "Facebook Send"
+msgstr "Facebook Invia"
+
+#: admin/admin.php:163
+msgid "Facebook Share"
+msgstr "Facebook Condividi"
+
+#: admin/admin.php:168
+msgid "Twitter"
+msgstr "Twitter"
+
+#: admin/admin.php:169
+msgid "I use WordPress Social Ring on my blog"
+msgstr "Io uso WordPress Social Ring sul mio blog"
+
+#: admin/admin.php:173
+msgid "Google +1"
+msgstr "Google +1"
+
+#: admin/admin.php:174
+#: admin/admin.php:186
+msgid "http://wordpress.altervista.org/"
+msgstr "http://wordpress.altervista.org/"
+
+#: admin/admin.php:179
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: admin/admin.php:185
+msgid "Pin it"
+msgstr "Pin it"
+
+#: admin/admin.php:186
+msgid "WordPress tutorials, plugin and themes."
+msgstr "Tutorial WordPress, temi e plugin."
+
+#: admin/admin.php:202
+msgid "Home"
+msgstr "Home"
+
+#: admin/admin.php:206
+msgid "Pages"
+msgstr "Pagine"
+
+#: admin/admin.php:210
+msgid "Posts"
+msgstr "Post"
+
+#: admin/admin.php:214
+msgid "Categories"
+msgstr "Categorie"
+
+#: admin/admin.php:218
+msgid "Archive"
+msgstr "Archivi"
+
+#: admin/admin.php:256
+msgid "Social Ring settings"
+msgstr "Impostazioni Social Ring"
+
+#: admin/admin.php:256
+msgid "Social Ring"
+msgstr "Social Ring"
+
+#: includes/widgets.php:11
+msgid "Use this widget to add Tweet, Facebook Like and Google Plus One to your sidebar"
+msgstr "Usa questo widget per aggiungere il bottoni Tweet, Google +1 e Facebook like alla sidebar"
+
+#: includes/widgets.php:17
+msgid "Social Ring Widget"
+msgstr "Widget Social Ring"
+
+#: includes/widgets.php:23
+msgid "Follow "
+msgstr "Segui "
+
+#: includes/widgets.php:40
+msgid "This widget needs a sidebar of 200 pixels or more to display properly"
+msgstr "Il widget ha bisogno di una sidebar di almeno 200 pixel per essere visualizzato correttamente"
+
+#: includes/widgets.php:44
+msgid "Widget Title"
+msgstr "Titolo Widget"
+
+#: includes/widgets.php:46
+msgid "Facebook Like Options"
+msgstr "Impostazioni Facebook Like"
+
+#: includes/widgets.php:50
+#: includes/widgets.php:57
+#: includes/widgets.php:64
+msgid "Url"
+msgstr "Url"
+
+#: includes/widgets.php:53
+msgid "Google Plus One Options"
+msgstr "Impostazioni Google +1"
+
+#: includes/widgets.php:60
+msgid "Twitter Options"
+msgstr "Impostazioni Twitter"
+
+#: includes/widgets.php:68
+msgid "Text"
+msgstr "Testo"
+
+#: includes/widgets.php:72
+#: includes/widgets.php:79
+msgid "Account"
+msgstr "Account"
+
+#: includes/widgets.php:75
+msgid "Recommend a Twitter account for users to follow after they share content from your website"
+msgstr "Dopo la condivisione, consiglia un account Twitter da seguire"
+
+#: includes/widgets.php:83
+msgid "Description"
+msgstr "Descrizione"
+
+#: includes/widgets.php:86
+msgid "Style Options"
+msgstr "Impostazioni Grafiche"
+
+#: includes/widgets.php:90
+msgid "Button Margin"
+msgstr "Margine bottoni"
+
+#: includes/widgets.php:94
+msgid "Widget Padding"
+msgstr "Padding Widget"
+
+#: includes/widgets.php:98
+msgid "Border Color"
+msgstr "Colore Bordo"
+
+#~ msgid "Your free WordPress blog, <b>without space and traffic limits</b>"
+#~ msgstr ""
+#~ "Il tuo blog WordPress gratis, <b>senza limiti di spazio e traffico</b>"
+
+#~ msgid "Learn More"
+#~ msgstr "Pi&ugrave; informazioni"
+
+#~ msgid "Facebook Meta"
+#~ msgstr "Facebook Meta Tags"
+
+#~ msgid "Cross plugin compatibility"
+#~ msgstr "Compatibilità con altri plugin"
+
+#~ msgid ""
+#~ "If you experience bugs with other Facebook plugin, activate this option "
+#~ "to use iframe for Like button instead of XFBML"
+#~ msgstr ""
+#~ "Se si usano altri plugin con funzionalità Facebook, potrebbero sorgere "
+#~ "alcuni problemi. Attivando questa opzione, il pulsante Mi Piace verrà "
+#~ "generato mediante iframe invece che XFBML, garantendo una maggiore "
+#~ "compatibilità."
+
+#~ msgid ""
+#~ "Adds Facebook Meta Tags to posts and pages. If you have WordPress SEO "
+#~ "installed on your blog, use its Facebook Meta Tags (SEO->Indexation - "
+#~ "OpenGraph) and leave this unchecked."
+#~ msgstr ""
+#~ "Aggiunge i Meta Tag di Facebook ai post e alle pagine, per consentire una "
+#~ "corretta condivisione dei contenuti. Se si usa Wordpress SEO, si "
+#~ "consiglia di attivare la funzione OpenGraph (SEO->Indexation - OpenGraph) "
+#~ "e lasciare questa disattivata."
+
+#~ msgid "Share"
+#~ msgstr "Condividi"
+
+#~ msgid "Add theme"
+#~ msgstr "Tema Grafico"
+
+#~ msgid "There is a new update available for WordPress"
+#~ msgstr "È disponibile una nuova versione di WordPress"
+
+#~ msgid "Log in to"
+#~ msgstr "Entra nel"
+
+#~ msgid "your control panel"
+#~ msgstr "pannello di controllo"
+
+#~ msgid "and upgrade your blog"
+#~ msgstr "e aggiorna il tuo blog"
+
+#~ msgid "Check the"
+#~ msgstr "Leggi il"
+
+#~ msgid "official AlterVista blog"
+#~ msgstr "blog ufficiale di AlterVista"
+
+#~ msgid "AlterVista Optimizer - General Settings"
+#~ msgstr "AlterVista Optimizer - Impostazioni Generali"
+
+#~ msgid "Toolbar Settings"
+#~ msgstr "Impostazioni Toolbar"
+
+#~ msgid "Display AlterVista Toolbar with Admin bar"
+#~ msgstr "Mostra Toolbar AlterVista + Admin bar"
+
+#~ msgid "Credits Settings"
+#~ msgstr "Impostazioni Credits"
+
+#~ msgid "Select AlterVista antipixel"
+#~ msgstr "Seleziona l'antipixel"
+
+#~ msgid "Social Share buttons"
+#~ msgstr "Pulsanti Social Network"
+
+#~ msgid "Social Share position"
+#~ msgstr "Posizione dei pulsanti"
+
+#~ msgid "Show Social Share on"
+#~ msgstr "Mostra i pulsanti su"
+
+#~ msgid ""
+#~ "Choose the best antipixel for your blog. If you want to remove it, you "
+#~ "have to ask permission from AlterVista staff."
+#~ msgstr ""
+#~ "Scegli l'antipixel di AlterVista che più si adatta al tuo blog. Se vuoi "
+#~ "rimuoverlo puoi farlo, ma prima devi chiedere il permesso allo staff di "
+#~ "AlterVista."
+
+#~ msgid "Here you can change Toolbar settings."
+#~ msgstr ""
+#~ "La toolbar di AlterVista viene disattivata quando è attiva l'Admin Bar di "
+#~ "WordPress per evitare problemi grafici. Se vuoi, puoi riattivarla."
+
+#~ msgid "none"
+#~ msgstr "nessuno"
+
+#~ msgid "AV Optimizer"
+#~ msgstr "AV Optimizer"
+
+#~ msgid "Altervista Banner 300x250"
+#~ msgstr "Banner di AlterVista 300x250"
+
+#~ msgid "http://en.altervista.org/create-free-site.html"
+#~ msgstr "http://it.altervista.org/crea-sito-gratis.php"
+
+#~ msgid "Blogging Sites"
+#~ msgstr "Siti per blog"
+
+#~ msgid "Create blog"
+#~ msgstr "Creare blog"
+
+#~ msgid "Credits settings"
+#~ msgstr "Impostazioni credits"
+
+#~ msgid "Install new themes"
+#~ msgstr "Scegli nuovo tema"
+
+#~ msgid "Get help"
+#~ msgstr "Cerchi aiuto?"
+
+#~ msgid "More than 400 stylish or pro-look themes and totally customizable."
+#~ msgstr ""
+#~ "Più di 400 temi grafici subito pronti, con HTML e CSS liberamente "
+#~ "modificabile."
+
+#~ msgid "http://forum.en.altervista.org/cms/"
+#~ msgstr "http://forum.it.altervista.org/wordpress/"
+
+#~ msgid "AlterVista Forum - CMS Section"
+#~ msgstr "Il Forum di AlterVista - Sezione WordPress"
+
+#~ msgid "http://en.altervista.org/resources/wordpress/"
+#~ msgstr "http://it.altervista.org/risorse/wordpress/"
+
+#~ msgid "WordPress Themes & Guides"
+#~ msgstr "Temi e Guide per WordPress"
+
+#~ msgid "http://blog.altervista.org/en/tag/wordpress/"
+#~ msgstr "http://blog.altervista.org/it/tag/wordpress/"
+
+#~ msgid "AlterVista Blog - WordPress News"
+#~ msgstr "Il Blog di AlterVista - News WordPress"
+
+#~ msgid "Single Posts"
+#~ msgstr "Articoli"
+
+#~ msgid "Both pages and single posts"
+#~ msgstr "Pagine e Articoli"

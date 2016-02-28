@@ -1,0 +1,112 @@
+<?xml version="1.0" ?>
+<XML_DIZ_INFO>
+	<MASTER_PAD_VERSION_INFO>
+		<MASTER_PAD_VERSION>2.01</MASTER_PAD_VERSION>
+		<MASTER_PAD_EDITOR>PADGen 2.0.1.22 http://www.padgen.org</MASTER_PAD_EDITOR>
+		<MASTER_PAD_INFO>Portable Application Description, or PAD for short, is a data set that is used by shareware authors to disseminate information to anyone interested in their software products. To find out more go to http://www.asp-shareware.org/pad</MASTER_PAD_INFO>
+	</MASTER_PAD_VERSION_INFO>
+	<Company_Info>
+		<Company_Name>CprinGold Software</Company_Name>
+		<Address_1>-</Address_1>
+		<Address_2>-</Address_2>
+		<City_Town>-</City_Town>
+		<State_Province />
+		<Zip_Postal_Code>62513</Zip_Postal_Code>
+		<Country>-</Country>
+		<Company_WebSite_URL>http://www.cpringold.com</Company_WebSite_URL>
+		<Contact_Info>
+			<Author_First_Name>cprin</Author_First_Name>
+			<Author_Last_Name>gold</Author_Last_Name>
+			<Author_Email>support@cpringold.com</Author_Email>
+			<Contact_First_Name>cprin</Contact_First_Name>
+			<Contact_Last_Name>gold</Contact_Last_Name>
+			<Contact_Email>support@cpringold.com</Contact_Email>
+		</Contact_Info>
+		<Support_Info>
+			<Sales_Email>sales@cpringold.com</Sales_Email>
+			<Support_Email>support@cpringold.com</Support_Email>
+			<General_Email>general@cpringold.com</General_Email>
+			<Sales_Phone />
+			<Support_Phone />
+			<General_Phone />
+			<Fax_Phone />
+		</Support_Info>
+	</Company_Info>
+	<Program_Info>
+		<Program_Name>Smack</Program_Name>
+		<Program_Version>1.06</Program_Version>
+		<Program_Release_Month>06</Program_Release_Month>
+		<Program_Release_Day>27</Program_Release_Day>
+		<Program_Release_Year>2005</Program_Release_Year>
+		<Program_Cost_Dollars>14.90</Program_Cost_Dollars>
+		<Program_Cost_Other_Code />
+		<Program_Cost_Other />
+		<Program_Type>Shareware</Program_Type>
+		<Program_Release_Status>Major Update</Program_Release_Status>
+		<Program_Install_Support>Install and Uninstall</Program_Install_Support>
+		<Program_OS_Support>Win98,WinME,WinNT 4.x,Windows2000,WinXP</Program_OS_Support>
+		<Program_Language>English,Arabic,French</Program_Language>
+		<Program_Change_Info />
+		<Program_Specific_Category>Utilities</Program_Specific_Category>
+		<Program_Category_Class>System Utilities::Automation Tools</Program_Category_Class>
+		<Program_Categories />
+		<Program_System_Requirements> Windows 95/98/Me/NT/2000/XP.Internet Explorer 4.x or higher to view the help </Program_System_Requirements>
+		<Includes_JAVA_VM>N</Includes_JAVA_VM>
+		<Includes_VB_Runtime>Y</Includes_VB_Runtime>
+		<Includes_DirectX>N</Includes_DirectX>
+		<File_Info>
+			<Filename_Versioned>smack10.exe</Filename_Versioned>
+			<Filename_Previous>smack10.exe</Filename_Previous>
+			<Filename_Generic>smack.exe</Filename_Generic>
+			<Filename_Long>smack.exe</Filename_Long>
+			<File_Size_Bytes>3138984</File_Size_Bytes>
+			<File_Size_K>3065</File_Size_K>
+			<File_Size_MB>2.99</File_Size_MB>
+		</File_Info>
+		<Expire_Info>
+			<Has_Expire_Info>N</Has_Expire_Info>
+			<Expire_Count />
+			<Expire_Based_On>Days</Expire_Based_On>
+			<Expire_Other_Info />
+			<Expire_Month />
+			<Expire_Day />
+			<Expire_Year />
+		</Expire_Info>
+	</Program_Info>
+	<Program_Descriptions>
+		<English>
+			<Keywords>Executable Macro,macro program, macro recorder, keyboard macro, mouse recorder, record keystrokes, mouse macro, auto mouse clicker, keystroke recorder, keystroke macro, free download </Keywords>
+			<Char_Desc_45>Record keystrokes and mouse events </Char_Desc_45>
+			<Char_Desc_80>Record keystrokes and mouse events for playbacking later</Char_Desc_80>
+			<Char_Desc_250>Record keystrokes and mouse events for playbacking later,you can also export any macro to Executable Macro file which run without Smack </Char_Desc_250>
+			<Char_Desc_450>Smack can record keystrokes, mouse clicks and movements and playback under three types of speed (High-Normal-Low). with Normal speed keystrokes and mouse clicks are played back as they recorded exactly. with high speed keystrokes, mouse movements and clicks are played back with no delaying time between events. with low speed keystrokes, mouse movements and clicks are played back with delaying time between your event but more than the normal.</Char_Desc_450>
+			<Char_Desc_2000>Smack can record keystrokes, mouse clicks and movements into a macro and play this macro back with three types of speed (High-Normal-Low). with Normal speed keystrokes and mouse clicks are played back as they recorded exactly, with high speed keystrokes, mouse movements and clicks are played back with no delaying time between events [keystrokes and mouse clicks], with low speed keystrokes, mouse movements and clicks are played back with a delaying time between events [keystrokes and mouse clicks] but more than the normal. 
+
+Smack can also generate an Executable Macro file , it means that you can choose any macro you had saved before and simply click "Export to EXE " command button to generate an Executable file for the macro with *.exe extension so it can be run without Smack , just need the vb runtime installed.</Char_Desc_2000>
+		</English>
+	</Program_Descriptions>
+	<Web_Info>
+		<Application_URLs>
+			<Application_Info_URL>http://www.cpringold.com</Application_Info_URL>
+			<Application_Order_URL>http://www.cpringold.com/buy/ordersmack.html</Application_Order_URL>
+			<Application_Screenshot_URL>http://www.cpringold.com/images/smack/playback.jpg</Application_Screenshot_URL>
+			<Application_Icon_URL>www35.websamba.com/macrocontrol/main.jpg</Application_Icon_URL>
+			<Application_XML_File_URL>http://www.cpringold.com/smackpad.xml</Application_XML_File_URL>
+		</Application_URLs>
+		<Download_URLs>
+			<Primary_Download_URL>http://www.cpringold.com/downloads/SmackDownloads.html</Primary_Download_URL>
+			<Secondary_Download_URL />
+			<Additional_Download_URL_1 />
+			<Additional_Download_URL_2 />
+		</Download_URLs>
+	</Web_Info>
+	<Permissions>
+		<Distribution_Permissions>See End User License Agreement.</Distribution_Permissions>
+		<EULA>See End User License Agreement in the installation package</EULA>
+	</Permissions>
+	<ASP>
+		<ASP_FORM>Y</ASP_FORM>
+		<ASP_Member>N</ASP_Member>
+		<ASP_Member_Number />
+	</ASP>
+</XML_DIZ_INFO>

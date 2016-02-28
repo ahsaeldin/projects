@@ -1,0 +1,10 @@
+[History]
+1=#P0#=mb	#P1#=FillTreeView	#P2#=EasyTextInserter/frmmain/FillTreeView	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20121203141825	#P7#=0	#P8#=35	.
+2=#P0#=mb	#P1#=EditFolderName	#P2#=EasyTextInserter/frmmain/EditFolderName	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20121203141531	#P7#=0	#P8#=47	.
+3=#P0#=mb	#P1#=AddNewKeywordValue	#P2#=EasyTextInserter/frmmain/AddNewKeywordValue	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20121203141225	#P7#=0	#P8#=1	.
+4=#P0#=mb	#P1#=JewSave_Click	#P2#=EasyTextInserter/frmKeyword/JewSave_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20121203140530	#P7#=0	#P8#=12	.
+5=#P0#=mb	#P1#=Destination	#P2#=EasyTextInserter/CKeys/Destination [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20121203134842	#P7#=0	#P8#=5	.
+6=#P0#=mb	#P1#=Destination	#P2#=EasyTextInserter/CKeys/Destination [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20121203134839	#P7#=0	#P8#=0	.
+7=#P0#=mb	#P1#=SendKeys	#P2#=EasyTextInserter/CKeys/SendKeys	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20121203133842	#P7#=0	#P8#=0	.
+8=#P0#=mb	#P1#=tmrCheckKeyboard_Timer	#P2#=EasyTextInserter/frmmain/tmrCheckKeyboard_Timer	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20121203133832	#P7#=0	#P8#=42	.
+9=#P0#=mb	#P1#=LogKey	#P2#=EasyTextInserter/core/LogKey	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20121203002057	#P7#=0	#P8#=94	.

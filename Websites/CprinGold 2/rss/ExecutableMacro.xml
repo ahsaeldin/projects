@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<rss version="2.0">
+  <channel>
+    <title>Executable macro</title>
+    <description>Smack macro recorder can generate an Executable Macro 
+file , it means that you can choose any macro you had saved 
+before and simply click &quot;stand alone &quot; command button to 
+generate an Executable file for the macro with *.exe 
+extension so it can be run without Smack , just need the vb 
+runtime installed.</description>
+    <link>http://www.cpringold.com/products/smack.html</link>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <lastBuildDate>Thu, 17 Nov 2005 02:15:52 +0200</lastBuildDate>
+    <pubDate>Thu, 17 Nov 2005 02:15:32 +0200</pubDate>
+    <generator>FeedForAll v1.0 (1.0.2.0) unlicensed version</generator>
+    <item>
+      <title>system requirments</title>
+      <description>vb runtime 6.0</description>
+      <link>http://www.cpringold.com/products/smack.html</link>
+      <pubDate>Thu, 17 Nov 2005 02:15:32 +0200</pubDate>
+    </item>
+  </channel>
+</rss>

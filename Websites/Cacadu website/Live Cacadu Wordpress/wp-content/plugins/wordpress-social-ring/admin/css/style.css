@@ -1,0 +1,18 @@
+#wp-social-ring {
+	margin-top:15px;
+}
+
+#wp-social-ring .postbox  h3{
+	font-family: Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+	font-weight: normal;
+	padding: 7px 10px;
+}
+
+.explain {
+	margin: 10px;
+}
+
+#wp-social-ring  .form-table th {
+	font-weight: bold;
+	padding: 15px 10px;
+}

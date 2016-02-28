@@ -1,0 +1,101 @@
+#header-tail {
+	background: #acbca4 url(../images/header-tail-1.jpg) no-repeat 50% 0%;
+}
+
+#slider-bg {
+	background: url(../images/path-bg-1.png) no-repeat 50% 166px;
+}
+
+	body.home #slider-bg {
+		background: url(../images/slider-bg-1.png) no-repeat 50% 166px;
+	}
+
+.menu li.current-menu-item > a {
+	color: #388ae0 !important;
+}
+
+#header .menu li:hover, #header .menu li.sfHover,
+#header .menu a:focus, #header .menu a:hover, #header .menu a:active {
+	color: #388ae0;
+}
+
+#faded ul li ul li a {
+	background: url(../images/faded-line-1.gif) repeat-x 0% 0%;
+}
+
+.accordion dt a {
+	background: url(../images/accordion-divider-1.gif) no-repeat 12px 14px;
+}
+
+.entry-title a:hover {
+	color: #388ae0;
+}
+
+.entry-content a.more-link:hover {
+	color: #388ae0;
+}
+
+.navigation a:active,
+.navigation a:hover {
+	color: #388ae0;
+}
+
+.comment-meta a:hover {
+	color: #388ae0 !important;
+}
+
+#container ul li a:hover {
+	color: #388ae0;
+}
+
+.support-posts ul li i a:hover {
+	color: #388ae0;
+}
+
+.link-more:hover {
+	color: #388ae0 !important;
+}
+
+#commentform input[type="submit"]:hover {
+	color: #388ae0;
+}
+
+.module input[type="submit"]:hover {
+	color: #388ae0;
+}
+
+.list-1 dt a:hover {
+	color: #388ae0;
+}
+
+.list-1 dd b a:hover {
+	color: #388ae0;
+}
+
+.list-2 li em span {
+	color: #388ae0;
+}
+
+.list-2 li i span {
+	color: #388ae0;
+}
+
+.list-2 li b span {
+	color: #388ae0;
+}
+
+.list-2 li a span {
+	color: #388ae0;
+}
+
+.feature-posts ul li i a:hover {
+	color: #388ae0;
+}
+
+div.wpcf7 input[type="submit"]:hover {
+	color: #388ae0 !important;
+}
+
+.slide-out-div ul li a:hover {
+	color: #388ae0;
+}

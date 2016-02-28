@@ -1,0 +1,226 @@
+﻿<!DOCTYPE HTML>
+<html><head>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<!-- This line includes the general project style sheet (not required) -->
+   <link type="text/css" href="default.css" rel="stylesheet">
+
+<!-- This block defines the styles of the TOC headings, change them as needed -->
+<style type="text/css">
+       a { color: black; text-decoration: none }
+       a:visited {color: black}
+       a:hover { text-decoration: underline }
+       .navtitle    { font-size: 14pt; font-weight: bold; margin-bottom: 16px; }
+       .navbar      { font-size: 10pt; }
+       span#navsearch {display: none;}
+
+.heading1 { font-size: 10pt; color: #000000; text-decoration: none; }
+.heading2 { font-size: 10pt; color: #000000; text-decoration: none; }
+.heading3 { font-size: 10pt; color: #000000; text-decoration: none; }
+.heading4 { font-size: 10pt; color: #000000; text-decoration: none; }
+.heading5 { font-size: 10pt; color: #000000; text-decoration: none; }
+.heading6 { font-size: 10pt; color: #000000; text-decoration: none; }
+
+.hilight1 { font-size: 10pt; color: #FFFFFF; background: #004101; text-decoration: none; }
+.hilight2 { font-size: 10pt; color: #FFFFFF; background: #004101; text-decoration: none; }
+.hilight3 { font-size: 10pt; color: #FFFFFF; background: #004101; text-decoration: none; }
+.hilight4 { font-size: 10pt; color: #FFFFFF; background: #004101; text-decoration: none; }
+.hilight5 { font-size: 10pt; color: #FFFFFF; background: #004101; text-decoration: none; }
+.hilight6 { font-size: 10pt; color: #FFFFFF; background: #004101; text-decoration: none; }
+
+/* TOC LIST CSS */
+#toc    { padding:0; margin:0 }
+#toc li { margin-top:2px; margin-left:0px; padding:1px; }
+#toc ul { padding-left:0; margin-left:-16px; }
+/* TOC LIST CSS */
+
+</style>
+<!--[if lt IE 7]>
+<style type="text/css">
+ html {padding: 0; margin: 0;overflow-x: hidden;}
+ body { margin: 0; padding: 15px 0 0 10px;} 
+</style> 
+<![endif]-->
+   <script type="text/javascript" src="jquery.js"></script>
+   <script type="text/javascript" src="helpman_settings.js"></script>
+   <script type="text/javascript">
+     var parentScope = (parent.hmNavigationFrame);
+     if (!parentScope) {
+		      var s = document.createElement("script");
+		      s.setAttribute("type","text/javascript");
+		      s.setAttribute("src", "helpman_navigation.js");
+		      document.getElementsByTagName("head")[0].appendChild(s);
+	    }
+     else {
+       if (initialtocstate != "expandall") parent.hmAddCss(document, "#toc li ul { display: none }");
+     }
+     function loadicons() { var icons = new Array(); for (i=0; i<arguments.length; i++) { icons[i] = new Image(); icons[i].src = arguments[i]; } }
+     function loadtoc() { if (parentScope) parent.loadstate(document.getElementById("toc")); else loadstate(document.getElementById("toc")); }
+     function savetoc() { if (parentScope) parent.savestate(document.getElementById("toc")); else savestate(document.getElementById("toc")); }
+     function clicked(node, event) { deselect(); if (parentScope) parent.hmNodeClicked(node, event); else hmNodeClicked(node, event); }
+     function dblclicked(node) { if (parentScope) parent.hmNodeDblclicked(node); else hmNodeDblclicked(node); }
+     function deselect() { if (window.getSelection) window.getSelection().removeAllRanges(); else if (document.selection) document.selection.empty(); }
+     $(document).ready(function(){
+       loadtoc();
+       $(window).onunload = savetoc;
+     });
+   </script>
+</head>
+<body style="background-color: #FFFFFF; background-image: url(lines.gif); ">
+<p class="navtitle">Cacadu Help</p>
+<p class="navbar">
+<b>Contents</b>&nbsp;|&nbsp;<a href="cacaduproject_kwindex.htm">Index</a>&nbsp;
+<span id="navsearch">|&nbsp;<a href="cacaduproject_ftsearch.htm">Search</a></span>
+<hr size="1" />
+
+<!-- Placeholder for the TOC - this variable is REQUIRED! -->
+<ul id="toc" style="list-style-type:none;display:block;padding-left:0">
+<li class="heading1" id="i1" data-bg="button_closedbook.gif;button_openbook.gif" style="background:url(button_openbook.gif) no-repeat;cursor:pointer;padding-left:34px" onclick="return clicked(this,event)"><a class="heading1" id="a1" href=javascript:void(0);><span class="heading1" id="s1" ondblclick="return dblclicked(this)">Cacadu</span></a>
+<ul id="ul1" style="list-style-type:none">
+<li class="heading2" id="i1.1" style="background:url(button_topic.gif) no-repeat;padding-left:34px" onclick="return clicked(this,event)"><a class="heading2" id="a1.1" href="cacadu_overview.htm" target="hmcontent"><span class="heading2" id="s1.1">Overview</span></a>
+</li>
+<li class="heading2" id="i1.2" style="background:url(button_topic.gif) no-repeat;padding-left:34px" onclick="return clicked(this,event)"><a class="heading2" id="a1.2" href="features.htm" target="hmcontent"><span class="heading2" id="s1.2">Features</span></a>
+</li>
+<li class="heading2" id="i1.3" style="background:url(button_topic.gif) no-repeat;padding-left:34px" onclick="return clicked(this,event)"><a class="heading2" id="a1.3" href="system_requirements.htm" target="hmcontent"><span class="heading2" id="s1.3">System Requirements</span></a>
+</li>
+<li class="heading2" id="i1.4" style="background:url(button_topic.gif) no-repeat;padding-left:34px" onclick="return clicked(this,event)"><a class="heading2" id="a1.4" href="support.htm" target="hmcontent"><span class="heading2" id="s1.4">Support</span></a>
+</li>
+<li class="heading2" id="i1.5" style="background:url(button_topic.gif) no-repeat;padding-left:34px" onclick="return clicked(this,event)"><a class="heading2" id="a1.5" href="orderingcacadu.htm" target="hmcontent"><span class="heading2" id="s1.5">Ordering Cacadu</span></a>
+</li>
+<li class="heading2" id="i1.6" style="background:url(button_topic.gif) no-repeat;padding-left:34px" onclick="return clicked(this,event)"><a class="heading2" id="a1.6" href="how_to_start_using_cacadu.htm" target="hmcontent"><span class="heading2" id="s1.6">How to start using Cacadu</span></a>
+</li>
+<li class="heading2" id="i1.7" style="background:url(button_topic.gif) no-repeat;padding-left:34px" onclick="return clicked(this,event)"><a class="heading2" id="a1.7" href="faqs.htm" target="hmcontent"><span class="heading2" id="s1.7">FAQs</span></a>
+</li>
+</ul>
+</li>
+<li class="heading1" id="i2" data-bg="button_closedbook.gif;button_openbook.gif" style="background:url(button_openbook.gif) no-repeat;cursor:pointer;padding-left:34px" onclick="return clicked(this,event)"><a class="heading1" id="a2" href=javascript:void(0);><span class="heading1" id="s2" ondblclick="return dblclicked(this)">Inside Cacadu</span></a>
+<ul id="ul2" style="list-style-type:none">
+<li class="heading2" id="i2.1" style="background:url(button_topic.gif) no-repeat;padding-left:34px" onclick="return clicked(this,event)"><a class="heading2" id="a2.1" href="main_window.htm" target="hmcontent"><span class="heading2" id="s2.1">Main Window</span></a>
+</li>
+<li class="heading2" id="i2.2" style="background:url(button_topic.gif) no-repeat;padding-left:34px" onclick="return clicked(this,event)"><a class="heading2" id="a2.2" href="tasks_tree.htm" target="hmcontent"><span class="heading2" id="s2.2">Tasks Tree</span></a>
+</li>
+<li class="heading2" id="i2.3" style="background:url(button_topic.gif) no-repeat;padding-left:34px" onclick="return clicked(this,event)"><a class="heading2" id="a2.3" href="tasks_list.htm" target="hmcontent"><span class="heading2" id="s2.3">Tasks List</span></a>
+</li>
+<li class="heading2" id="i2.4" style="background:url(button_topic.gif) no-repeat;padding-left:34px" onclick="return clicked(this,event)"><a class="heading2" id="a2.4" href="history_pane.htm" target="hmcontent"><span class="heading2" id="s2.4">History Pane</span></a>
+</li>
+<li class="heading2" id="i2.5" style="background:url(button_topic.gif) no-repeat;padding-left:34px" onclick="return clicked(this,event)"><a class="heading2" id="a2.5" href="errors_pane.htm" target="hmcontent"><span class="heading2" id="s2.5">Errors Pane</span></a>
+</li>
+<li class="heading2" id="i2.6" style="background:url(button_topic.gif) no-repeat;padding-left:34px" onclick="return clicked(this,event)"><a class="heading2" id="a2.6" href="properties.htm" target="hmcontent"><span class="heading2" id="s2.6">Task Properties</span></a>
+</li>
+<li class="heading2" id="i2.7" style="background:url(button_topic.gif) no-repeat;padding-left:34px" onclick="return clicked(this,event)"><a class="heading2" id="a2.7" href="actions_gallery.htm" target="hmcontent"><span class="heading2" id="s2.7">Actions Gallery</span></a>
+</li>
+<li class="heading2" id="i2.8" style="background:url(button_topic.gif) no-repeat;padding-left:34px" onclick="return clicked(this,event)"><a class="heading2" id="a2.8" href="task_flow.htm" target="hmcontent"><span class="heading2" id="s2.8">Task Flow</span></a>
+</li>
+<li class="heading2" id="i2.9" style="background:url(button_topic.gif) no-repeat;padding-left:34px" onclick="return clicked(this,event)"><a class="heading2" id="a2.9" href="quick_access.htm" target="hmcontent"><span class="heading2" id="s2.9">Quick Access</span></a>
+</li>
+<li class="heading2" id="i2.10" style="background:url(button_topic.gif) no-repeat;padding-left:34px" onclick="return clicked(this,event)"><a class="heading2" id="a2.10" href="main_menu.htm" target="hmcontent"><span class="heading2" id="s2.10">Main Menu</span></a>
+</li>
+<li class="heading2" id="i2.11" style="background:url(button_topic.gif) no-repeat;padding-left:34px" onclick="return clicked(this,event)"><a class="heading2" id="a2.11" href="change_cacadu_theme.htm" target="hmcontent"><span class="heading2" id="s2.11">Change Cacadu Theme</span></a>
+</li>
+<li class="heading2" id="i2.12" style="background:url(button_topic.gif) no-repeat;padding-left:34px" onclick="return clicked(this,event)"><a class="heading2" id="a2.12" href="options.htm" target="hmcontent"><span class="heading2" id="s2.12">Options</span></a>
+</li>
+<li class="heading2" id="i2.13" style="background:url(button_topic.gif) no-repeat;padding-left:34px" onclick="return clicked(this,event)"><a class="heading2" id="a2.13" href="system_tray_icon.htm" target="hmcontent"><span class="heading2" id="s2.13">System Tray Icon</span></a>
+</li>
+<li class="heading2" id="i2.14" data-bg="button_closedbook.gif;button_openbook.gif" style="background:url(button_openbook.gif) no-repeat;cursor:pointer;padding-left:34px" onclick="return clicked(this,event)"><a class="heading2" id="a2.14" href=javascript:void(0);><span class="heading2" id="s2.14" ondblclick="return dblclicked(this)">Ribbon Pages</span></a>
+<ul id="ul2.14" style="list-style-type:none">
+<li class="heading3" id="i2.14.1" style="background:url(button_topic.gif) no-repeat;padding-left:34px" onclick="return clicked(this,event)"><a class="heading3" id="a2.14.1" href="home_ribbon_page.htm" target="hmcontent"><span class="heading3" id="s2.14.1">Home Ribbon Page</span></a>
+</li>
+<li class="heading3" id="i2.14.2" style="background:url(button_topic.gif) no-repeat;padding-left:34px" onclick="return clicked(this,event)"><a class="heading3" id="a2.14.2" href="groups_ribbon_page.htm" target="hmcontent"><span class="heading3" id="s2.14.2">Groups Ribbon Page</span></a>
+</li>
+<li class="heading3" id="i2.14.3" style="background:url(button_topic.gif) no-repeat;padding-left:34px" onclick="return clicked(this,event)"><a class="heading3" id="a2.14.3" href="tasks_ribbon_page.htm" target="hmcontent"><span class="heading3" id="s2.14.3">Tasks Ribbon Page</span></a>
+</li>
+<li class="heading3" id="i2.14.4" style="background:url(button_topic.gif) no-repeat;padding-left:34px" onclick="return clicked(this,event)"><a class="heading3" id="a2.14.4" href="tools_ribbon_page.htm" target="hmcontent"><span class="heading3" id="s2.14.4">Tools Ribbon Page</span></a>
+</li>
+<li class="heading3" id="i2.14.5" style="background:url(button_topic.gif) no-repeat;padding-left:34px" onclick="return clicked(this,event)"><a class="heading3" id="a2.14.5" href="help_ribbon_page.htm" target="hmcontent"><span class="heading3" id="s2.14.5">Help Ribbon Page</span></a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="heading1" id="i3" data-bg="button_closedbook.gif;button_openbook.gif" style="background:url(button_openbook.gif) no-repeat;cursor:pointer;padding-left:34px" onclick="return clicked(this,event)"><a class="heading1" id="a3" href=javascript:void(0);><span class="heading1" id="s3" ondblclick="return dblclicked(this)">Triggers</span></a>
+<ul id="ul3" style="list-style-type:none">
+<li class="heading2" id="i3.1" style="background:url(button_topic.gif) no-repeat;padding-left:34px" onclick="return clicked(this,event)"><a class="heading2" id="a3.1" href="triggers_window.htm" target="hmcontent"><span class="heading2" id="s3.1">Triggers Window</span></a>
+</li>
+<li class="heading2" id="i3.2" data-bg="button_closedbook.gif;button_openbook.gif" style="background:url(button_openbook.gif) no-repeat;cursor:pointer;padding-left:34px" onclick="return clicked(this,event)"><a class="heading2" id="a3.2" href=javascript:void(0);><span class="heading2" id="s3.2" ondblclick="return dblclicked(this)">Scheduled Triggers</span></a>
+<ul id="ul3.2" style="list-style-type:none">
+<li class="heading3" id="i3.2.1" style="background:url(button_topic.gif) no-repeat;padding-left:34px" onclick="return clicked(this,event)"><a class="heading3" id="a3.2.1" href="simple_triggers.htm" target="hmcontent"><span class="heading3" id="s3.2.1">Simple Triggers</span></a>
+</li>
+<li class="heading3" id="i3.2.2" style="background:url(button_topic.gif) no-repeat;padding-left:34px" onclick="return clicked(this,event)"><a class="heading3" id="a3.2.2" href="advanced_triggers.htm" target="hmcontent"><span class="heading3" id="s3.2.2">Advanced Triggers</span></a>
+</li>
+<li class="heading3" id="i3.2.3" style="background:url(button_topic.gif) no-repeat;padding-left:34px" onclick="return clicked(this,event)"><a class="heading3" id="a3.2.3" href="miss_fire.htm" target="hmcontent"><span class="heading3" id="s3.2.3">Miss Fire</span></a>
+</li>
+<li class="heading3" id="i3.2.4" style="background:url(button_topic.gif) no-repeat;padding-left:34px" onclick="return clicked(this,event)"><a class="heading3" id="a3.2.4" href="holidays.htm" target="hmcontent"><span class="heading3" id="s3.2.4">Holidays</span></a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="heading1" id="i4" data-bg="button_closedbook.gif;button_openbook.gif" style="background:url(button_openbook.gif) no-repeat;cursor:pointer;padding-left:34px" onclick="return clicked(this,event)"><a class="heading1" id="a4" href=javascript:void(0);><span class="heading1" id="s4" ondblclick="return dblclicked(this)">Advanced Features</span></a>
+<ul id="ul4" style="list-style-type:none">
+<li class="heading2" id="i4.1" style="background:url(button_topic.gif) no-repeat;padding-left:34px" onclick="return clicked(this,event)"><a class="heading2" id="a4.1" href="variables.htm" target="hmcontent"><span class="heading2" id="s4.1">Variables</span></a>
+</li>
+<li class="heading2" id="i4.2" style="background:url(button_topic.gif) no-repeat;padding-left:34px" onclick="return clicked(this,event)"><a class="heading2" id="a4.2" href="import_and_export_tasks.htm" target="hmcontent"><span class="heading2" id="s4.2">Import And Export Tasks</span></a>
+</li>
+<li class="heading2" id="i4.3" style="background:url(button_topic.gif) no-repeat;padding-left:34px" onclick="return clicked(this,event)"><a class="heading2" id="a4.3" href="global_constants.htm" target="hmcontent"><span class="heading2" id="s4.3">Global Constants</span></a>
+</li>
+<li class="heading2" id="i4.4" style="background:url(button_topic.gif) no-repeat;padding-left:34px" onclick="return clicked(this,event)"><a class="heading2" id="a4.4" href="global_variables.htm" target="hmcontent"><span class="heading2" id="s4.4">Global Variables</span></a>
+</li>
+<li class="heading2" id="i4.5" style="background:url(button_topic.gif) no-repeat;padding-left:34px" onclick="return clicked(this,event)"><a class="heading2" id="a4.5" href="notations.htm" target="hmcontent"><span class="heading2" id="s4.5">Notation</span></a>
+</li>
+<li class="heading2" id="i4.6" style="background:url(button_topic.gif) no-repeat;padding-left:34px" onclick="return clicked(this,event)"><a class="heading2" id="a4.6" href="enable_disable_cacadu.htm" target="hmcontent"><span class="heading2" id="s4.6">Enable/Disable Cacadu</span></a>
+</li>
+<li class="heading2" id="i4.7" style="background:url(button_topic.gif) no-repeat;padding-left:34px" onclick="return clicked(this,event)"><a class="heading2" id="a4.7" href="error_reporter.htm" target="hmcontent"><span class="heading2" id="s4.7">Error Reporter</span></a>
+</li>
+</ul>
+</li>
+<li class="heading1" id="i5" data-bg="button_closedbook.gif;button_openbook.gif" style="background:url(button_openbook.gif) no-repeat;cursor:pointer;padding-left:34px" onclick="return clicked(this,event)"><a class="heading1" id="a5" href=javascript:void(0);><span class="heading1" id="s5" ondblclick="return dblclicked(this)">Actions</span></a>
+<ul id="ul5" style="list-style-type:none">
+<li class="heading2" id="i5.1" data-bg="button_closedbook.gif;button_openbook.gif" style="background:url(button_openbook.gif) no-repeat;cursor:pointer;padding-left:34px" onclick="return clicked(this,event)"><a class="heading2" id="a5.1" href="system.htm" target="hmcontent"><span class="heading2" id="s5.1" ondblclick="return dblclicked(this)">System</span></a>
+<ul id="ul5.1" style="list-style-type:none">
+<li class="heading3" id="i5.1.1" style="background:url(button_topic.gif) no-repeat;padding-left:34px" onclick="return clicked(this,event)"><a class="heading3" id="a5.1.1" href="start_application.htm" target="hmcontent"><span class="heading3" id="s5.1.1">Start Application</span></a>
+</li>
+<li class="heading3" id="i5.1.2" style="background:url(button_topic.gif) no-repeat;padding-left:34px" onclick="return clicked(this,event)"><a class="heading3" id="a5.1.2" href="exit_process.htm" target="hmcontent"><span class="heading3" id="s5.1.2">Exit Process</span></a>
+</li>
+<li class="heading3" id="i5.1.3" style="background:url(button_topic.gif) no-repeat;padding-left:34px" onclick="return clicked(this,event)"><a class="heading3" id="a5.1.3" href="shutdown_pc.htm" target="hmcontent"><span class="heading3" id="s5.1.3">Shutdown PC</span></a>
+</li>
+</ul>
+</li>
+<li class="heading2" id="i5.2" data-bg="button_closedbook.gif;button_openbook.gif" style="background:url(button_openbook.gif) no-repeat;cursor:pointer;padding-left:34px" onclick="return clicked(this,event)"><a class="heading2" id="a5.2" href="message_boxes.htm" target="hmcontent"><span class="heading2" id="s5.2" ondblclick="return dblclicked(this)">Message Boxes</span></a>
+<ul id="ul5.2" style="list-style-type:none">
+<li class="heading3" id="i5.2.1" style="background:url(button_topic.gif) no-repeat;padding-left:34px" onclick="return clicked(this,event)"><a class="heading3" id="a5.2.1" href="show_alert.htm" target="hmcontent"><span class="heading3" id="s5.2.1">Show Alert</span></a>
+</li>
+<li class="heading3" id="i5.2.2" style="background:url(button_topic.gif) no-repeat;padding-left:34px" onclick="return clicked(this,event)"><a class="heading3" id="a5.2.2" href="show_message_box.htm" target="hmcontent"><span class="heading3" id="s5.2.2">Show Message Box</span></a>
+</li>
+</ul>
+</li>
+<li class="heading2" id="i5.3" style="background:url(button_topic.gif) no-repeat;padding-left:34px" onclick="return clicked(this,event)"><a class="heading2" id="a5.3" href="delay.htm" target="hmcontent"><span class="heading2" id="s5.3">Delay</span></a>
+</li>
+<li class="heading2" id="i5.4" style="background:url(button_topic.gif) no-repeat;padding-left:34px" onclick="return clicked(this,event)"><a class="heading2" id="a5.4" href="errors_handler.htm" target="hmcontent"><span class="heading2" id="s5.4">Errors Handler</span></a>
+</li>
+</ul>
+</li>
+<li class="heading1" id="i6" data-bg="button_closedbook.gif;button_openbook.gif" style="background:url(button_openbook.gif) no-repeat;cursor:pointer;padding-left:34px" onclick="return clicked(this,event)"><a class="heading1" id="a6" href=javascript:void(0);><span class="heading1" id="s6" ondblclick="return dblclicked(this)">Videos</span></a>
+<ul id="ul6" style="list-style-type:none">
+<li class="heading2" id="i6.1" style="background:url(button_topic.gif) no-repeat;padding-left:34px" onclick="return clicked(this,event)"><a class="heading2" id="a6.1" href="how_to_start_using_cacadu_in_l.htm" target="hmcontent"><span class="heading2" id="s6.1">How to start using Cacadu in less than 2 minutes?</span></a>
+</li>
+</ul>
+</li>
+</ul>
+<script type="text/javascript">loadicons('button_openbook.gif','button_closedbook.gif','button_topic.gif');</script>
+
+<hr size="1" /><p><span style="font-size: 8px">© 2012 Conderella Soft</span></p>
+<script type="text/javascript">
+document.getElementById("navsearch").style.display="inline";
+</script> 
+</body>
+</html>
+
+
+
+
+
+
+
+
+

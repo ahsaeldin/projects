@@ -1,0 +1,78 @@
+#cntctfrm_contact_form input.text, 
+#cntctfrm_contact_form textarea,
+#cntctfrm_contact_message, 
+#cntctfrm_contact_name, 
+#cntctfrm_contact_email,
+#cntctfrm_contact_subject {
+	width:320px;
+}
+#adminmenu #toplevel_page_bws_plugins div.wp-menu-image
+{
+	background: url("../images/icon_16.png") no-repeat scroll center center transparent;
+}
+.admin-color-classic #adminmenu #toplevel_page_bws_plugins div.wp-menu-image
+{
+	background: url("../images/icon_16_b.png") no-repeat scroll center center transparent;
+}
+#adminmenu #toplevel_page_bws_plugins:hover div.wp-menu-image,#adminmenu #toplevel_page_bws_plugins.wp-has-current-submenu div.wp-menu-image
+{
+	background: url("../images/icon_16_c.png") no-repeat scroll center center transparent;
+}	
+.wrap #icon-options-general.icon32-bws
+{
+	background: url("../images/icon_36.png") no-repeat scroll left top transparent;
+}
+.admin-color-classic .wrap #icon-options-general.icon32-bws
+{
+	background: url("../images/icon_36_b.png") no-repeat scroll left top transparent;
+}
+#toplevel_page_bws_plugins .wp-submenu .wp-first-item, .cntctfrm_hidden
+{
+	display:none;
+}
+.cntctfrm_info {
+	color: rgb(136, 136, 136); 
+	font-size: 10px;
+	clear:both;
+}
+#cntctfrm_contact_attachment {
+	margin-bottom:0;
+}
+#cntctfrm_contact_send_copy, #cntctfrm_attachment, #cntctfrm_send_copy, #cntctfrm_change_label {
+	position:relative;
+	top:2px;
+}
+#cntctfrm_attachment, #cntctfrm_send_copy, #cntctfrm_change_label {
+	position:relative;
+	top:3px;
+}
+#cntctfrm_select_email_user, #cntctfrm_select_email_custom {
+	position:relative;
+	top:5px;
+}
+.cntctfrm_change_label_block input, .cntctfrm_action_after_send_block input {
+	margin: 1px 0;
+}
+
+.cntctfrm_action_after_send_block  input[type="text"] {
+	width:250px;
+}
+
+.widget-container #cntctfrm_contact_form input.text, 
+.widget-container #cntctfrm_contact_form textarea, 
+.widget-container #cntctfrm_contact_message, 
+.widget-container #cntctfrm_contact_name, 
+.widget-container #cntctfrm_contact_email, 
+.widget-container #cntctfrm_contact_subject,
+.textwidget #cntctfrm_contact_form input.text,
+.textwidget #cntctfrm_contact_form textarea, 
+.textwidget #cntctfrm_contact_message, 
+.textwidgetr #cntctfrm_contact_name, 
+.textwidget #cntctfrm_contact_email, 
+.textwidget #cntctfrm_contact_subject{
+    width: 200px !important;
+}
+
+.form-table td.cntctfrm_display_add_info_block {
+	padding:4px 10px 8px;
+}

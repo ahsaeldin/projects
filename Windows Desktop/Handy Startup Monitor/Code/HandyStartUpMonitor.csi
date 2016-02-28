@@ -1,0 +1,16 @@
+[History]
+B0=HandyStartUpMonitor/frmOptions/cmdOk_Click
+B1=HandyStartUpMonitor/frmmain/TrayIcon_RightMouseUp
+B2=HandyStartUpMonitor/frmmain/Form_Load
+B3=HandyStartUpMonitor/frmmain/mnuExit_Click
+B4=HandyStartUpMonitor/frmmain/Form_QueryUnload
+B5=HandyStartUpMonitor/frmmain/Form_Resize
+B6=HandyStartUpMonitor/frmmain/Form_Unload
+B7=HandyStartUpMonitor/frmmain/JewOptions_Click
+B8=HandyStartUpMonitor/frmmain/tmrGenChecks_Timer
+B9=HandyStartUpMonitor/frmmain/TrayIcon_LeftMouseDBLCLK
+B10=HandyStartUpMonitor/frmmain/Timer1_Timer
+B11=HandyStartUpMonitor/frmmain/TrayIcon_LeftMouseUp
+B12=HandyStartUpMonitor/frmmain/ShowSystrayIcon
+B13=HandyStartUpMonitor/frmmain/TrayIcon_BalloonShow
+B14=HandyStartUpMonitor/frmmain/cmdOptions_Click

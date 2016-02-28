@@ -1,0 +1,294 @@
+[Root]
+Most Recent Package=Standard Setup Package 2
+
+
+[Package|Dep File 1|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\Documents and Settings\Moopy.ELBAAAH-4D7A848\Desktop
+
+[Package|Dep File 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Dep File 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File 1|Files Found]
+
+[Package|Dep File 1|Files Released]
+
+[Package|Dep File 1|Missing Dependency Information]
+C:\WINDOWS\system32\acomte445.ocx=
+C:\WINDOWS\system32\jbet33.ocx=
+C:\WINDOWS\system32\JHWin32.tlb=
+C:\WINDOWS\system32\psapi.dll=
+C:\WINDOWS\system32\ArmAccess.dll=
+
+[Package|Dep File 1|Out-of-Date Dependency Information]
+
+[Package|Dep File 1|Files Added]
+
+[Package|Dep File 1|Files Removed]
+
+[Package|Dep File 1|Files In Project]
+C:\Documents and Settings\Moopy.ELBAAAH-4D7A848\Desktop\Handy StartUp Monitor.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\ArmAccess.dll=Yes
+C:\WINDOWS\system32\psapi.dll=Yes
+C:\WINDOWS\system32\JHWin32.tlb=Yes
+C:\WINDOWS\system32\jbet33.ocx=Yes
+C:\WINDOWS\system32\acomte445.ocx=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+
+[Package|Dep File 1|Configure Registry Files]
+Applicable=
+
+[Package|Dep File 1|Configure Remote Servers]
+Applicable=
+
+[Package|Dep File 1|Install Locations]
+C:\Documents and Settings\Moopy.ELBAAAH-4D7A848\Desktop\Handy StartUp Monitor.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\ArmAccess.dll=$(WinSysPath)
+C:\WINDOWS\system32\psapi.dll=$(WinSysPath)
+C:\WINDOWS\system32\JHWin32.tlb=$(WinSysPath)
+C:\WINDOWS\system32\jbet33.ocx=$(WinSysPath)
+C:\WINDOWS\system32\acomte445.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+
+[Package|Dep File 1|Configure Shared Files]
+Applicable=
+
+[Package|Dep File 1|DepFile]
+DepCabFile=Handy StartUp Monitor.CAB
+DepCabRun=Handy StartUp Monitor.INF
+
+[Package|Dep File 1|Package]
+PackageFolder=C:\Documents and Settings\Moopy.ELBAAAH-4D7A848\Desktop
+ProjectFolder=I:\PT\Perfection Tools Software\Handy Startup Monitor\Code
+ServerSideCab=
+File1=C:\Documents and Settings\Moopy.ELBAAAH-4D7A848\Desktop\Handy StartUp Monitor.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\Documents and Settings\Moopy.ELBAAAH-4D7A848\Desktop
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\WINDOWS\system32\acomte445.ocx=
+C:\WINDOWS\system32\jbet33.ocx=
+C:\WINDOWS\system32\JHWin32.tlb=
+C:\WINDOWS\system32\psapi.dll=
+C:\WINDOWS\system32\ArmAccess.dll=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\Documents and Settings\Moopy.ELBAAAH-4D7A848\Desktop\Handy StartUp Monitor.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\ArmAccess.dll=Yes
+C:\WINDOWS\system32\psapi.dll=Yes
+C:\WINDOWS\system32\JHWin32.tlb=Yes
+C:\WINDOWS\system32\jbet33.ocx=Yes
+C:\WINDOWS\system32\acomte445.ocx=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\Documents and Settings\Moopy.ELBAAAH-4D7A848\Desktop\Handy StartUp Monitor.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\ArmAccess.dll=$(WinSysPath)
+C:\WINDOWS\system32\psapi.dll=$(WinSysPath)
+C:\WINDOWS\system32\JHWin32.tlb=$(WinSysPath)
+C:\WINDOWS\system32\jbet33.ocx=$(WinSysPath)
+C:\WINDOWS\system32\acomte445.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\Moopy.ELBAAAH-4D7A848\Desktop\Handy StartUp Monitor.exe=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Handy Startup Monitor
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Handy Startup Monitor
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Handy Startup Monitor]
+Icon1="Handy StartUp Monitor.exe"
+Title1=Handy Startup Monitor
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=c:\Documents and Settings\Moopy.ELBAAAH-4D7A848\Desktop
+ProjectFolder=I:\PT\Perfection Tools Software\Handy Startup Monitor\Code
+ServerSideCab=
+File1=c:\Documents and Settings\Moopy.ELBAAAH-4D7A848\Desktop\setup.exe
+File2=c:\Documents and Settings\Moopy.ELBAAAH-4D7A848\Desktop\Setup.Lst
+File3=c:\Documents and Settings\Moopy.ELBAAAH-4D7A848\Desktop\Handy StartUp Monitor.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\hhhhhhhhhhhhhhhhhhhhhhhhhhh
+
+[Package|Standard Setup Package 2|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 2|Files Found]
+
+[Package|Standard Setup Package 2|Files Released]
+
+[Package|Standard Setup Package 2|Missing Dependency Information]
+C:\WINDOWS\system32\acomte445.ocx=
+C:\WINDOWS\system32\jbet33.ocx=
+C:\WINDOWS\system32\JHWin32.tlb=
+C:\WINDOWS\system32\psapi.dll=
+C:\WINDOWS\system32\ArmAccess.dll=
+
+[Package|Standard Setup Package 2|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 2|Files Added]
+
+[Package|Standard Setup Package 2|Files Removed]
+
+[Package|Standard Setup Package 2|Files In Project]
+C:\Documents and Settings\Moopy.ELBAAAH-4D7A848\Desktop\Handy StartUp Monitor.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\ArmAccess.dll=Yes
+C:\WINDOWS\system32\psapi.dll=Yes
+C:\WINDOWS\system32\JHWin32.tlb=Yes
+C:\WINDOWS\system32\jbet33.ocx=Yes
+C:\WINDOWS\system32\acomte445.ocx=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 2|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 2|Install Locations]
+C:\Documents and Settings\Moopy.ELBAAAH-4D7A848\Desktop\Handy StartUp Monitor.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\ArmAccess.dll=$(WinSysPath)
+C:\WINDOWS\system32\psapi.dll=$(WinSysPath)
+C:\WINDOWS\system32\JHWin32.tlb=$(WinSysPath)
+C:\WINDOWS\system32\jbet33.ocx=$(WinSysPath)
+C:\WINDOWS\system32\acomte445.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 2|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\Moopy.ELBAAAH-4D7A848\Desktop\Handy StartUp Monitor.exe=No
+
+[Package|Standard Setup Package 2|Distribution]
+Type=single
+Size=
+Title=Handy Startup Monitor
+
+[Package|Standard Setup Package 2|IconGroups]
+Group0=Handy Startup Monitor
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 2|Handy Startup Monitor]
+Icon1="Handy StartUp Monitor.exe"
+Title1=Handy Startup Monitor
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 2|Package]
+PackageFolder=c:\hhhhhhhhhhhhhhhhhhhhhhhhhhh
+ProjectFolder=I:\PT\Perfection Tools Software\Handy Startup Monitor\Code
+ServerSideCab=
+File1=c:\hhhhhhhhhhhhhhhhhhhhhhhhhhh\setup.exe
+File2=c:\hhhhhhhhhhhhhhhhhhhhhhhhhhh\Setup.Lst
+File3=c:\hhhhhhhhhhhhhhhhhhhhhhhhhhh\Handy StartUp Monitor.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

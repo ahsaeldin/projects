@@ -1,0 +1,7 @@
+#header-tail {
+	background: #acbca4 url(../images/header-tail.jpg) no-repeat 50% 0%;
+}
+
+div.wpcf7 input[type="submit"]:hover {
+	color: #6ab52f !important;
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<rss version="2.0">
+  <channel>
+    <title>Smack macro recorder</title>
+    <description>Smack can record keystrokes, mouse clicks and movements 
+and playback under three types of speed (High-Normal-Low). 
+with Normal speed keystrokes and mouse clicks are played 
+back as they recorded exactly.with high speed keystrokes, 
+mouse movements and clicks are played back with no 
+delaying time between your event.with low speed keystrokes, 
+mouse movements and clicks are played back with delaying 
+time between your event but more than the normal.  Smack 
+can also generate an Executable Macro file , it means that 
+you can choose any macro you had saved before and simply 
+click &quot;stand alone &quot; command button to generate an 
+Executable file for the macro with *.exe extension so it can 
+be run without Smack , just need the vb runtime installed.</description>
+    <link>http://www.cpringold.com/products/smack.html</link>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <lastBuildDate>Sun, 20 Nov 2005 19:23:19 +0200</lastBuildDate>
+    <pubDate>Sun, 20 Nov 2005 19:23:16 +0200</pubDate>
+    <generator>FeedForAll v1.0 (1.0.2.0) unlicensed version</generator>
+    <item>
+      <title>Download link</title>
+      <description>http://www33.websamba.com/smack/smack002.zip</description>
+      <link></link>
+      <pubDate>Sun, 20 Nov 2005 19:22:20 +0200</pubDate>
+    </item>
+    <item>
+      <title>Executable Macros</title>
+      <description>Smack can generate an Executable Macro file , it means that 
+you can choose any macro you had saved before and simply 
+click &quot;stand alone &quot; command button to generate an 
+Executable file for the macro with *.exe extension so it can 
+be run without Smack , just need the vb runtime installed.</description>
+      <link>http://www.cpringold.com/products/smack.html</link>
+      <pubDate>Sun, 20 Nov 2005 19:21:48 +0200</pubDate>
+    </item>
+  </channel>
+</rss>

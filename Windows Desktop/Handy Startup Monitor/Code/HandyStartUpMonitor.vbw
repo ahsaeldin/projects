@@ -1,0 +1,12 @@
+frmmain = 50, 50, 1017, 521, Z, 25, 25, 884, 542, C
+ModOptions = 0, 0, 0, 0, C
+ModGlobals = 0, 0, 0, 0, C
+frmOptions = 0, 0, 0, 0, C, 175, 175, 1050, 708, C
+ModGlobals2 = 0, 0, 0, 0, C
+Registre = 0, 0, 0, 0, C
+ModCore = 0, 0, 0, 0, C
+ModFiles = 0, 0, 0, 0, C
+Utils = 0, 0, 0, 0, C
+frmAdd = 0, 0, 0, 0, C, 200, 200, 1075, 733, C
+SortListView = 0, 0, 0, 0, C
+frmabout = 0, 0, 0, 0, C, 225, 225, 1100, 758, C

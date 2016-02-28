@@ -1,0 +1,460 @@
+<HTML>
+<HEAD>
+<TITLE>
+Balloon Component, System Tray Icon Component, SubClass Component, systray manager Component four ActiveX controls in one Control
+</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<!-- ImageReady Preload Script (index.psd) -->
+<SCRIPT TYPE="text/javascript">
+<!--
+
+function newImage(arg) {
+	if (document.images) {
+		rslt = new Image();
+		rslt.src = arg;
+		return rslt;
+	}
+}
+
+function changeImages() {
+	if (document.images && (preloadFlag == true)) {
+		for (var i=0; i<changeImages.arguments.length; i+=2) {
+			document[changeImages.arguments[i]].src = changeImages.arguments[i+1];
+		}
+	}
+}
+
+function changeButton(imgName, imgSelect)
+        {
+		  document[imgName].src = imgSelect
+		}
+
+var preloadFlag = false;
+function preloadImages() {
+	if (document.images) {
+	    moreinfoOver = newImage("../images/moreinfoover.png");
+	    DownloadOver = newImage("../images/downloadover.png");
+	    featuresover = newImage("../images/featuresover.png");
+	    onlinehelpover = newImage("../images/onlinehelpover.png");
+	    faqover = newImage("../images/faqover.png");
+	    screenshotover = newImage("../images/screenshotover.png");
+	    OrderOver = newImage("../images/images/orderover.png");
+	    company_over = newImage("/..images/company-over.gif");
+		services_over = newImage("../images/services-over.gif");
+		partners_over = newImage("../images/partners-over.gif");
+		support_over = newImage("../images/support-over.gif");
+		contacts_over = newImage("../images/contacts-over.gif");
+		preloadFlag = true;
+	}
+}
+
+
+// -->
+</SCRIPT>
+<!-- End Preload Script -->
+</HEAD>
+<link href="../css/styles.css" rel="stylesheet" type="text/css">
+<center>
+<BODY BGCOLOR=#ffffff LEFTMARGIN=0 TOPMARGIN=0 MARGINWIDTH="0" MARGINHEIGHT="0" ONLOAD="preloadImages();"><!-- ImageReady Slices (index.psd) -->
+<TABLE WIDTH=775 BORDER=0 CELLPADDING=0 CELLSPACING=0 class="frame" id=TABLE1>
+	<TR>
+		<TD COLSPAN=16>
+			<IMG id=IMG1 height=41 alt="" src="../images/top1.gif" width=621 ></TD>
+		<TD COLSPAN=3 align="middle" valign="center" background="../images/b_top.gif" class="text5">
+			 <A class=d href="../faq/index.html">FAQ</A> | <A class=d href="../contact/index.html">Contact Us</A></TD>
+		<TD COLSPAN=2>
+			<IMG id=IMG1 height=41 alt="" src="../images/top2.gif" width=44 ></TD>
+		<TD>
+			<IMG height=41 alt="" src="../images/spacer.gif" width=1></TD>
+	</TR>
+	<TR>
+		<TD>
+			<IMG height=36 alt="" src="../images/top3.gif" width=75></TD>
+		<TD COLSPAN=2>
+			<A onMouseOver="window.status='Company';&#13;&#10;&#9;&#9;&#9;&#9;&#13;&#10;&#9;&#9;&#9;&#9;
+				 changeImages('company', '../images/company-over.gif'); return true;"
+				 onmouseout   ="window.status=''; changeImages('company', '../images/company.gif'); return true;" href="../index.html" >
+				<IMG height=36 alt=Company src="../images/company.gif" width=124 border=0 name=company></A></TD>
+		<TD COLSPAN=5>
+			<A onMouseOver="window.status='Products';&#13;&#10;&#9;&#9;&#9;&#9;&#13;&#10;&#9;&#9;&#9;&#9;
+				 changeImages('services', '../images/services-over.gif'); return true;"
+				 onmouseout   ="window.status=''; changeImages('services', '../images/services.gif'); return true;" href="../products/index.html" >
+				<IMG height=36 alt=Products src="../images/services.gif" width=123 border=0 name=services></A></TD>
+		<TD COLSPAN=2>
+			<A onMouseOver="window.status='Order';&#13;&#10;&#9;&#9;&#9;&#9;&#13;&#10;&#9;&#9;&#9;&#9;
+				 changeImages('partners', '../images/partners-over.gif'); return true;"
+				 onmouseout   ="window.status=''; changeImages('partners', '../images/partners.gif'); return true;" href="../buy/index.html" >
+				<IMG height=36 alt=Order src="../images/partners.gif" width=122 border=0 name=partners></A></TD>
+		<TD COLSPAN=3>
+			<A onMouseOver="window.status='Download';&#13;&#10;&#9;&#9;&#9;&#9;&#13;&#10;&#9;&#9;&#9;&#9;
+				 changeImages('support', '../images/support-over.gif'); return true;"
+				 onmouseout   ="window.status=''; changeImages('support', '../images/support.gif'); return true;" href="../downloads/index.html" >
+				<IMG height=36 alt=Download src="../images/support.gif" width=122 border=0 name=support></A></TD>
+		<TD COLSPAN=4>
+			<A onMouseOver="window.status='About Us';&#13;&#10;&#9;&#9;&#9;&#9;&#13;&#10;&#9;&#9;&#9;&#9;
+				 changeImages('contacts', '../images/contacts-over.gif'); return true;"
+				 onmouseout   ="window.status=''; changeImages('contacts', '../images/contacts.gif'); return true;" href="../about/index.html" >
+				<IMG height=36 alt="About Us" src="../images/contacts.gif" width=122 border=0 name=contacts ></A></TD>
+		<TD COLSPAN=4>
+			<IMG height=36 alt="" src="../images/top4.gif" width=87></TD>
+		<TD>
+			<IMG height=36 alt="" src="../images/spacer.gif" width=1></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=7 ROWSPAN=2><A 
+      href="http://www.cpringold.com">
+			<IMG height=129 alt="Home Page" src="../images/title.gif" width=321 border=0 ></A></TD>
+		<TD>
+			<IMG height=56 alt="" src="../images/index_12.gif" width=1></TD>
+		<TD COLSPAN=13></TD>
+		<TD>
+			<IMG height=56 alt="" src="../images/spacer.gif" width=1></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=11 align="left" valign="top"><SPAN 
+      class=text1><EM><FONT size=5><FONT size=4>Save Your Development Time with 
+      </FONT><FONT color=black><FONT size=4>ASTC</FONT> </FONT> </FONT></EM><BR><SPAN 
+      class=text2>Four ActiveX controls in one control</SPAN></SPAN>     
+		<TD COLSPAN=3>
+			<IMG height=73 alt="" src="../images/wel2.gif" width=85></TD>
+		<TD>
+			<IMG height=73 alt="" src="../images/spacer.gif" width=1></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=4 ROWSPAN=2 align="left" valign="top" >
+      <P><A 
+      href="../products/astc.html">
+			<IMG id=IMG1 height=111 alt="ASTC ActiveX control." src="../images/ab1.gif" width=215 border=0 ></A></P>
+      <P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      &nbsp; <A 
+      href="http://www.softforall.com/SoftwareDev/ActiveX/ASTC08010272.htm" target=_blank><IMG 
+      id=IMG1 alt="" src="../images/5stars.gif" align=middle 
+    border=0 ></A></P>
+      <P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A href="http://www.daolnwod.net/soft_10638.html" target=_blank><IMG 
+      id=IMG2 alt="" hspace=4 src="../images/5-stars-award.jpg" border=0><FONT 
+      color=#0000ff> </FONT></A></P>
+      
+        <P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <A 
+      href="http://www.allapp.com/ASTC_softinfo_26054.html" target=_blank> <IMG id=IMG1 alt="" src="../images/5star.jpg" 
+      border=0 ></A></P>
+      
+      <P>
+      <TABLE id=TABLE1 style="WIDTH: 170px; HEIGHT: 129px" cellSpacing=1 
+      cellPadding=5 width=170 align=center border=0>
+        
+	  <TR>
+			<TD>
+
+				<P>
+								<IMG 
+				id=IMG1 alt="" src="../images/care11.gif" >
+				<BR>
+						Great professionalism and care with the clients. Fantastic support with No Auto Responders.
+						CprinGold delivers very professional software. No more deal with API for manage system tray. Really recommended
+				</P>
+				<P>
+					<SPAN class=text6>Nanni</SPAN>
+					<A href="http://www.eurovideosystem.com" target=_blank>www.eurovideosystem.com</A> 
+				</P>
+			</TD>
+        </TR>
+        
+        <TR>
+			<TD>
+				<P>
+				<BR>
+				An excellent product that works well under all OS's with fantastic support and upgrades. 
+				If you want to add system tray support, forget the Win SDK, just make it easy on yourself 
+				and you'll be up and running in just a couple of minutes.
+				</P>
+				<P>
+					<SPAN class=text6>Jeff Lorenzini</SPAN>
+					<A href="http://www.stratacare.com/default.aspx" target=_blank>www.stratacare.com</A> 
+				</P>
+			</TD>
+        </TR>
+        
+        <TR>
+			<TD>
+				<P>
+				<BR>
+					I just wanted a simple, uncomplicated way to handle system tray chores.
+					After trying several other free and commercial solutions, I found your ASTC
+					control. It does exactly what I need at a very reasonable price. Thank you
+					for that.  Thank you also for the quick, complete, polite reply to my
+					support questions. It's a pleasure to do business with you.
+				</P>
+				<P>
+					<SPAN class=text6>Bret Reece</SPAN>
+					<A href="http://www.custodytoolbox.com" target=_blank>www.custodytoolbox.com</A> 
+				</P>
+			</TD>
+        </TR>
+	    <TR>
+			  <TD>
+			  <P>
+			  When we needed to add System Tray support to TimeTo for Windows we turned to the expert: CprinGold Software. We weren't disappointed: amazing product, amazing support.
+			  </P>
+				<P><SPAN class=text6>David Berman</SPAN><BR><A 
+				href="http://www.davidberman.com " target=_blank>www.davidberman.com</A> 
+			</P></TD>
+			
+		</TR>
+	    <TR>
+			  <TD>
+			  <P>Your tool has been<BR>clean and very helpful <BR>to us. <BR><span class="text6"> 
+				</span></P>
+				<P><SPAN class=text6>Glen Graham</SPAN><BR><A 
+				href="http://www.tabsautobiz.com" target=_blank>www.tabsautobiz.com</A> 
+			</P></TD>
+			
+		</TR>
+
+	    <TR>
+			  <TD>
+			  <P>Your control is in a product for the building automation industry called Web Smart Air, in the telephone interface which must run 24/7. Your control is very well thought-out and feature rich <BR><span class="text6"> 
+				</span></P>
+				<P><A 
+				href="http://76.174.155.62/WSA/Phone.aspx" target=_blank>John Matter</A> 
+			</P></TD>
+			
+		</TR>
+			</TABLE>
+			</P>
+		  <P>
+		  <TABLE id=TABLE1 style="WIDTH: 195px; HEIGHT: 545px" borderColor=black 
+		  cellSpacing=0 cellPadding=5 width=195 align=center bgColor=white 
+			border=0>
+			
+			<TR>
+          <TD align=left>
+            <P><SPAN class=text6>What is the system tray or systray?</SPAN><SPAN class=text2><BR>The system tray is a section located at one end of the taskbar in Windows 95, 
+98, Millennium, 2000, and XP. It is used to display the clock as well as the 
+icons for certain programs.</SPAN></P>
+            <P><img src="../images/systray.jpg" width="177" height="54"></P></TD></TR>
+        <TR>
+      
+          <TD align=left><SPAN class=text6>What is the ASTC 1.50 Type?</SPAN><SPAN class=text2><BR>ActiveX control.</SPAN></TD></TR>
+            <TR>
+          <TD align=left><SPAN class=text6>What is the Compatibility of ASTC 1.50 with .Net?</SPAN><SPAN class=text2><BR>
+          100% .NET Compatible.</SPAN></TD></TR>
+               <TR>
+          <TD align=left><SPAN class=text6>What&nbsp;are the languages included in the sample code?</SPAN><SPAN class=text2><BR>
+          VB 6.0, VC++ 6.0, VB.NET, VC#.NET, VJ#.NET
+</SPAN></TD></TR>
+          
+            <TR>
+          <TD align=left><SPAN class=text6>What is the 
+            subclassing?</SPAN><SPAN class=text2><BR>Technique that allows you 
+            to handle any Windows message that your window may 
+        receive.</SPAN></TD></TR></TABLE>
+      
+      </P></TD>
+      
+		<TD COLSPAN=7 align="left" valign="top">
+			<IMG id=IMG2 height=42 alt="" src="../images/ab2.gif" width=315 ></TD>
+		<TD COLSPAN=10 align="left" valign="top"><IMG 
+      style="WIDTH: 245px" height=29 alt="" src="../images/ab7.gif" 
+      width=220 vspace=1 ></TD>
+		<TD>
+			<IMG height=42 alt="" src="../images/spacer.gif" width=1></TD></TR>
+	
+	<TR>
+		<TD COLSPAN=12 align="left" valign="top">
+           <P>
+			  <span class="text1">       Overview&nbsp;of      ASTC&nbsp;v1.50</span>        
+		   </P>
+      <P><SPAN class=text1>  ASTC</SPAN> 
+			      <span class="text1">was designed specifically for 
+      developers who</span> wish to display icons in the system tray. It 
+      includes the ability to creates a custom animated icon in your task bar, 
+      you can also shows balloon tool tips in the systray, you can also subclass 
+      any window to process the unavailable messages from Visual Basic, and at 
+      last you can manage all system tray icons from your 
+      application. </P>
+      <P><SPAN class=text1>ASTC is 
+      four ActiveX controls in one Control</SPAN></P>
+      <UL>
+        <LI><span class="text1">Tray icon ActiveX Control</span>  enables you to place your application in 
+        the system tray, creates a custom animated icon in your task bar, 
+        shows balloon tool tips in <span class="text1">systray</span> and more...</LI></UL>
+      <P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A href="../shrsts/astc.html"></A>
+      <TABLE style="WIDTH: 252px; HEIGHT: 349px" cellSpacing=1 cellPadding=1 
+      width=252 align=center border=0>
+        
+        <TR>
+          <TD><A href="../shrsts/astc.html"><IMG id=IMG1 
+            alt="Click for more screenshots..." src="../images/astcev.jpg" 
+            align=middle border=0></A></TD></TR></TABLE></P>
+      <UL>
+        <LI><SPAN class=text1>Tray List ActiveX 
+        Control</SPAN> enables you to manage all system tray icons from your 
+        application; you can also hide any icon from system tray area.</LI></UL>
+      <P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A 
+      href="../shrsts/astc.html"></A>
+      <TABLE style="WIDTH: 284px; HEIGHT: 321px" cellSpacing=1 cellPadding=1 
+      width=284 align=center border=0>
+        
+        <TR>
+          <TD><A 
+      href="../shrsts/astc.html"><IMG id=IMG1 
+      alt="Click for more screenshots..." src="../images/sti2.jpg" 
+      align=middle border=0></A></TD></TR></TABLE></P>
+      <UL>
+        <LI><SPAN class=text1>SubClass ActiveX 
+        Control</SPAN> enables you to subclass any window to process the 
+        unavailable messages from Visual Basic. Subclassing is a powerful 
+        technique that allows you to modify the normal behavior of the controls 
+        and forms in your application. Visual Basic makes some, but not the 
+        entire messages available through the event system. The subclass ActiveX 
+        control enables you to process all the hidden messages which are 
+        actually very useful.</LI></UL>
+      <UL>
+        <LI><SPAN class=text1>Balloon&nbsp;ActiveX Control </SPAN>enables you to 
+        add a professional popup balloons to your application in seconds. Works with 
+        Win 98 and up</LI></UL>
+      <P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A 
+      href="../shrsts/astc.html"><IMG id=IMG1 
+      alt="Click for more screenshots..." src="../images/balloon.jpg" 
+      align=middle border=0></A></P>
+      <P>&nbsp;</P>
+      <P><SPAN class=text1>What are the 
+        Benefits<FONT size=2>  of using ASTC?</FONT></SPAN></P>
+      <P>&nbsp;</P>
+      <UL>
+        <LI> Save your development time and costs. 
+
+        <LI><SPAN class=text1>ASTC</SPAN> gives you more focus in the main 
+        idea of your application. 
+        <LI>It is not necessary to know API to code all the 
+        cool features that <SPAN class=text1>ASTC</SPAN>           
+            offer for you.
+        <LI>You will not worry about how to code these 
+        features in the .Net, hence it will give you more focus in how to learn 
+        and use the .Net itself.
+        <LI>You can add more features to your applications using the subclass [without crashes and debug safe].
+        <LI>The <SPAN class=text1>ASTC 1.50</SPAN>   installer package contains samples 
+        code of using the four controls in the following languages Vb6.0, 
+        VC++6.0, VB.Net, VC#.NET and VJ#.NET.
+        <LI>FREE version-upgrades, bug-fixes and online support for registered 
+        users.</LI></UL>
+      <P>&nbsp;</P>
+      <P><SPAN class=text1>In fact, once you start using ASTC, you will 
+        discover hundreds of ASTC Benefits.</SPAN></P>      <P>&nbsp;</P>
+      <P><SPAN class=text1>What is the 
+        Possible Uses<FONT size=2>  of ASTC?</FONT></SPAN></P>
+      <UL>
+        <LI>If you need to add your application icon 
+        to system tray area in seconds. 
+        <LI>If you want to process the unavailable messages 
+        through visual- basic.
+        <LI> If you want to manage any of the systray icons from your application. 
+        <LI>If you want to assign a customizable balloon 
+        tool tip for your application's controls. 
+        <LI>If you want to add more features to your 
+        application using the subclass technique and in the same time with a debug safe. 
+        <LI>If you want to avoid using SetWindowLong, 
+        Shell_NotifyIcon API functions that may disturb you.
+        <LI>and more ...</LI></UL>
+      <P>&nbsp;</P>
+      <P><A href="astcFeatutes.html">Full feature 
+        list</A> </P></TD>
+		
+		<TD COLSPAN=6 align="right" valign="top">
+      <P><A 
+      onmouseover="changeButton('downloadnow', '../images/downloadover.png');" 
+      onmouseout="changeButton('downloadnow', '../images/download.png');" 
+      href="../downloads/astcDownloads.html"><IMG alt="Download " 
+      src="../images/download.png" border=0 name=downloadnow></A>&nbsp;&nbsp;&nbsp; </P>
+      <P><A onMouseOver="changeButton('ordernow', '../images/orderover.png');" 
+      onmouseout="changeButton('ordernow', '../images/Order.png');" 
+      href="../buy/orderastc.html"><IMG id=IMG1 alt="Order Now!" 
+      src="../images/Order.png" border=0 name=ordernow></A>&nbsp;&nbsp;&nbsp; </P>
+      <P><A 
+      onmouseover="changeButton('features', '../images/featuresover.png');" 
+      onmouseout="changeButton('features', '../images/features.png');" 
+
+      href="astcFeatutes.html"><IMG id=IMG1 alt=Features 
+      src="../images/features.png" border=0 name=features ></A>&nbsp;&nbsp;&nbsp; 
+       </P>
+      <P><A 
+       onmouseover="changeButton('screenshot', '../images/screenshotover.png');" 
+      onmouseout="changeButton('screenshot', '../images/screenshots.png');" 
+
+      href="../shrsts/astc.html"><IMG id=IMG1 alt=Screenshots 
+      src="../images/screenshots.png" border=0 name=screenshot ></A>&nbsp;&nbsp;&nbsp; </P>
+      
+      <P><A 
+      onmouseover="changeButton('faqman', '../images/faqover.png');" 
+      onmouseout="changeButton('faqman', '../images/faq.png');" 
+      href="../faq/astc.html"><IMG id=IMG1 alt=FAQ src="../images/faq.png"  border=0 name=faqman></A>&nbsp;&nbsp;&nbsp;</P>
+      
+  
+      
+      
+      </TD>
+     
+     </TR>
+  <TR>
+    <TD vAlign=top align=left colSpan=7></TD></TR>
+  <TR>
+    <TD vAlign=top align=left colSpan=12></TD></TR>
+  <TR>
+    <TD vAlign=top align=left colSpan=4 rowSpan=6></TD>
+    <TD vAlign=top align=left colSpan=12 rowSpan=6></TD></TR>
+  <TR></TR>
+  <TR></TR>
+  <TR></TR>
+  <TR></TR>
+  <TR></TR>
+  <TR>
+    <TD colSpan=21><IMG height=18 alt="" src="../images/down.gif" 
+width=775></TD>
+    <TD><IMG height=18 alt="" src="../images/spacer.gif" width=1></TD></TR>
+  <TR>
+    <TD vAlign=top align=middle colSpan=21>&nbsp;&nbsp;&nbsp;&nbsp; <A 
+      href="../index.html">Home</A> | <A 
+      href="../products/index.html">Products</A> | <A 
+      href="../buy/index.html">Order</A> | <A 
+      href="../downloads/index.html">Download</A> | <A 
+      href="../faq/index.html">FAQ</A>&nbsp;| <A 
+      href="../contact/index.html">Contact Us</A> | <A 
+      href="../about/index.html">About Us</A><BR>
+    Copyright © 2005 - 2012, 
+      CprinGold Software, all rights reserved. </TD>
+    <TD><IMG height=49 alt="" src="../images/spacer.gif" width=1></TD></TR>
+  <TR>
+    <TD><IMG height=1 alt="" src="../images/spacer.gif" width=75></TD>
+    <TD><IMG height=1 alt="" src="../images/spacer.gif" width=22></TD>
+    <TD><IMG height=1 alt="" src="../images/spacer.gif" width=102></TD>
+    <TD><IMG height=1 alt="" src="../images/spacer.gif" width=16></TD>
+    <TD><IMG height=1 alt="" src="../images/spacer.gif" width=41></TD>
+    <TD><IMG height=1 alt="" src="../images/spacer.gif" width=31></TD>
+    <TD><IMG height=1 alt="" src="../images/spacer.gif" width=34></TD>
+    <TD><IMG height=1 alt="" src="../images/spacer.gif" width=1></TD>
+    <TD><IMG height=1 alt="" src="../images/spacer.gif" width=41></TD>
+    <TD><IMG height=1 alt="" src="../images/spacer.gif" width=81></TD>
+    <TD><IMG height=1 alt="" src="../images/spacer.gif" width=86></TD>
+    <TD><IMG height=1 alt="" src="../images/spacer.gif" width=28></TD>
+    <TD><IMG height=1 alt="" src="../images/spacer.gif" width=8></TD>
+    <TD><IMG height=1 alt="" src="../images/spacer.gif" width=18></TD>
+    <TD><IMG height=1 alt="" src="../images/spacer.gif" width=11></TD>
+    <TD><IMG height=1 alt="" src="../images/spacer.gif" width=26></TD>
+    <TD><IMG height=1 alt="" src="../images/spacer.gif" width=67></TD>
+    <TD><IMG height=1 alt="" src="../images/spacer.gif" width=2></TD>
+    <TD><IMG height=1 alt="" src="../images/spacer.gif" width=41></TD>
+    <TD><IMG height=1 alt="" src="../images/spacer.gif" width=10></TD>
+    <TD><IMG height=1 alt="" src="../images/spacer.gif" width=34></TD>
+    <TD></TD></TR>
+        
+        
+        </TABLE><!-- End ImageReady Slices --><!-- Start of StatCounter Code -->
+<script type="text/javascript" language="javascript">
+var sc_project=1940286; 
+var sc_invisible=1; 
+var sc_partition=17; 
+var sc_security="4e546767"; 
+</script>
+
+<script type="text/javascript" language="javascript" src="http://www.statcounter.com/counter/counter.js"></script><noscript><a href="http://www.statcounter.com/" target="_blank"><img  src="http://c18.statcounter.com/counter.php?sc_project=1940286&amp;java=0&amp;security=4e546767&amp;invisible=1" alt="website stat" border="0"></a> </noscript><!-- End of StatCounter Code -->
+<CENTER></CENTER></BODY></HTML>

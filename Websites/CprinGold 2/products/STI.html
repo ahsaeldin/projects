@@ -1,0 +1,344 @@
+<HTML>
+<HEAD>
+<TITLE>
+systray manager Component, hide system tray icons.
+</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<!-- ImageReady Preload Script (index.psd) -->
+<SCRIPT TYPE="text/javascript">
+<!--
+
+function newImage(arg) {
+	if (document.images) {
+		rslt = new Image();
+		rslt.src = arg;
+		return rslt;
+	}
+}
+
+function changeImages() {
+	if (document.images && (preloadFlag == true)) {
+		for (var i=0; i<changeImages.arguments.length; i+=2) {
+			document[changeImages.arguments[i]].src = changeImages.arguments[i+1];
+		}
+	}
+}
+
+function changeButton(imgName, imgSelect)
+        {
+		  document[imgName].src = imgSelect
+		}
+
+var preloadFlag = false;
+function preloadImages() {
+	if (document.images) {
+	    moreinfoOver = newImage("../images/moreinfoover.png");
+	    DownloadOver = newImage("../images/downloadover.png");
+	    featuresover = newImage("../images/featuresover.png");
+	    onlinehelpover = newImage("../images/onlinehelpover.png");
+	    faqover = newImage("../images/faqover.png");
+	    screenshotover = newImage("../images/screenshotover.png");
+	    OrderOver = newImage("../images/images/orderover.png");
+	    company_over = newImage("/..images/company-over.gif");
+		services_over = newImage("../images/services-over.gif");
+		partners_over = newImage("../images/partners-over.gif");
+		support_over = newImage("../images/support-over.gif");
+		contacts_over = newImage("../images/contacts-over.gif");
+		preloadFlag = true;
+	}
+}
+
+
+// -->
+</SCRIPT>
+<!-- End Preload Script -->
+</HEAD>
+<link href="../css/styles.css" rel="stylesheet" type="text/css">
+<center>
+<BODY BGCOLOR=#ffffff LEFTMARGIN=0 TOPMARGIN=0 MARGINWIDTH="0" MARGINHEIGHT="0" ONLOAD="preloadImages();"><!-- ImageReady Slices (index.psd) -->
+<TABLE WIDTH=775 BORDER=0 CELLPADDING=0 CELLSPACING=0 class="frame" id=TABLE1>
+	<TR>
+		<TD COLSPAN=16>
+			<IMG id=IMG1 height=41 alt="" src="../images/top1.gif" width=621 ></TD>
+		<TD COLSPAN=3 align="middle" valign="center" background="../images/b_top.gif" class="text5">
+			 <A class=d href="../faq/index.html">FAQ</A> | <A class=d href="../contact/index.html">Contact Us</A></TD>
+		<TD COLSPAN=2>
+			<IMG id=IMG1 height=41 alt="" src="../images/top2.gif" width=44 ></TD>
+		<TD>
+			<IMG height=41 alt="" src="../images/spacer.gif" width=1></TD>
+	</TR>
+	<TR>
+		<TD>
+			<IMG height=36 alt="" src="../images/top3.gif" width=75></TD>
+		<TD COLSPAN=2>
+			<A onMouseOver="window.status='company';&#13;&#10;&#9;&#9;&#9;&#9;
+				 changeImages('company', '../images/company-over.gif'); return true;"
+				 onmouseout   ="window.status=''; changeImages('company', '../images/company.gif'); return true;" href="../index.html" >
+				<IMG height=36 alt=Company src="../images/company.gif" width=124 border=0 name=company></A></TD>
+		<TD COLSPAN=5>
+			<A onMouseOver="window.status='Products';&#13;&#10;&#9;&#9;&#9;&#9;
+				 changeImages('services', '../images/services-over.gif'); return true;"
+				 onmouseout   ="window.status=''; changeImages('services', '../images/services.gif'); return true;" href="../products/index.html" >
+				<IMG height=36 alt=Products src="../images/services.gif" width=123 border=0 name=services></A></TD>
+		<TD COLSPAN=2>
+			<A onMouseOver="window.status='Order';&#13;&#10;&#9;&#9;&#9;&#9;
+				 changeImages('partners', '../images/partners-over.gif'); return true;"
+				 onmouseout   ="window.status=''; changeImages('partners', '../images/partners.gif'); return true;" href="../buy/index.html" >
+				<IMG height=36 alt=Order src="../images/partners.gif" width=122 border=0 name=partners></A></TD>
+		<TD COLSPAN=3>
+			<A onMouseOver="window.status='Download';&#13;&#10;&#9;&#9;&#9;&#9;
+				 changeImages('support', '../images/support-over.gif'); return true;"
+				 onmouseout   ="window.status=''; changeImages('support', '../images/support.gif'); return true;" href="../downloads/index.html" >
+				<IMG height=36 alt=Download src="../images/support.gif" width=122 border=0 name=support></A></TD>
+		<TD COLSPAN=4>
+			<A onMouseOver="window.status='About Us';&#13;&#10;&#9;&#9;&#9;&#9;
+				 changeImages('contacts', '../images/contacts-over.gif'); return true;"
+				 onmouseout   ="window.status=''; changeImages('contacts', '../images/contacts.gif'); return true;" href="../about/index.html" >
+				<IMG height=36 alt="About Us" src="../images/contacts.gif" width=122 border=0 name=contacts ></A></TD>
+		<TD COLSPAN=4>
+			<IMG height=36 alt="" src="../images/top4.gif" width=87></TD>
+		<TD>
+			<IMG height=36 alt="" src="../images/spacer.gif" width=1></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=7 ROWSPAN=2><A 
+      href="http://www.cpringold.com">
+			<IMG height=129 alt="Home Page" src="../images/title.gif" width=321 border=0 ></A></TD>
+		<TD>
+			<IMG height=56 alt="" src="../images/index_12.gif" width=1></TD>
+		<TD COLSPAN=13></TD>
+		<TD>
+			<IMG height=56 alt="" src="../images/spacer.gif" width=1></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=11 align="left" valign="top"> <SPAN 
+      class=text1><FONT size=7><EM><FONT color=black>STI </FONT><FONT color=gray 
+      size=3>v1.06</FONT></EM><BR></FONT><SPAN class=text2>System Tray 
+      Information ActiveX control</SPAN></SPAN>
+     
+		<TD COLSPAN=3>
+			<IMG height=73 alt="" src="../images/wel2.gif" width=85></TD>
+		<TD>
+			<IMG height=73 alt="" src="../images/spacer.gif" width=1></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=4 ROWSPAN=2 align="left" valign="top" >
+      <P><A 
+      href="../products/STI.html">
+			<IMG id=IMG1 height=111 alt="STI ActiveX control." src="../images/stio.gif" width=215 border=0 ></A></P>
+      <P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      &nbsp; <A 
+      href="http://www.brothersoft.com/software_developer/active_x/sti_41965.html" target=_blank><IMG 
+      id=IMG1 alt="" src="../images/rating5_style4.gif" align=middle 
+    border=0 ></A></P>
+      <P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      &nbsp;&nbsp;&nbsp;&nbsp;<A href="http://www.daolnwod.net/soft_10662.html" target=_blank><IMG 
+      id=IMG2 alt="" hspace=4 src="../images/5-stars-award.jpg" border=0><FONT 
+      color=#0000ff> </FONT></A></P>
+      <P>
+      <TABLE id=TABLE1 style="WIDTH: 193px; HEIGHT: 432px" borderColor=gray 
+      cellSpacing=0 cellPadding=5 width=193 align=center bgColor=white 
+        border=0>
+       <TR>
+          <TD align=left><SPAN class=text6>
+            <P><SPAN class=text6>What is the system tray or systray?</SPAN><SPAN 
+            class=text2><BR>The system tray is a section located at one end of 
+            the taskbar in Windows 95, 98, Millennium, 2000, and XP. It is used 
+            to display the clock as well as the icons for certain 
+            programs.</SPAN></P>
+            <P><SPAN class=text2><IMG alt="" src="../images/systray.gif" 
+            ></SPAN></P>  </SPAN></TD></TR>
+    
+        <TR>
+          <TD align=left><SPAN class=text6>What&nbsp;do&nbsp;you&nbsp;mean by STI?</SPAN><BR><SPAN class=text2>STI is stand for <U>S</U>ystem <U>T</U>ray 
+            <U>I</U>    
+              cons.</SPAN></TD></TR>
+          <TR>
+          <TD align=left><SPAN class=text6>What is the&nbsp;STI 1.06 Type?</SPAN><SPAN class=text2><BR>ActiveX control.</SPAN></TD></TR>
+      
+            <TR>
+          <TD align=left><SPAN class=text6>What is the Compatibility of&nbsp;STI 1.06 with .Net?</SPAN><SPAN class=text2><BR>
+          100% .NET Compatible.</SPAN></TD></TR>
+               <TR>
+          <TD align=left><SPAN class=text6>What&nbsp;are the languages included in the sample code?</SPAN><SPAN class=text2><BR>
+            VB 6.0, VB.NET, VC#.NET, VJ#.NET
+</SPAN></TD></TR>
+          
+            
+        
+        
+        </TABLE></P>
+      </TD>
+      
+		<TD COLSPAN=7 align="left" valign="top">
+			<IMG id=IMG2 height=42 alt="" src="../images/ab2.gif" width=315 ></TD>
+		<TD COLSPAN=10 align="left" valign="top"><IMG 
+      style="WIDTH: 245px" height=29 alt="" src="../images/ab7.gif" 
+      width=220 vspace=1 ></TD>
+		<TD>
+			<IMG height=42 alt="" src="../images/spacer.gif" width=1></TD>
+	
+	</TR>
+	
+	<TR>
+		<TD COLSPAN=12 align="left" valign="top">
+           <P>
+			  <span class="text1">       Overview&nbsp;of      STI&nbsp;v1.06</span>        
+		   </P>
+           <P><span class="text1">STI is an ActiveX control</span>      which enables the 
+      developer to get all the information about system tray icons from his/her 
+      application, also<span class="text1">    STI</span>      
+                     
+         supports hides any icon from system tray 
+      area.</P>
+      <P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A 
+      href="../shrsts/sti.html"></A>
+      <TABLE style="WIDTH: 249px; HEIGHT: 308px" cellSpacing=1 cellPadding=1 
+      width=249 align=center border=0>
+        
+        <TR>
+          <TD><A href="../shrsts/sti.html"><IMG id=IMG1 
+            style="WIDTH: 243px; HEIGHT: 300px" height=290 
+            alt="Click for more screenshots..." src="../images/sti3.jpg" 
+            width=243 align=middle border=0></A></TD></TR></TABLE></P>
+      <P><SPAN class=text1>What are the 
+      Benefits<FONT size=2>  of using STI?</FONT></SPAN></P>
+      <UL>       
+
+        <LI><SPAN class=text1>STI</SPAN> ActiveX control save your development 
+        time because if you want to know anything about system tray icons from 
+        your application, you will code a dozen of ugly win32 API function which 
+        will take you off from the main idea of your application.</LI></UL>
+      <UL>
+        <LI>Manage System tray icons.</LI></UL>
+      <UL>
+        <LI>Hide any system tray icon.</LI></UL>
+      <UL>               
+        <LI>The&nbsp;<SPAN class=text1>STI 1.06</SPAN> installer package contains samples 
+        code of using <SPAN class=text1>STI </SPAN>     
+              in the following languages Vb6.0, 
+        VC++6.0, VB.Net, VC#.NET and VJ#.NET.</LI></UL>
+      <UL>       
+                   
+            
+        <LI>FREE version-upgrades, bug-fixes and online support for registered 
+        users.</LI></UL>
+      <P><SPAN class=text1>What is the 
+      Possible Uses<FONT size=2>  of STI?</FONT></SPAN></P>
+      <UL>
+        <LI>     If you need to know     the number of 
+        the icons displayed in system tray. 
+        <LI>If you need to know the path of the application which adds a specified icon to 
+        the system tray.
+        <LI> If you need to get the handle /<span class="text2">[hwnd]</span> of the window which adds a specified icon to system tray. 
+        <LI>   If you need to hide 
+        an icon from system tray area. 
+        <LI>     If     you want to insure 
+        that is a specified icon is displayed in systray while your application is running. 
+        <LI>If you want to insure that is a specified icon is 
+        not displayed in systray while your application is running.
+        <LI>If you need to get the handle of an icon displayed in system tray.
+        <LI>If you need to get the tooltip associated 
+        with an icon displayed in system tray.&nbsp;
+        <LI>and more ...</LI></UL>
+      <P><A href="stiFeatutes.html">Full feature 
+      list</A>  </P>
+      <P>
+      <TABLE id=TABLE1 style="WIDTH: 363px; HEIGHT: 142px" 
+      borderColor=saddlebrown cellSpacing=1 cellPadding=1 width=363 align=center 
+      border=3>
+        
+        <TR>
+          <TD><IMG id=IMG1 
+    alt="" src="../images/testomon2.jpg" ></TD></TR></TABLE></P>
+      
+             
+		</TD>
+		
+		<TD COLSPAN=6 align="right" valign="top">
+      <P><A 
+      onmouseover="changeButton('downloadnow', '../images/downloadover.png');" 
+      onmouseout="changeButton('downloadnow', '../images/download.png');" 
+      href="../downloads/downloadsti.html"><IMG alt="Download " 
+      src="../images/download.png" border=0 name=downloadnow></A>&nbsp;&nbsp;&nbsp; </P>
+      <P><A onMouseOver="changeButton('ordernow', '../images/orderover.png');" 
+      onmouseout="changeButton('ordernow', '../images/Order.png');" 
+      href="../buy/ordersti.html"><IMG id=IMG1 alt="Order Now!" 
+      src="../images/Order.png" border=0 name=ordernow></A>&nbsp;&nbsp;&nbsp; </P>
+      <P><A 
+      onmouseover="changeButton('features', '../images/featuresover.png');" 
+      onmouseout="changeButton('features', '../images/features.png');" 
+
+      href="stiFeatutes.html"><IMG id=IMG1 alt=Features 
+      src="../images/features.png" border=0 name=features ></A>&nbsp;&nbsp;&nbsp; 
+       </P>
+      <P><A 
+       onmouseover="changeButton('screenshot', '../images/screenshotover.png');" 
+      onmouseout="changeButton('screenshot', '../images/screenshots.png');" 
+
+      href="../shrsts/sti.html"><IMG id=IMG1 alt=Screenshots 
+      src="../images/screenshots.png" border=0 name=screenshot ></A>&nbsp;&nbsp;&nbsp; </P>
+      <P><A 
+      onmouseover="changeButton('faqman', '../images/faqover.png');" 
+      onmouseout="changeButton('faqman', '../images/faq.png');" 
+      href="../faq/sti.html"><IMG id=IMG1 alt=FAQ src="../images/faq.png"  border=0 name=faqman></A>&nbsp;&nbsp;&nbsp;</P></TD></TR>
+  <TR>
+    <TD vAlign=top align=left colSpan=7></TD></TR>
+  <TR>
+    <TD vAlign=top align=left colSpan=12></TD></TR>
+  <TR>
+    <TD vAlign=top align=left colSpan=4 rowSpan=6></TD>
+    <TD vAlign=top align=left colSpan=12 rowSpan=6></TD></TR>
+  <TR></TR>
+  <TR></TR>
+  <TR></TR>
+  <TR></TR>
+  <TR></TR>
+  <TR>
+    <TD colSpan=21><IMG height=18 alt="" src="../images/down.gif" 
+width=775></TD>
+    <TD><IMG height=18 alt="" src="../images/spacer.gif" width=1></TD></TR>
+  <TR>
+    <TD vAlign=top align=middle colSpan=21>&nbsp;&nbsp;&nbsp;&nbsp; <A 
+      href="../index.html">Home</A> | <A 
+      href="../products/index.html">Products</A> | <A 
+      href="../buy/index.html">Order</A> | <A 
+      href="../downloads/index.html">Download</A> | <A 
+      href="../faq/index.html">FAQ</A> | <A 
+      href="../contact/index.html">Contact Us</A> | <A 
+      href="../about/index.html">About Us</A><BR>
+    Copyright © 2005 - 2012, 
+      CprinGold Software, all rights reserved. </TD>
+    <TD><IMG height=49 alt="" src="../images/spacer.gif" width=1></TD></TR>
+  <TR>
+    <TD><IMG height=1 alt="" src="../images/spacer.gif" width=75></TD>
+    <TD><IMG height=1 alt="" src="../images/spacer.gif" width=22></TD>
+    <TD><IMG height=1 alt="" src="../images/spacer.gif" width=102></TD>
+    <TD><IMG height=1 alt="" src="../images/spacer.gif" width=16></TD>
+    <TD><IMG height=1 alt="" src="../images/spacer.gif" width=41></TD>
+    <TD><IMG height=1 alt="" src="../images/spacer.gif" width=31></TD>
+    <TD><IMG height=1 alt="" src="../images/spacer.gif" width=34></TD>
+    <TD><IMG height=1 alt="" src="../images/spacer.gif" width=1></TD>
+    <TD><IMG height=1 alt="" src="../images/spacer.gif" width=41></TD>
+    <TD><IMG height=1 alt="" src="../images/spacer.gif" width=81></TD>
+    <TD><IMG height=1 alt="" src="../images/spacer.gif" width=86></TD>
+    <TD><IMG height=1 alt="" src="../images/spacer.gif" width=28></TD>
+    <TD><IMG height=1 alt="" src="../images/spacer.gif" width=8></TD>
+    <TD><IMG height=1 alt="" src="../images/spacer.gif" width=18></TD>
+    <TD><IMG height=1 alt="" src="../images/spacer.gif" width=11></TD>
+    <TD><IMG height=1 alt="" src="../images/spacer.gif" width=26></TD>
+    <TD><IMG height=1 alt="" src="../images/spacer.gif" width=67></TD>
+    <TD><IMG height=1 alt="" src="../images/spacer.gif" width=2></TD>
+    <TD><IMG height=1 alt="" src="../images/spacer.gif" width=41></TD>
+    <TD><IMG height=1 alt="" src="../images/spacer.gif" width=10></TD>
+    <TD><IMG height=1 alt="" src="../images/spacer.gif" width=34></TD>
+    <TD></TD></TR></TABLE><!-- End ImageReady Slices --><!-- Start of StatCounter Code -->
+<script type="text/javascript" language="javascript">
+var sc_project=1940286; 
+var sc_invisible=1; 
+var sc_partition=17; 
+var sc_security="4e546767"; 
+</script>
+
+<script type="text/javascript" language="javascript" src="http://www.statcounter.com/counter/counter.js"></script><noscript><a href="http://www.statcounter.com/" target="_blank"><img  src="http://c18.statcounter.com/counter.php?sc_project=1940286&amp;java=0&amp;security=4e546767&amp;invisible=1" alt="website stat" border="0"></a> </noscript><!-- End of StatCounter Code -->
+<CENTER></CENTER></BODY></HTML>

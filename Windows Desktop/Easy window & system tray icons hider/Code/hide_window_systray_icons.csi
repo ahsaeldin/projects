@@ -1,0 +1,16 @@
+[History]
+B0=hide_window_systray_icons/frmmain/TrayIcon_RightMouseDown
+B1=hide_window_systray_icons/frmmain/mnuExit_Click
+B2=hide_window_systray_icons/frmmain/Form_QueryUnload
+B3=hide_window_systray_icons/frmmain/Form_Resize
+B4=hide_window_systray_icons/frmmain/ShowMe
+B5=hide_window_systray_icons/frmmain/TrayIcon_LeftMouseDown
+B6=hide_window_systray_icons/frmmain/tmrUpdateListView_Timer
+B7=hide_window_systray_icons/frmmain/Form_Load
+B8=hide_window_systray_icons/frmmain/HideMe
+B9=hide_window_systray_icons/frmmain/Form_Unload
+B10=hide_window_systray_icons/CWindows/IsTask
+B11=hide_window_systray_icons/ModGlobals2/GetSpecialFolderPath
+B12=hide_window_systray_icons/ModGlobals2/DeleteShortcut
+B13=hide_window_systray_icons/ModGlobals2/CreateShortcut
+B14=hide_window_systray_icons/frmOptions/cmdOk_Click

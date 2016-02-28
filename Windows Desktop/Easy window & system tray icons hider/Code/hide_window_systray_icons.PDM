@@ -1,0 +1,694 @@
+[Root]
+Most Recent Package=Standard Setup Package 4
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\Users\cprinahmed\Desktop\koko
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\Windows\System32\jbet33.ocx=
+C:\Windows\System32\acomte445.ocx=
+F:\win32\Win32 Type Library best one\Win32 Type Library\JHWin32.tlb=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\Users\cprinahmed\Desktop\ahmed-saad.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+F:\win32\Win32 Type Library best one\Win32 Type Library\JHWin32.tlb=Yes
+C:\Windows\System32\acomte445.ocx=Yes
+C:\Windows\System32\jbet33.ocx=Yes
+C:\Windows\System32\Mscomctl.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\Users\cprinahmed\Desktop\ahmed-saad.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+F:\win32\Win32 Type Library best one\Win32 Type Library\JHWin32.tlb=$(WinSysPath)
+C:\Windows\System32\acomte445.ocx=$(WinSysPath)
+C:\Windows\System32\jbet33.ocx=$(WinSysPath)
+C:\Windows\System32\Mscomctl.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\Users\cprinahmed\Desktop\ahmed-saad.exe=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Easy window & system tray icons hider 
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Easy window & system tray icons hider 
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Easy window & system tray icons hider ]
+Icon1=ahmed-saad.exe
+Title1=Easy window & system tray icons hider 
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=c:\Users\cprinahmed\Desktop\koko
+ProjectFolder=J:\Perfection Tools Software\Easy window & system tray icons hider 1.20\Code
+ServerSideCab=
+File1=c:\Users\cprinahmed\Desktop\koko\setup.exe
+File2=c:\Users\cprinahmed\Desktop\koko\Setup.Lst
+File3=c:\Users\cprinahmed\Desktop\koko\ahmed-saad.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Dep File 2|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\Users\cprinahmed\Desktop\y
+
+[Package|Dep File 2|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Dep File 2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File 2|Files Found]
+
+[Package|Dep File 2|Files Released]
+
+[Package|Dep File 2|Missing Dependency Information]
+C:\Windows\System32\jbet33.ocx=
+C:\Windows\System32\acomte445.ocx=
+F:\win32\Win32 Type Library best one\Win32 Type Library\JHWin32.tlb=
+
+[Package|Dep File 2|Out-of-Date Dependency Information]
+
+[Package|Dep File 2|Files Added]
+
+[Package|Dep File 2|Files Removed]
+
+[Package|Dep File 2|Files In Project]
+C:\Users\cprinahmed\Desktop\ahmed-saad.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+F:\win32\Win32 Type Library best one\Win32 Type Library\JHWin32.tlb=Yes
+C:\Windows\System32\acomte445.ocx=Yes
+C:\Windows\System32\jbet33.ocx=Yes
+C:\Windows\System32\Mscomctl.ocx=Yes
+
+[Package|Dep File 2|Configure Registry Files]
+Applicable=
+
+[Package|Dep File 2|Configure Remote Servers]
+Applicable=
+
+[Package|Dep File 2|Install Locations]
+C:\Users\cprinahmed\Desktop\ahmed-saad.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+F:\win32\Win32 Type Library best one\Win32 Type Library\JHWin32.tlb=$(WinSysPath)
+C:\Windows\System32\acomte445.ocx=$(WinSysPath)
+C:\Windows\System32\jbet33.ocx=$(WinSysPath)
+C:\Windows\System32\Mscomctl.ocx=$(WinSysPath)
+
+[Package|Dep File 2|Configure Shared Files]
+Applicable=
+
+[Package|Dep File 2|DepFile]
+DepCabFile=ahmed-saad.CAB
+DepCabRun=ahmed-saad.INF
+
+[Package|Dep File 2|Package]
+PackageFolder=C:\Users\cprinahmed\Desktop\y
+ProjectFolder=J:\Perfection Tools Software\Easy window & system tray icons hider 1.20\Code
+ServerSideCab=
+File1=C:\Users\cprinahmed\Desktop\y\ahmed-saad.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\sssssssssssssssstttttttttt
+
+[Package|Standard Setup Package 2|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 2|Files Found]
+
+[Package|Standard Setup Package 2|Files Released]
+JHWin32.tlb=
+
+[Package|Standard Setup Package 2|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\jbet33.ocx=
+C:\WINDOWS\SYSTEM\acomte445.ocx=
+
+[Package|Standard Setup Package 2|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 2|Files Added]
+
+[Package|Standard Setup Package 2|Files Removed]
+
+[Package|Standard Setup Package 2|Files In Project]
+C:\WINDOWS\Desktop\Easy window & system tray icons hider.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\acomte445.ocx=Yes
+C:\WINDOWS\SYSTEM\jbet33.ocx=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 2|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 2|Install Locations]
+C:\WINDOWS\Desktop\Easy window & system tray icons hider.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\acomte445.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\jbet33.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 2|Configure Shared Files]
+Applicable=Yes
+C:\WINDOWS\Desktop\Easy window & system tray icons hider.exe=No
+
+[Package|Standard Setup Package 2|Distribution]
+Type=single
+Size=
+Title=Easy window & system tray icons hider 
+
+[Package|Standard Setup Package 2|IconGroups]
+Group0=Easy window & system tray icons hider 
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 2|Easy window & system tray icons hider ]
+Icon1="Easy window & system tray icons hider.exe"
+Title1=Easy window & system tray icons hider 
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 2|Package]
+PackageFolder=C:\sssssssssssssssstttttttttt
+ProjectFolder=C:\WINDOWS\Desktop\New Folder\Easy window & system tray icons hider 1.20\Code
+ServerSideCab=
+File1=C:\sssssssssssssssstttttttttt\setup.exe
+File2=C:\sssssssssssssssstttttttttt\Setup.Lst
+File3=C:\sssssssssssssssstttttttttt\Easy window & system tray icons hider.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Dep File 3|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\WINDOWS\Desktop
+
+[Package|Dep File 3|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Dep File 3|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File 3|Files Found]
+
+[Package|Dep File 3|Files Released]
+JHWin32.tlb=
+
+[Package|Dep File 3|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\jbet33.ocx=
+C:\WINDOWS\SYSTEM\acomte445.ocx=
+
+[Package|Dep File 3|Out-of-Date Dependency Information]
+
+[Package|Dep File 3|Files Added]
+
+[Package|Dep File 3|Files Removed]
+
+[Package|Dep File 3|Files In Project]
+C:\WINDOWS\Desktop\Easy window & system tray icons hider.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\acomte445.ocx=Yes
+C:\WINDOWS\SYSTEM\jbet33.ocx=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+
+[Package|Dep File 3|Configure Registry Files]
+Applicable=
+
+[Package|Dep File 3|Configure Remote Servers]
+Applicable=
+
+[Package|Dep File 3|Install Locations]
+C:\WINDOWS\Desktop\Easy window & system tray icons hider.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\acomte445.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\jbet33.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+
+[Package|Dep File 3|Configure Shared Files]
+Applicable=
+
+[Package|Dep File 3|DepFile]
+DepCabFile=Easy window & system tray icons hider.CAB
+DepCabRun=Easy window & system tray icons hider.INF
+
+[Package|Dep File 3|Package]
+PackageFolder=C:\WINDOWS\Desktop
+ProjectFolder=C:\WINDOWS\Desktop\New Folder\Easy window & system tray icons hider 1.20\Code
+ServerSideCab=
+File1=C:\WINDOWS\Desktop\Easy window & system tray icons hider.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 3|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\ttttt
+
+[Package|Standard Setup Package 3|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 3|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 3|Files Found]
+
+[Package|Standard Setup Package 3|Files Released]
+
+[Package|Standard Setup Package 3|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\jbet33.ocx=
+C:\WINDOWS\SYSTEM\acomte445.ocx=
+G:\Win-32\Win32 Type Library best one\Win32 Type Library\JHWin32.tlb=
+
+[Package|Standard Setup Package 3|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 3|Files Added]
+
+[Package|Standard Setup Package 3|Files Removed]
+
+[Package|Standard Setup Package 3|Files In Project]
+C:\WINDOWS\Desktop\Easy window & system tray icons hider.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+G:\Win-32\Win32 Type Library best one\Win32 Type Library\JHWin32.tlb=Yes
+C:\WINDOWS\SYSTEM\acomte445.ocx=Yes
+C:\WINDOWS\SYSTEM\jbet33.ocx=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 3|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 3|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 3|Install Locations]
+C:\WINDOWS\Desktop\Easy window & system tray icons hider.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+G:\Win-32\Win32 Type Library best one\Win32 Type Library\JHWin32.tlb=$(WinSysPath)
+C:\WINDOWS\SYSTEM\acomte445.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\jbet33.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 3|Configure Shared Files]
+Applicable=Yes
+C:\WINDOWS\Desktop\Easy window & system tray icons hider.exe=No
+
+[Package|Standard Setup Package 3|Distribution]
+Type=single
+Size=
+Title=Easy window & system tray icons hider 
+
+[Package|Standard Setup Package 3|IconGroups]
+Group0=Easy window & system tray icons hider 
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 3|Easy window & system tray icons hider ]
+Icon1="Easy window & system tray icons hider.exe"
+Title1=Easy window & system tray icons hider 
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 3|Package]
+PackageFolder=C:\ttttt
+ProjectFolder=C:\WINDOWS\Desktop\New Folder\Easy window & system tray icons hider 1.20\Code
+ServerSideCab=
+File1=C:\ttttt\setup.exe
+File2=C:\ttttt\Setup.Lst
+File3=C:\ttttt\Easy window & system tray icons hider.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Dep File 1|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\rrr
+
+[Package|Dep File 1|Configure DAO ISAMs]
+Applicable=No
+Jet 2.x=No
+
+[Package|Dep File 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File 1|Files Found]
+
+[Package|Dep File 1|Files Released]
+
+[Package|Dep File 1|Missing Dependency Information]
+C:\Windows\System32\jbet33.ocx=
+C:\Windows\System32\acomte445.ocx=
+F:\win32\Win32 Type Library best one\Win32 Type Library\JHWin32.tlb=
+C:\WINDOWS\SYSTEM\jbet33.ocx=
+C:\WINDOWS\SYSTEM\acomte445.ocx=
+G:\Win-32\Win32 Type Library best one\Win32 Type Library\JHWin32.tlb=
+
+[Package|Dep File 1|Out-of-Date Dependency Information]
+
+[Package|Dep File 1|Files Added]
+
+[Package|Dep File 1|Files Removed]
+
+[Package|Dep File 1|Files In Project]
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\Desktop\Easy window & system tray icons hider.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+G:\Win-32\Win32 Type Library best one\Win32 Type Library\JHWin32.tlb=Yes
+C:\WINDOWS\SYSTEM\acomte445.ocx=Yes
+C:\WINDOWS\SYSTEM\jbet33.ocx=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+
+[Package|Dep File 1|Configure Registry Files]
+Applicable=
+
+[Package|Dep File 1|Configure Remote Servers]
+Applicable=
+
+[Package|Dep File 1|Install Locations]
+C:\Users\cprinahmed\Desktop\ahmed-saad.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+F:\win32\Win32 Type Library best one\Win32 Type Library\JHWin32.tlb=$(WinSysPath)
+C:\Windows\System32\acomte445.ocx=$(WinSysPath)
+C:\Windows\System32\jbet33.ocx=$(WinSysPath)
+C:\Windows\System32\Mscomctl.ocx=$(WinSysPath)
+C:\Program Files\Common Files\microsoft shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\Windows\System32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\vbajet32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\expsrv.dll=$(WinSysPathSysFile)
+C:\Windows\System32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\Desktop\Easy window & system tray icons hider.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+G:\Win-32\Win32 Type Library best one\Win32 Type Library\JHWin32.tlb=$(WinSysPath)
+C:\WINDOWS\SYSTEM\acomte445.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\jbet33.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+
+[Package|Dep File 1|Configure Shared Files]
+Applicable=
+
+[Package|Dep File 1|DepFile]
+DepCabFile=ahmed-saad.CAB
+DepCabRun=ahmed-saad.INF
+
+[Package|Dep File 1|Package]
+PackageFolder=C:\rrr
+ProjectFolder=C:\WINDOWS\Desktop\New Folder\Easy window & system tray icons hider 1.20\Code
+ServerSideCab=
+File1=C:\rrr\Easy window & system tray icons hider.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Dep File 4|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\Documents and Settings\Moopy.ELBAAAH-4D7A848\Desktop
+
+[Package|Dep File 4|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Dep File 4|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File 4|Files Found]
+
+[Package|Dep File 4|Files Released]
+
+[Package|Dep File 4|Missing Dependency Information]
+C:\WINDOWS\system32\acomte445.ocx=
+C:\WINDOWS\system32\JHWin32.tlb=
+
+[Package|Dep File 4|Out-of-Date Dependency Information]
+
+[Package|Dep File 4|Files Added]
+
+[Package|Dep File 4|Files Removed]
+
+[Package|Dep File 4|Files In Project]
+C:\Documents and Settings\Moopy.ELBAAAH-4D7A848\Desktop\Easy window & system tray icons hxxider.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\JHWin32.tlb=Yes
+C:\WINDOWS\system32\acomte445.ocx=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+
+[Package|Dep File 4|Configure Registry Files]
+Applicable=
+
+[Package|Dep File 4|Configure Remote Servers]
+Applicable=
+
+[Package|Dep File 4|Install Locations]
+C:\Documents and Settings\Moopy.ELBAAAH-4D7A848\Desktop\Easy window & system tray icons hxxider.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\JHWin32.tlb=$(WinSysPath)
+C:\WINDOWS\system32\acomte445.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+
+[Package|Dep File 4|Configure Shared Files]
+Applicable=
+
+[Package|Dep File 4|DepFile]
+DepCabFile=Easy window & system tray icons hxxider.CAB
+DepCabRun=Easy window & system tray icons hxxider.INF
+
+[Package|Dep File 4|Package]
+PackageFolder=C:\Documents and Settings\Moopy.ELBAAAH-4D7A848\Desktop
+ProjectFolder=I:\PT\Perfection Tools Software\Easy window & system tray icons hider 1.20\Code
+ServerSideCab=
+File1=C:\Documents and Settings\Moopy.ELBAAAH-4D7A848\Desktop\Easy window & system tray icons hxxider.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 4|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\Documents and Settings\Moopy.ELBAAAH-4D7A848\Desktop\oiii
+
+[Package|Standard Setup Package 4|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 4|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 4|Files Found]
+
+[Package|Standard Setup Package 4|Files Released]
+
+[Package|Standard Setup Package 4|Missing Dependency Information]
+
+[Package|Standard Setup Package 4|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 4|Files Added]
+
+[Package|Standard Setup Package 4|Files Removed]
+
+[Package|Standard Setup Package 4|Files In Project]
+C:\Documents and Settings\Moopy.ELBAAAH-4D7A848\Desktop\Easy window & system tray icons hxxider.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\JHWin32.tlb=Yes
+C:\WINDOWS\system32\acomte445.ocx=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 4|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 4|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 4|Install Locations]
+C:\Documents and Settings\Moopy.ELBAAAH-4D7A848\Desktop\Easy window & system tray icons hxxider.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\JHWin32.tlb=$(WinSysPath)
+C:\WINDOWS\system32\acomte445.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files Ex\Microsoft Visual Studio 6.0\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 4|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\Moopy.ELBAAAH-4D7A848\Desktop\Easy window & system tray icons hxxider.exe=No
+
+[Package|Standard Setup Package 4|Distribution]
+Type=single
+Size=
+Title=Easy Window & System Tray Icons Hider
+
+[Package|Standard Setup Package 4|IconGroups]
+Group0=Easy Window & System Tray Icons Hider
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 4|Easy Window & System Tray Icons Hider]
+Icon1="Easy window & system tray icons hxxider.exe"
+Title1=Easy Window & System Tray Icons Hider
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 4|Package]
+PackageFolder=c:\Documents and Settings\Moopy.ELBAAAH-4D7A848\Desktop\oiii
+ProjectFolder=J:\PT\Perfection Tools Software\Easy window & system tray icons hider 1.20\Code
+ServerSideCab=
+File1=c:\Documents and Settings\Moopy.ELBAAAH-4D7A848\Desktop\oiii\setup.exe
+File2=c:\Documents and Settings\Moopy.ELBAAAH-4D7A848\Desktop\oiii\Setup.Lst
+File3=c:\Documents and Settings\Moopy.ELBAAAH-4D7A848\Desktop\oiii\Easy window & system tray icons hxxider.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
