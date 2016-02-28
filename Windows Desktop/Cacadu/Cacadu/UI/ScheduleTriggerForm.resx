@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="ScheduleTriggerBarManager.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>90</value>
+  </metadata>
+  <metadata name="ScheduleTriggerFormToolTipController.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>223, 17</value>
+  </metadata>
+  <data name="HiddenNotesLabelControl.Text" xml:space="preserve">
+    <value>*.Be careful when setting fire times between mid-night and 1:00 AM - "daylight savings" can cause a skip or a repeat depending on whether the time moves back or jumps forward.
+
+*.Support for specifying both a day-of-week and a day-of-month value is not complete (you must currently use the '?' character in one of these fields).
+
+*.Note that if you specify "#5" and there is not 5 of the given day-of-week in the month, then no firing will occur that month.
+
+*.Add a hints about selecting a day 31 of a month 30 or like faberuery</value>
+  </data>
+  <data name="ToolTipItem6.Text" xml:space="preserve">
+    <value>To choose a specified ordinal day of the month. Like the first Sunday or the fourth Wednesday. *.Note that if you specify "5th" and there is not 5 of the given day-of-week in the month, then no firing will occur that month.</value>
+  </data>
+  <data name="ToolTipItem18.Text" xml:space="preserve">
+    <value>Using simple schedule you can set your task to be run only one time at the specified start time. Or run every specified unit of time (seconds, minutes, hours) and stop after a predefined times of running.</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="AdvancedScheduleBackstageViewTabItem.Glyph" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="ToolTipItem21.Text" xml:space="preserve">
+    <value>Setting holidays are useful for excluding blocks of time from the trigger's firing schedule. For instance, you may create a trigger that runs a task every weekday at 9:30 am, but then excludes all the business's holidays.</value>
+  </data>
+  <metadata name="ScheduleTriggerFormDxValidationProvider.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>491, 17</value>
+  </metadata>
+</root>

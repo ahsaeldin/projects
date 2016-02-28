@@ -1,0 +1,700 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4ED5ED07-937D-4E6F-ACF2-49A6D49B7B26}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Cacadu.My.MyApplication</StartupObject>
+    <RootNamespace>Cacadu</RootNamespace>
+    <AssemblyName>Cacadu</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Background</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>true</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <UpdateUrl>http://www.cacadu.kemaval.com/download/</UpdateUrl>
+    <SupportUrl>http://www.cacadu.kemaval.com/support.php</SupportUrl>
+    <TargetCulture>en-US</TargetCulture>
+    <ProductName>Cacadu</ProductName>
+    <PublisherName>KemaVal Software</PublisherName>
+    <SuiteName>Cacadu Task Scheduler</SuiteName>
+    <MinimumRequiredVersion>1.0.0.0</MinimumRequiredVersion>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>download.html</WebPage>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.11615.1</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Cacadu.xml</DocumentationFile>
+    <NoWarn>
+    </NoWarn>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+    <DefineConstants>DatabaseProvider="Devart.Data.Sqlite"</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>None</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Cacadu.xml</DocumentationFile>
+    <NoWarn>
+    </NoWarn>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+    <DebugSymbols>false</DebugSymbols>
+    <DefineConstants>DatabaseProvider="Devart.Data.Sqlite"</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>On</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>E1F469C50B5D75321F43B2EB8674D2B73E91E606</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Final Release|x86'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Final Release\</OutputPath>
+    <DefineConstants>DatabaseProvider="Devart.Data.Sqlite"</DefineConstants>
+    <DocumentationFile>Cacadu.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <DebugType>None</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+    <CodeAnalysisLogFile>bin\Release\Cacadu.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\Cacadu Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug With Bottleneck|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug With Bottleneck\</OutputPath>
+    <DefineConstants>DatabaseProvider="Devart.Data.Sqlite"</DefineConstants>
+    <DocumentationFile>Cacadu.xml</DocumentationFile>
+    <DebugType>Full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'SparkleDiagnosticWindow|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\SparkleDiagnosticWindow\</OutputPath>
+    <DefineConstants>DatabaseProvider="Devart.Data.Sqlite"</DefineConstants>
+    <DocumentationFile>Cacadu.xml</DocumentationFile>
+    <DebugType>Full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug For UnitTesting|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug For UnitTesting\</OutputPath>
+    <DefineConstants>DatabaseProvider="Devart.Data.Sqlite"</DefineConstants>
+    <DocumentationFile>Cacadu.xml</DocumentationFile>
+    <DebugType>Full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AppLimit.NetSparkle.Net40, Version=1.0.60.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\NetSparkle-1.0.83\AppLimit.NetSparkle.Net40.dll</HintPath>
+    </Reference>
+    <Reference Include="C5">
+      <HintPath>..\packages\Quartz.2.0.1\lib\net40\C5.dll</HintPath>
+    </Reference>
+    <Reference Include="Common.Logging, Version=1.2.0.0, Culture=neutral, PublicKeyToken=af08829b84f0328e">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Common.Logging.2.0.0\lib\2.0\Common.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.BonusSkins.v11.2, Version=11.2.6.0, Culture=neutral, PublicKeyToken=95fc6c5621878f0a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 2011.2\Components\Bin\Framework\DevExpress.BonusSkins.v11.2.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Data.v11.2, Version=11.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 2011.2\Components\Bin\Framework\DevExpress.Data.v11.2.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v11.2, Version=11.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 2011.2\Components\Bin\Framework\DevExpress.Utils.v11.2.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v11.2, Version=11.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 2011.2\Components\Bin\Framework\DevExpress.XtraBars.v11.2.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v11.2, Version=11.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 2011.2\Components\Bin\Framework\DevExpress.XtraEditors.v11.2.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Interop.IWshRuntimeLibrary">
+      <HintPath>..\packages\IWshRuntimeLibrary\Interop.IWshRuntimeLibrary.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Quartz, Version=1.0.3.3, Culture=neutral, PublicKeyToken=f6b8c98a402cc8a4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Quartz.2.0.1\lib\net40\Quartz.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\..\..\Balora\Code\Trunk\Balora\Individual Classes\Encryption.vb">
+      <Link>Miscellaneous Modules\Encryption.vb</Link>
+    </Compile>
+    <Compile Include="..\Helpers\Helpers\CacadoreToTectonic.vb">
+      <Link>Connectors\CacadoreToTectonic.vb</Link>
+    </Compile>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Connectors\Actions Connectors\CommonActionConnector.vb" />
+    <Compile Include="Connectors\Actions Connectors\Facebook\LastFacebookNotificationActionConnector.vb" />
+    <Compile Include="Connectors\Actions Connectors\MessageBoxes\ShowMessageBoxFormConnector.vb" />
+    <Compile Include="Connectors\Actions Connectors\MessageBoxes\ShowAlertFormConnector.vb" />
+    <Compile Include="Connectors\Actions Connectors\System\ShutdownFormConnector.vb" />
+    <Compile Include="Connectors\Actions Connectors\System\ExitProcessFormConnector.vb" />
+    <Compile Include="Connectors\Actions Connectors\System\StartApplicationFormConnector.vb" />
+    <Compile Include="Connectors\AddNewGroupConnector.vb" />
+    <Compile Include="Connectors\AddNewTaskConnector.vb" />
+    <Compile Include="Connectors\ErrorReportingUIConnector.vb" />
+    <Compile Include="Connectors\MainFormConnector.vb" />
+    <Compile Include="Connectors\OptionsFormConnector.vb" />
+    <Compile Include="Connectors\VariablesAndConstantsConnector.vb" />
+    <Compile Include="Miscellaneous Modules\AlertControllor.vb" />
+    <Compile Include="Miscellaneous Modules\CacaduGloby.vb" />
+    <Compile Include="Connectors\ScheduleTriggerConnector.vb" />
+    <Compile Include="Connectors\TriggersConnector.vb" />
+    <Compile Include="Miscellaneous Modules\IntelliProtector.vb" />
+    <Compile Include="Miscellaneous Modules\IntelliprotectorHelper.vb" />
+    <Compile Include="Miscellaneous Modules\Skins.vb" />
+    <Compile Include="Miscellaneous Modules\TriggersStarter.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Connectors\TaskFlowPresenter.vb" />
+    <Compile Include="UI\AboutBox.Designer.vb">
+      <DependentUpon>AboutBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\AboutBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Actions Forms\CommonActionForm.designer.vb">
+      <DependentUpon>CommonActionForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Actions Forms\CommonActionForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Actions Forms\Facebook Actions\LastFacebookNotificationActionForm.designer.vb">
+      <DependentUpon>LastFacebookNotificationActionForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Actions Forms\Facebook Actions\LastFacebookNotificationActionForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Actions Forms\MessageBoxes\ShowMessageBoxForm.designer.vb">
+      <DependentUpon>ShowMessageBoxForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Actions Forms\MessageBoxes\ShowMessageBoxForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Actions Forms\MessageBoxes\ShowAlertForm.designer.vb">
+      <DependentUpon>ShowAlertForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Actions Forms\MessageBoxes\ShowAlertForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Actions Forms\System\ShutdownPCForm.designer.vb">
+      <DependentUpon>ShutdownPCForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Actions Forms\System\ShutdownPCForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Actions Forms\System\ExitProcessForm.designer.vb">
+      <DependentUpon>ExitProcessForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Actions Forms\System\ExitProcessForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Actions Forms\System\StartApplicationForm.designer.vb">
+      <DependentUpon>StartApplicationForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Actions Forms\System\StartApplicationForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\AddNewGroupForm.Designer.vb">
+      <DependentUpon>AddNewGroupForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\AddNewGroupForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\AddNewTaskForm.Designer.vb">
+      <DependentUpon>AddNewTaskForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\AddNewTaskForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\BottleneckChecker.Designer.vb">
+      <DependentUpon>BottleneckChecker.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\BottleneckChecker.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ScheduleTriggerForm.Designer.vb">
+      <DependentUpon>ScheduleTriggerForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ScheduleTriggerForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\SplashScreen.Designer.vb">
+      <DependentUpon>SplashScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\SplashScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Miscellaneous Modules\SuccessiveChecks.vb" />
+    <Compile Include="UI\MainForm.Designer.vb">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\MainForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\VariablesAndConstantsForm.Designer.vb">
+      <DependentUpon>VariablesAndConstantsForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\VariablesAndConstantsForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User Controls\TaskFlowControl.Designer.vb">
+      <DependentUpon>TaskFlowControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User Controls\TaskFlowControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\TriggersForm.Designer.vb">
+      <DependentUpon>TriggersForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\TriggersForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\WaitForm.Designer.vb">
+      <DependentUpon>WaitForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\WaitForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\OptionsForm.Designer.vb">
+      <DependentUpon>OptionsForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\OptionsForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\AboutBox.resx">
+      <DependentUpon>AboutBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Actions Forms\CommonActionForm.resx">
+      <DependentUpon>CommonActionForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Actions Forms\Facebook Actions\LastFacebookNotificationActionForm.resx">
+      <DependentUpon>LastFacebookNotificationActionForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Actions Forms\MessageBoxes\ShowMessageBoxForm.resx">
+      <DependentUpon>ShowMessageBoxForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Actions Forms\MessageBoxes\ShowAlertForm.resx">
+      <DependentUpon>ShowAlertForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Actions Forms\System\ShutdownPCForm.resx">
+      <DependentUpon>ShutdownPCForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Actions Forms\System\ExitProcessForm.resx">
+      <DependentUpon>ExitProcessForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Actions Forms\System\StartApplicationForm.resx">
+      <DependentUpon>StartApplicationForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\AddNewGroupForm.resx">
+      <DependentUpon>AddNewGroupForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\AddNewTaskForm.resx">
+      <DependentUpon>AddNewTaskForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\BottleneckChecker.resx">
+      <DependentUpon>BottleneckChecker.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ScheduleTriggerForm.resx">
+      <DependentUpon>ScheduleTriggerForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\SplashScreen.resx">
+      <DependentUpon>SplashScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\MainForm.resx">
+      <DependentUpon>MainForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\VariablesAndConstantsForm.resx">
+      <DependentUpon>VariablesAndConstantsForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Controls\TaskFlowControl.resx">
+      <DependentUpon>TaskFlowControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\TriggersForm.resx">
+      <DependentUpon>TriggersForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\WaitForm.resx">
+      <DependentUpon>WaitForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\OptionsForm.resx">
+      <DependentUpon>OptionsForm.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <EmbeddedResource Include="My Project\app.manifest">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="DevExpress.Data.v10.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.Utils.v10.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraBars.v10.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraEditors.v10.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\my_tasks.png" />
+    <None Include="Resources\reaya2013.jpg" />
+    <None Include="Resources\facebook_actions.png" />
+    <None Include="Resources\LastFacebookNotificationAction.png" />
+    <None Include="Resources\key.png" />
+    <None Include="Resources\video_tours.png" />
+    <None Include="Resources\system_actions.png" />
+    <None Include="Resources\global_constant.png" />
+    <None Include="Resources\global_variables.png" />
+    <None Include="Resources\note_32.png" />
+    <None Include="Resources\stop_task_16.png" />
+    <None Include="Resources\triggers_16.png" />
+    <None Include="Resources\history.png" />
+    <None Include="Resources\invert.png" />
+    <None Include="Resources\select_all_actions.png" />
+    <None Include="Resources\import_16.png" />
+    <None Include="Resources\export_16.png" />
+    <None Include="Resources\rename_group_16.png" />
+    <None Include="Resources\rename_task_16.png" />
+    <None Include="Resources\Play-icon_16.png" />
+    <None Include="Resources\Tasks-List_16.png" />
+    <None Include="Resources\task_properties_16.png" />
+    <None Include="Resources\search_tasks.png" />
+    <None Include="Resources\task_properties.png" />
+    <None Include="Resources\switch_off.png" />
+    <None Include="Resources\switch_on.png" />
+    <None Include="Resources\task_variables.png" />
+    <None Include="Resources\task_errors.png" />
+    <None Include="Resources\rename_task.png" />
+    <None Include="Resources\rename_group.png" />
+    <None Include="Resources\import.png" />
+    <None Include="Resources\save_task_32.png" />
+    <None Include="Resources\list_16.png" />
+    <None Include="Resources\save_task.png" />
+    <None Include="Resources\task_flow.png" />
+    <None Include="Resources\stop_all.png" />
+    <None Include="Resources\stop_task.png" />
+    <None Include="Resources\tasks_tree.png" />
+    <None Include="Resources\triggers.png" />
+    <None Include="Resources\settings_16.png" />
+    <None Include="Resources\help_16.png" />
+    <None Include="Resources\Help-icon.png" />
+    <None Include="Resources\Help-Support-icon.png" />
+    <None Include="Resources\settings.png" />
+    <None Include="Resources\help-contents.png" />
+    <None Include="Resources\faqs.png" />
+    <None Include="Resources\Stop-Normal-Red-icon.png" />
+    <None Include="Resources\Play-icon.png" />
+    <None Include="Resources\Pause-icon.png" />
+    <None Include="Resources\Tasks-List.png" />
+    <None Include="Resources\holiday.png" />
+    <None Include="Resources\miss-fire.png" />
+    <None Include="Resources\simple-schedule.png" />
+    <None Include="Resources\tools_wizard.png" />
+    <None Include="packages.config" />
+    <None Include="Resources\refresh_16.png" />
+    <None Include="Resources\systary-icon.ico" />
+    <None Include="Resources\CacaIco.ico" />
+    <None Include="Resources\Cacadu-Image.png" />
+    <None Include="Resources\Cacadu-Image-54x54.png" />
+    <None Include="Resources\Cacadu Icon.ico" />
+    <None Include="Resources\Cacadu-Image-46x46.png" />
+    <None Include="Resources\application_default_icon.png" />
+    <None Include="Resources\cacadu_online.png" />
+    <None Include="Resources\check_for_updates.png" />
+    <None Include="Resources\about.png" />
+    <None Include="Resources\buy_now.png" />
+    <None Include="Resources\add_task.png" />
+    <None Include="Resources\add_group.png" />
+    <None Include="Resources\exit_process.png" />
+    <None Include="Resources\Actions Icons Backup\ExitProcess.png" />
+    <None Include="Resources\Actions Icons Backup\ShutdownPC_48.png" />
+    <None Include="Resources\Actions Icons Backup\ShutdownPC_32.png" />
+    <None Include="Resources\Actions Icons Backup\ExitProcess_32.png" />
+    <None Include="Resources\exit_cacadu.png" />
+    <None Include="Resources\exit_cacadu_16.png" />
+    <None Include="Resources\export.png" />
+    <None Include="Resources\delete_group.png" />
+    <None Include="Resources\delete_task.png" />
+    <None Include="Resources\disable_task.png" />
+    <None Include="Resources\clear.png" />
+    <None Include="Resources\add_task_16.png" />
+    <None Include="Resources\delete_task_16.png" />
+    <None Include="Resources\add_group_16.png" />
+    <None Include="Resources\delete_group_16.png" />
+    <None Include="Resources\Actions-go-down-icon.png" />
+    <None Include="Resources\Actions-go-up-icon.png" />
+    <None Include="Resources\edit_action.png" />
+    <None Include="Resources\disable.png" />
+    <None Include="Resources\duplicate_action.png" />
+    <None Include="Resources\clear_selection.gif" />
+    <None Include="Resources\Cacadu-Image-16x16.png" />
+    <None Include="Resources\Actions Icons Backup\Alert_icon.png" />
+    <None Include="Resources\Actions Icons Backup\Alert_icon_24.png" />
+    <None Include="Resources\Actions Icons Backup\Alert_icon_16.png" />
+    <None Include="Resources\Actions Icons Backup\messagebox_16.png" />
+    <None Include="Resources\Actions Icons Backup\messagebox_32.png" />
+    <None Include="Resources\Apps-preferences-kcalc-constants-icon.png" />
+    <None Include="Resources\add.png" />
+    <None Include="Resources\Actions Icons Backup\LastFacebookNotification_32.png" />
+    <None Include="Resources\Actions Icons Backup\LastFacebookNotification_16.png" />
+    <None Include="Resources\Actions Icons Backup\StartApplication_32.png" />
+    <Content Include="Resources\ExportFileAssociationIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <FileAssociation Include=".cacadu">
+      <Visible>False</Visible>
+      <Description>Cacadu Task Scheduler File</Description>
+      <Progid>CacaduTSF</Progid>
+      <DefaultIcon>Resources\AssociationIcon.ico</DefaultIcon>
+    </FileAssociation>
+    <FileAssociation Include=".cacaxf">
+      <Visible>False</Visible>
+      <Description>Cacadu Task Scheduler Export File</Description>
+      <Progid>CacaduTSEF</Progid>
+      <DefaultIcon>Resources\ExportFileAssociationIcon.ico</DefaultIcon>
+    </FileAssociation>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Classes Diagrams\" />
+    <Folder Include="External Libs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Balora\Code\Trunk\Balora\Balora.vbproj">
+      <Project>{0E3B8471-F200-4F5D-84AA-E773D3F4C64A}</Project>
+      <Name>Balora</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Cacadore\Code\Trunk\Cacadore\Cacadore.vbproj">
+      <Project>{DA164802-82B6-4DBC-A1BE-8778AD0CE6C0}</Project>
+      <Name>Cacadore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Actions Projects\Facebook Actions\Facebook Actions.vbproj">
+      <Project>{EEDF91FB-D15E-4509-A1E3-E7B23FA0DC76}</Project>
+      <Name>Facebook Actions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Helpers\Helpers.vbproj">
+      <Project>{407BDBFE-67B4-454D-B26F-D0EE1D90AA09}</Project>
+      <Name>Helpers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TecDAL\TecDAL.vbproj">
+      <Project>{1BAF735E-74FD-4A75-9FAE-0C173FDB277D}</Project>
+      <Name>TecDAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>if /I "$(ConfigurationName)" == "Release" Eazfuscator.NET.exe "$(TargetPath)" --msbuild-project-path "$(ProjectPath)" --msbuild-project-configuration "$(ConfigurationName)" --msbuild-project-platform "$(PlatformName)" --msbuild-solution-path "$(SolutionPath)" -n --newline-flush -v 3.1</PostBuildEvent>
+  </PropertyGroup>
+</Project>

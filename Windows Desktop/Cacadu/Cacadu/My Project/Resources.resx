@@ -1,0 +1,513 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PreparingReport" xml:space="preserve">
+    <value>Preparing Error Report...</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cacadu_online" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cacadu_online.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="task_errors" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\task_errors.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clear_selection" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clear_selection.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="systary_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\systary-icon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="save_task_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\save_task_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ShowMessageBox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Actions Icons Backup\messagebox_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="messagebox_321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Actions Icons Backup\messagebox_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="simple_schedule" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\simple-schedule.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CheckFirewall" xml:space="preserve">
+    <value>Check your firewall settings.</value>
+  </data>
+  <data name="rename_group" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rename_group.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CSINI" xml:space="preserve">
+    <value>Cacadu service is not installed on your computer, please 
+remove any previously installation, then reinstall Cacadu.</value>
+  </data>
+  <data name="rename_task" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rename_task.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cancel_button_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cancel_button_24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="miss_fire" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miss-fire.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit_action" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\edit_action.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="global_constants" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\global_constant.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="switch_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\switch_on.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="task_flow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\task_flow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buy_now" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buy_now.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add_group_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add_group_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clear.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="save_task" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\save_task.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delete_task_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete_task_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rename_group_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rename_group_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\settings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ErrorReportUiHeading" xml:space="preserve">
+    <value>Cacadu has encountered a problem.
+We are sorry for the inconvenience.</value>
+  </data>
+  <data name="search_tasks" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\search_tasks.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Play_icon_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Play-icon_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="duplicate_action" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\duplicate_action.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="invert" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\invert.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CD" xml:space="preserve">
+    <value>Cacadu disabled.</value>
+  </data>
+  <data name="Cacadu_Image_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cacadu-Image-16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PauseIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pause-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="disable_task" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\disable_task.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delete_group_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete_group_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="import_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\import_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cacadu_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cacadu-Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ShutdownPC_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Actions Icons Backup\ShutdownPC_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="global_variables" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\global_variables.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExitProcess" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Actions Icons Backup\ExitProcess.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="move_up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Actions-go-up-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rename_task_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rename_task_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ErrorSendingErrorReport" xml:space="preserve">
+    <value>Error sending error report.</value>
+  </data>
+  <data name="note_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\note_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stop_task" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stop_task.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UrlToCheckRealIP" xml:space="preserve">
+    <value>http://www.perfect-macro-recorder.com/getip.php</value>
+  </data>
+  <data name="ShowAlert" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Actions Icons Backup\ShowAlert.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stop_all" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stop_all.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UnKownSqlCommand" xml:space="preserve">
+    <value>Unknown SQL query command.</value>
+  </data>
+  <data name="check_for_updates" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\check_for_updates.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="facebook_actions" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\facebook_actions.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StartApplication_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Actions Icons Backup\StartApplication_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ShutdownPC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Actions Icons Backup\ShutdownPC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="switch_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\switch_off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="system_actions" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\system_actions.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cacadu_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cacadu Icon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StartApplication" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Actions Icons Backup\StartApplication.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add_group" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add_group.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DuplicateItem" xml:space="preserve">
+    <value>Column name is not unique</value>
+  </data>
+  <data name="select_all_actions" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\select_all_actions.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCSM" xml:space="preserve">
+    <value>"Start Cacadu service manually using " &amp; Chr(34) &amp; "Services under" &amp; Chr(34) &amp; "Administrative Tools in your control panel."</value>
+  </data>
+  <data name="list_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\list_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exit_cacadu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exit_cacadu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="export_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\export_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delete_group" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete_group.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TransferringTimeOut" xml:space="preserve">
+    <value>Time Out. Failed to send the report.</value>
+  </data>
+  <data name="disable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\disable.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="task_properties_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\task_properties_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ATRT" xml:space="preserve">
+    <value>Task, $TNH$ has not yet been execuated as scheduled, Do you want to run it now?</value>
+  </data>
+  <data name="task_variables" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\task_variables.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="help_contents" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\help-contents.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CE" xml:space="preserve">
+    <value>Cacadu enabled.</value>
+  </data>
+  <data name="SendingCanceled" xml:space="preserve">
+    <value>Send canceled for Error report.</value>
+  </data>
+  <data name="messagebox_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Actions Icons Backup\messagebox_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="application_default_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\application_default_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cancel_Button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cancel_Button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tasks_List_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tasks-List_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="my_tasks" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\my_tasks.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tools_wizard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tools_wizard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NPN" xml:space="preserve">
+    <value>CacaSerPipe</value>
+    <comment>Named Pipe Name.</comment>
+  </data>
+  <data name="exit_cacadu_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exit_cacadu_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="video_tours" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\video_tours.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CSN" xml:space="preserve">
+    <value>CacaSer</value>
+    <comment>Cacadu Service Name.</comment>
+  </data>
+  <data name="Alert_icon_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Actions Icons Backup\Alert_icon_24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TransferringCompleted" xml:space="preserve">
+    <value>Report transferring completed. Thank you.</value>
+  </data>
+  <data name="mald" xml:space="preserve">
+    <value>An error occurred to Database, 
+Cacadu will restore the Database to a previous state.</value>
+  </data>
+  <data name="OK_Button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OK_Button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TransferringReport" xml:space="preserve">
+    <value>Transferring report...</value>
+  </data>
+  <data name="tasks_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tasks_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add_task_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add_task_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="export1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\export.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="refresh_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refresh_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LastFacebookNotification_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Actions Icons Backup\LastFacebookNotification_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="about" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\about.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="holiday" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\holiday.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add_task" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add_task.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="triggers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\triggers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddYourCommentsHere" xml:space="preserve">
+    <value>If you wish, you can add your comments here.</value>
+  </data>
+  <data name="history" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\history.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="move_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Actions-go-down-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="help_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\help_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="faqs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\faqs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cacadu_Image_46x46" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cacadu-Image-46x46.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="task_properties" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\task_properties.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delete_task" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete_task.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SendingMailFail" xml:space="preserve">
+    <value>Sending Mail Failure.</value>
+  </data>
+  <data name="Cacadu_Image_54x54" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cacadu-Image-54x54.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="import" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\import.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stop_task_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stop_task_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PlayIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Play-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OK_Button_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OK_Button_24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Alert_icon_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Actions Icons Backup\Alert_icon_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TellUsMore" xml:space="preserve">
+    <value>Please tell us about this problem so we can fix it.</value>
+  </data>
+  <data name="Alert_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Actions Icons Backup\Alert_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AlternativeIPText" xml:space="preserve">
+    <value>"Search for: Received: from [ip here] (port=3680 helo=devo-PC)""""by gator627.hostgator.com with esmtpa (Exim 4.69)(envelope-from &lt;error_reporting_center@conderella.com&gt;)id 1PxMnn-0003os-6b"</value>
+  </data>
+  <data name="ExitProcess_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Actions Icons Backup\ExitProcess_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LastFacebookNotification_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Actions Icons Backup\LastFacebookNotification_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ErrorReportOpenFileDialogTitle" xml:space="preserve">
+    <value>Select file to attach to error report.</value>
+  </data>
+  <data name="dd" xml:space="preserve">
+    <value>The database appears to be damaged. Please re-install Cacadu.</value>
+  </data>
+  <data name="CacaduWebSite" xml:space="preserve">
+    <value>www.conderella.com</value>
+  </data>
+  <data name="NoCommentsFromUser" xml:space="preserve">
+    <value>No user comments</value>
+  </data>
+  <data name="settings_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\settings_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="export" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\export.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="triggers_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\triggers_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TasksList" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tasks-List.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Alert_icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Actions Icons Backup\Alert_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
