@@ -1,0 +1,79 @@
+/**
+ * Copyright CSSJockey | http://www.cssjockey.com
+ */
+#cjwarp{
+	width:100%;
+	margin:20px 0px 0 0;
+	border-top:1px solid #dddddd;
+}
+#cjwarp a{
+	text-decoration:none;	
+}
+.cjclearfix:after {
+	clear: both;
+	display: block;
+	content: " ";
+	height: 0px;
+	visibility: hidden;
+}
+.cjhead{
+	font:normal 13pt Georgia;
+	background:#efefef url(images/plus.gif) 10px 13px no-repeat;
+	padding:10px 0 10px 35px;
+	border-left:1px solid #dddddd;
+	border-right:1px solid #dddddd;
+	border-bottom:1px solid #FFFFFF;
+	cursor:pointer;
+	margin:0px;
+}
+.cjcontent{
+	font:normal 10pt Tahoma;
+	padding:10px 10px 10px 10px;
+	border-left:1px solid #dddddd;
+	border-right:1px solid #dddddd;
+	border-bottom:1px solid #dddddd;
+	line-height:1.5;
+	background:#FFFFFF;
+}
+.cjminus{
+	background:#e4e7ea url(images/minus.gif) 10px 13px no-repeat !important;
+}
+.cjlabel{
+	float:left;
+	width:230px;
+}
+.cjselect{
+	width:240px;
+}
+.cjfield{
+	padding:0 0 0 10px;
+	float:left;
+}
+.cjdesc{
+	display:block;
+	font-size:90%;
+	padding:3px 0 0 3px;
+	color:#454545;
+}
+.cjradio{
+	padding:0 15px 0 0;
+}
+.cjbuttons{
+	border:1px solid #dddddd;
+	line-height:1.5;
+	background:#FFFFFF;
+	padding:10px;
+}
+/* CATEGORIES/PAGES LIST */
+.cjids{
+	padding:10px 0px 10px 10px;
+	width:530px;
+	background:#efefef;
+	border:1px solid #CCC;
+	margin:5px 0px 5px 0px;
+}
+.cjids li{
+	width:33%;
+	float:left;
+	padding:0 0 5px 0;
+}

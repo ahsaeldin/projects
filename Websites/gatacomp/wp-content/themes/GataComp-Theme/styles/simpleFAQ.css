@@ -1,0 +1,39 @@
+#faqList ul { 
+	padding-bottom:0px;
+}
+
+#faqList li {
+	list-style: none; 
+	margin-left:-40px;
+}
+
+#faqList .question {
+  background: transparent url('../images/plus.png') left no-repeat; 
+  padding-left: 70px;
+  width:500px;
+  color:#58595B;
+  font-size:18px;
+}
+
+#faqList li.simpleFAQShowing .question {
+
+
+}
+
+#faqList .simpleFAQHover { 
+	color: #F90; 
+}
+
+#faqList .answer {
+  padding-left:100px;
+
+  width:500px;
+  font-size:16px;
+  direction:ltr;
+  color:#000000;
+}
+
+.tags { 
+	font-size: 0.7em; 
+	color: #999; 
+}

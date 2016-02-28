@@ -1,0 +1,355 @@
+/*
+Theme Name: GataComp Theme
+Theme URI: http://mooparmghor.com
+Description: The default theme for GataComp.
+Author: Ahmed Saad
+Version: 1.0 
+*/
+
+@charset "utf-8";
+
+
+body{
+	background:#666;
+	margin:0px;
+}
+
+img{
+	border:none;
+	outline:none;
+}
+
+a{
+	background-color:inherit;
+}
+
+*.a:hover{
+	color:#C66D04;
+	background-color:inherit;
+	cursor:pointer; /*to make sure that pointer will be displayed @ every a element even it's href isn't defined*/
+}
+
+/*to remove outline surounding the link after has been clicked*/
+a:active{
+	outline:none;
+}
+
+a:focus{
+	outline:none;
+	/*-moz-outline-style:none;*/
+}
+
+#main-container{
+	width:1000px;
+  	margin-left: auto;
+ 	margin-right: auto;
+}
+
+#header{
+	_margin-top:-10px; /*IE Hack*/
+	*margin-top:-10px; /*IE Hack*/
+}
+
+#logo-and-slogan{
+	_margin-top:-3px; /*IE Hack*/
+    *margin-top:-3px; /*IE Hack*/
+}
+
+#logo{
+	_margin-top:-10px; /*IE Hack*/
+    *margin-top:-10px; /*IE Hack*/
+}
+
+#second-ruler{
+	_margin-top:-20px; /*IE Hack*/
+	*margin-top:-20px; /*IE Hack*/
+}
+
+#third-ruler{
+	_margin-top:-15px; /*IE Hack*/
+	*margin-top:-15px; /*IE Hack*/
+}
+
+#header-images{
+	padding-top:0px;
+	background:#FFFFFF;
+	width:1000px;
+	height:145px;
+	_margin:-18px; /*IE Hack*/
+	*margin:-18px; /*IE Hack*/
+}
+
+#menu{
+	padding-top:2px;
+	padding-bottom:6px;
+	background:#FFFFFF;
+	width:1000px;
+	height:20px;
+	_padding-bottom:2px; /*IE Hack*/
+	_margin-top:4px; /*IE Hack*/
+	*padding-bottom:2px; /*IE Hack*/
+	*margin-top:4px; /*IE Hack*/
+}
+
+#menu img{
+	float:left;
+	padding-right:1px;
+	_margin-top:-4px; /*IE Hack*/
+	*margin-top:-4px; /*IE Hack*/
+}
+
+#last-menu-image{
+	padding-right:0px;
+	padding-left:2px;
+}
+
+#content{
+	background:#B5B5B5;
+	width:1000px;
+	height:auto;
+	min-height:322px;
+	overflow: hidden;/*to make page expendable*/
+}
+
+#big-image-comment{
+	color:#FFF;
+	float:left;
+	margin-top:10px;
+	height:322px;
+	width:120px;
+	background:url(images/big-image-caption.jpg) no-repeat;
+	margin-left:10px;
+	text-align:center;
+	padding-right:13px;
+}
+
+#big-image-comment-content{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	width:120px;
+	height:100px;
+	margin-top:100px;
+	margin-right:18px;
+	font-size:18px;
+	font-weight:bold;
+}
+
+#big-image-comment-text{
+}
+
+.hiddenDiv{
+	display:none;
+}
+
+#big-image-comment-bottom-title{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:13px;
+	margin-right:4px;
+	text-shadow: 0 0 0.1em #FFF;
+	text-align:center;
+}
+
+#big-image{
+	float:left;
+	padding-top:12px;
+}
+
+#footer{
+	position:relative;
+	background:#282828;
+	width:1000px;
+	height:32px;
+}
+
+#footer #developedby{
+	position:absolute;
+	color:#FFF;
+	text-align:center;
+	padding-top:6px;
+	padding-left:7px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:12px;
+	_margin-left:-500px;
+	*margin-left:-500px;
+}
+
+#footer #developedby #shadowname{
+	text-shadow: 0 0 0.1em #FFF;
+	font-family:"Comic Sans MS", Tahoma, serif;
+}
+
+#footer #developedby #shadowname a{
+	color:#FFF;
+}
+
+/*==================================================================================*/
+.gallery{
+	padding-left:10px;
+}
+
+#one-content-title{
+	color:#FFFFFF;
+	padding-top:13px;
+	padding-left:780px;
+	margin-top:8px;
+	margin-left:13px;
+	height:42px;
+	width:974px;
+	background: url(images/one-box-ar.png) no-repeat;
+	z-index:1;
+	position:absolute;
+}
+
+#one-content{
+	background:#FFF;
+	min-height:322px;
+	width:963px;
+	height:auto;
+	margin-top:10px;
+	margin-left:13px;
+	padding-top:60px;
+	color:#727272;
+	font-size:18px;
+	margin-bottom:8px;
+}
+
+#right-content-title{
+	color:#FFFFFF;
+	padding-top:13px;
+	text-align:right;
+	height:42px;
+	width:611px;
+	background: url(images/right-box-ar.png) no-repeat;
+	margin-bottom:8px;
+	text-indent:130px;
+	float:right;
+}
+#right-content{
+	background:#FFF;
+	min-height:322px;
+	width:611px;
+	height:auto;
+	margin-right:12px;
+	margin-top:8px;
+	margin-bottom:8px;
+	float:right;
+	color:#727272;
+	direction:rtl;
+}
+
+#left-content{
+	min-height:322px;
+	min-width:353px;
+	height:auto;
+	width:auto;
+	margin-top:8px;
+	margin-left:12px;
+	margin-bottom:8px;
+	float:left;
+}
+
+.roundme{
+	border-radius: 13px;
+	/*"http://localhost/gata/Wordpress/wp-content/themes/GataComp-Theme/PIE.htc"*/
+	behavior: url(http://gatacomp.com/wp-content/themes/GataComp-Theme/PIE.htc);
+	position:relative;
+	-moz-border-radius-bottomleft: 12pt;
+	-moz-border-radius-bottomright: 12pt;
+	-moz-border-radius-topleft: 12pt;
+	-moz-border-radius-topright: 12pt;
+	-webkit-border-top-left-radius: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	-webkit-border-top-right-radius: 15px;
+}
+
+#right-home-content{
+	height:330px;
+	width:308px;
+	margin-top:2px;
+	margin-right:5px;
+	margin-bottom:2px;
+	float:right;
+}
+
+#left-home-content{
+	background:url(images/left-home-box-en.png) no-repeat;
+	height:326px;
+	width:679px;
+	margin-top:5px;
+	margin-left:5px;
+	margin-bottom:2px;
+	float:left;
+}
+
+.right-home-button{
+	background:url(images/button.png) no-repeat;
+	height:65px;
+	width:308px;	
+	color:#FFF;
+	text-align:center;
+}
+
+.right-home-button-content{
+	padding-right:12px;
+	padding-left:10px;
+	padding-top:25px;
+}
+
+.faqarea{
+	background:#FFF;
+	margin-bottom:0px;
+	margin-top:20px;
+	margin-right:1px;
+	min-height:322px;
+	width:610px;
+}
+
+.page-list{
+	list-style-image:url(images/minus.png);
+	margin-right:29px;
+}
+
+.tech-method-page-list{
+	list-style-image:url(images/minus.png);
+	margin-right:9px;
+}
+.page-list li{
+	/*line-height:28px;*/
+}
+.post-meta-key {
+	font-family:"Times New Roman", Times, serif;
+	font-size:20px;
+}
+
+.post-meta {
+	font-family:"Times New Roman", Times, serif;
+	font-size:20px;
+	margin-right:20px;
+	text-align:justify;
+	margin-left:20px;
+}
+
+.increase-post-meta-line-height{
+	line-height:30px;
+}
+.increase-post-meta-line-height-to-45{
+	line-height:45px;
+}
+
+.shiftUp{
+	line-height:50px;
+}
+
+.decrese-font-to-15{
+	font-size:15px;
+}
+/*==================================================================================*/
+
+.red{
+	color:#B90007;
+	font-weight:bold;
+}
+
+.pointer-cursor{
+	cursor:pointer;
+}

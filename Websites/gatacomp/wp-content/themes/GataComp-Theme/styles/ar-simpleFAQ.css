@@ -1,0 +1,37 @@
+#faqList{
+	padding-top:20px;
+}
+#faqList li {
+	list-style: none; 
+	margin-right:-40px;
+	/*padding-top:6px;*/
+}
+
+#faqList .question {
+  background: transparent url('../images/plus.png') right no-repeat; 
+  width:550px;
+  color:#58595B;
+  font-size:20px;
+  font-family:"Times New Roman", Times, serif;
+  direction:rtl;
+  padding-right:65px;
+
+}
+
+#faqList .simpleFAQHover { 
+	color: #F90; 
+}
+
+#faqList .answer {
+  padding-right:70px;
+  width:550px;
+  font-size:18px;
+  color:#000000;
+  font-family:"Times New Roman", Times, serif;
+  direction:rtl;
+}
+
+.tags { 
+	font-size: 0.7em; 
+	color: #999; 
+}

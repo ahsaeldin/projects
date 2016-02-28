@@ -1,0 +1,352 @@
+/*
+Theme Name: GataComp Theme
+Theme URI: http://mooparmghor.com
+Description: The default theme for GataComp.
+Author: Ahmed Saad
+Version: 1.0 
+*/
+
+@charset "utf-8";
+
+
+body{
+	background:#666;
+	margin:0px;
+}
+
+img{
+	border:none;
+	outline:none;
+}
+
+a{
+	background-color:inherit;
+}
+
+*.a:hover{
+	color:#C66D04;
+	background-color:inherit;
+	cursor:pointer; /*to make sure that pointer will be displayed @ every a element even it's href isn't defined*/
+}
+
+/*to remove outline surounding the link after has been clicked*/
+a:active{
+	outline:none;
+}
+
+a:focus{
+	outline:none;
+	/*-moz-outline-style:none;*/
+}
+
+#main-container{
+	width:1000px;
+  	margin-left: auto;
+ 	margin-right: auto;
+}
+
+#header{
+	_margin-top:-10px; /*IE Hack*/
+	*margin-top:-10px; /*IE Hack*/
+}
+
+#logo-and-slogan{
+	_margin-top:-3px; /*IE Hack*/
+    *margin-top:-3px; /*IE Hack*/
+}
+
+#logo{
+	_margin-top:-10px; /*IE Hack*/
+    *margin-top:-10px; /*IE Hack*/
+}
+
+#second-ruler{
+	_margin-top:-20px; /*IE Hack*/
+	*margin-top:-20px; /*IE Hack*/
+}
+
+#third-ruler{
+	_margin-top:-15px; /*IE Hack*/
+	*margin-top:-15px; /*IE Hack*/
+}
+
+#header-images{
+	padding-top:0px;
+	background:#FFFFFF;
+	width:1000px;
+	height:145px;
+	_margin:-18px; /*IE Hack*/
+	*margin:-18px; /*IE Hack*/
+}
+
+#menu{
+	padding-top:2px;
+	padding-bottom:6px;
+	background:#FFFFFF;
+	width:1000px;
+	height:20px;
+	_padding-bottom:2px; /*IE Hack*/
+	_margin-top:4px; /*IE Hack*/
+	*padding-bottom:2px; /*IE Hack*/
+	*margin-top:4px; /*IE Hack*/
+}
+
+#menu img{
+	float:left;
+	padding-right:1px;
+	_margin-top:-4px; /*IE Hack*/
+	*margin-top:-4px; /*IE Hack*/
+}
+
+#last-menu-image{
+	padding-right:0px;
+	padding-left:2px;
+}
+
+#content{
+	background:#B5B5B5;
+	width:1000px;
+	height:auto;
+	min-height:322px;
+	overflow: hidden;/*to make page expendable*/
+}
+
+#big-image-comment{
+	color:#FFF;
+	float:right;
+	margin-top:10px;
+	height:321px;
+	width:143px;
+
+}
+
+#big-image-comment-content{
+	text-align:center;
+	font-family:"Times New Roman", Times, serif;
+	width:120px;
+	height:100px;
+	margin-top:60px;
+	font-size:14px;
+	font-weight:bold;
+	padding-left:10px;
+	
+}
+
+
+#big-image-comment-bottom-title{
+	font-family:"Times New Roman", Times, serif;
+	font-size:14px;
+	text-align:center;
+	padding:10px;
+}
+
+#big-image-comment-text{
+}
+
+.hiddenDiv{
+	display:none;
+}
+
+
+#big-image{
+	float:left;
+	padding-top:12px;
+}
+
+#footer{
+	position:relative;
+	background:#282828;
+	width:1000px;
+	height:32px;
+}
+
+#footer #developedby{
+	position:absolute;
+	color:#FFF;
+	text-align:center;
+	padding-top:6px;
+	padding-left:7px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:12px;
+	_margin-left:-500px;
+	*margin-left:-500px;
+}
+
+#footer #developedby #shadowname{
+	text-shadow: 0 0 0.1em #FFF;
+	font-family:"Comic Sans MS", Tahoma, serif;
+}
+
+#footer #developedby #shadowname a{
+	color:#FFF;
+}
+
+/*==================================================================================*/
+.gallery{
+	padding-left:10px;
+}
+
+#one-content-title{
+	color:#FFFFFF;
+	padding-left:130px;
+	padding-top:10px;
+	margin-top:8px;
+	margin-left:12px;
+	height:42px;
+	width:974px;
+	background: url(images/one-box-eg.png) no-repeat;
+	z-index:1;
+	position:absolute;
+}
+
+#one-content{
+	background:#FFF;
+	min-height:322px;
+	width:963px;
+	height:auto;
+	margin-top:10px;
+	margin-left:12px;
+	padding-top:60px;
+	float:left;
+	color:#727272;
+	font-size:18px;
+	margin-bottom:8px;
+}
+
+#left-content-title{
+	color:#FFFFFF;
+	padding-top:10px;
+	padding-left:130px;
+	height:42px;
+	width:612px;
+	background: url(images/left-box-eg.png) no-repeat;
+	margin-bottom:8px;
+}
+#left-content{
+	background:#FFF;
+	min-height:322px;
+	width:612px;
+	height:auto;
+	margin-left:12px;
+	margin-top:8px;
+	margin-bottom:8px;
+	float:left;
+	color:#727272;
+	font-size:18px;
+}
+
+.roundme{
+	border-radius: 13px;
+	/*"http://localhost/gata/Wordpress/wp-content/themes/GataComp-Theme/PIE.htc"*/
+	behavior: url(http://gatacomp.com/wp-content/themes/GataComp-Theme/PIE.htc);
+	position:relative;
+	-moz-border-radius-bottomleft: 12pt;
+	-moz-border-radius-bottomright: 12pt;
+	-moz-border-radius-topleft: 12pt;
+	-moz-border-radius-topright: 12pt;
+	-webkit-border-top-left-radius: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	-webkit-border-top-right-radius: 15px;
+}
+#right-content{
+	min-height:322px;
+	min-width:353px;
+	height:auto;
+	width:auto;
+	margin-top:8px;
+	margin-right:12px;
+	margin-bottom:8px;
+	float:right;
+}
+
+#left-home-content{
+	height:330px;
+	width:308px;
+	margin-top:2px;
+	margin-left:5px;
+	margin-bottom:2px;
+	float:left;
+}
+
+#right-home-content{
+	background:url(images/right-home-box-en.png) no-repeat;
+	height:330px;
+	width:679px;
+	margin-top:5px;
+	margin-right:5px;
+	margin-bottom:2px;
+	float:right;
+}
+
+.left-home-button{
+	background:url(images/button.png) no-repeat;
+	height:65px;
+	width:308px;	
+	color:#FFF;
+	text-align:center;
+}
+
+.left-home-button-content{
+	padding-top:20px;
+	padding-left:12px;
+	padding-right:10px;
+}
+
+.faqarea{
+	background:#FFF;
+	margin-bottom:0px;
+	margin-top:20px;
+	margin-left:1px;
+	min-height:322px;
+	width:610px;
+}
+
+.page-list{
+	list-style-image:url(images/minus.png);
+	padding-left:69px;
+	line-height:30px;
+}
+
+.post-meta-key {
+	padding-left:20px;
+	font-size:18px;
+	text-align:left;
+	font-family:Calibri, Georgia, "Times New Roman", Times, serif;
+}
+
+.post-meta {
+	padding-left:20px;
+	padding-right:20px;
+	font-family:Calibri, Georgia, "Times New Roman", Times, serif;
+	font-size:18px;
+	text-align:justify;
+}
+
+.shiftUp{
+	line-height:50px;
+}
+/*==================================================================================*/
+.centered-image{
+ 	margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.right-image{
+	padding-right:10px;
+	margin-bottom:10px;
+	margin-top:7px;
+}
+
+.red{
+	color:#B90007;
+}
+
+.pointer-cursor{
+	cursor:pointer;
+}
+
+.decrese-font-to-15{
+	font-size:15px;
+}

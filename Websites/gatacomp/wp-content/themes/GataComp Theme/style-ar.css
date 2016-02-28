@@ -1,0 +1,180 @@
+/*
+Theme Name: GataComp Theme
+Theme URI: http://mooparmghor.com
+Description: The default theme for GataComp.
+Author: Ahmed Saad
+Version: 1.0 
+*/
+
+@charset "utf-8";
+
+body{
+	background:#666;
+	margin:0px;
+}
+
+img{
+	border:none;
+	outline:none;
+}
+a{
+	background-color:inherit;
+}
+*.a:hover{
+	color:#C66D04;
+	background-color:inherit;
+	cursor:pointer; /*to make sure that pointer will be displayed @ every a element even it's href isn't defined*/
+}
+/*to remove outline surounding the link after has been clicked*/
+a:active{
+	outline:none;
+}
+
+a:focus{
+	outline:none;
+	/*-moz-outline-style:none;*/
+}
+
+#main-container{
+	height:500px;
+}
+#header{
+	_margin-top:-10px; /*IE Hack*/
+	*margin-top:-10px; /*IE Hack*/
+}
+#logo-and-slogan{
+	_margin-top:-3px; /*IE Hack*/
+        *margin-top:-3px; /*IE Hack*/
+}
+#logo{
+	_margin-top:-10px; /*IE Hack*/
+        *margin-top:-10px; /*IE Hack*/
+}
+#second-ruler{
+	_margin-top:-20px; /*IE Hack*/
+	*margin-top:-20px; /*IE Hack*/
+}
+#third-ruler{
+	_margin-top:-15px; /*IE Hack*/
+	*margin-top:-15px; /*IE Hack*/
+}
+#header-images{
+	padding-top:4px;
+	background:#FFFFFF;
+	width:1000px;
+	height:140px;
+	_margin:-18px; /*IE Hack*/
+	*margin:-18px; /*IE Hack*/
+}
+#menu{
+	padding-top:6px;
+	padding-bottom:6px;
+	background:#FFFFFF;
+	width:1000px;
+	height:20px;
+	_padding-bottom:2px; /*IE Hack*/
+	_margin-top:4px; /*IE Hack*/
+	*padding-bottom:2px; /*IE Hack*/
+	*margin-top:4px; /*IE Hack*/
+}
+#menu img{
+	float:left;
+	padding-right:1px;
+	_margin-top:-4px; /*IE Hack*/
+	*margin-top:-4px; /*IE Hack*/
+}
+#last-menu-image{
+	padding-right:0px;
+	padding-left:2px;
+}
+#content{
+	background:#B5B5B5;
+	width:1000px;
+	height:335px;
+}
+#services-text-block{
+	float:right;
+	margin-right:5px;
+	*margin-left:5px; /*IE Hack*/
+	_margin-left:2px; /*IE Hack*/
+	height:337px;
+	width:306px;
+	background:url(images/services-text-block.jpg) no-repeat left;
+}
+#services-text-block-content{
+	margin-top:110px;
+	text-align:right;
+	padding-right:10px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#343434;
+	list-style-image:url(images/service-list-image.png);
+}
+#services-text-block-content ul li{
+	padding-bottom:10px;
+}
+#services-text-block-content ul li a{
+	color:#343434;
+	text-decoration:none;
+}
+#services-text-block-content ul li a:hover{
+	color:#C66D04;
+}
+#services-text-block-title{
+	color:#FF4142;
+	font-size:16px;
+	font-weight:normal;
+}
+#big-image-comment{
+	color:#FFF;
+	float:left;
+	margin-top:4px;
+	margin-left:5px;
+	height:327px;
+	width:143px;
+	background:url(images/big-image-caption.jpg) no-repeat;
+}
+#big-image-comment-content{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	width:120px;
+	height:70px;
+	margin-top:100px;
+	margin-left:10px;
+	font-size:18px;
+	
+}
+#big-image-comment-bottom-title{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:18px;
+	font-weight:bold;
+	text-shadow: 0 0 0.1em #FFF;
+}
+#big-image{
+	float:left;
+	padding-top:4px;
+}
+#footer{
+	position:relative;
+	background:#282828;
+	width:1000px;
+	height:32px;
+}
+#footer #developedby{
+	position:absolute;
+	color:#FFF;
+	text-align:center;
+	padding-top:6px;
+	padding-left:7px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:12px;
+	_margin-left:-500px;
+	*margin-left:-500px;
+}
+#footer #developedby #shadowname{
+	text-shadow: 0 0 0.1em #FFF;
+	font-family:"Comic Sans MS", Tahoma, serif;
+}
+#footer #developedby #shadowname a{
+	color:#FFF;
+}

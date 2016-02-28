@@ -1,0 +1,94 @@
+/* Copyright @ CSSJockey.com */
+/* Reset Styles */ 
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,a,abbr,acronym,address,cite,del,dfn,font,img,ins,kbd,q,s,samp,strike,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,.reset{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;} :focus{outline:0;} img{outline:0;border:none;} h1,h2,h3,h4,h5,h6{font-weight:bold;} ol,ul{list-style:inherit;} table{border-collapse:separate;border-spacing:0;} caption,th,td{text-align:left;font-weight:normal;} blockquote:before,blockquote:after,q:before,q:after{content:"";} blockquote,q{quotes:"" "";border-left:3px solid #CCC;padding:0 0 0 7px;margin-left:10px;} a,a:hover{text-decoration:none;} h1{font-size:18pt;} h2{font-size:16pt;} h3{font-size:14pt;} h4{font-size:12pt;} h5{font-size:10pt;} h6{font-size:8pt;} .textleft{text-align:left;} .textright{text-align:right;} .textcenter, .aligncenter{text-align:center;} .textjustify{text-align:justify;} .hidden{display:none;visibility:hidden;} .alignleft{float:left;} .alignright{float:right;} small{font-size:90%;} b,strong{font-weight:bold;} code{font-family:"Courier New",Courier,monospace;} .clearfix:after{clear:both;display:block;content:" ";height:0;visibility:hidden;} .clearfix{display:inline-block;} * html .clearfix{height:1%;} .clearfix{display:block;} li.clearfix{display:list-item;} .aligncenter{display:block;margin-left:auto;margin-right:auto;} img.alignright{margin:10px 0 10px 10px;} .floatleft{float:left;} .floatright{float:right;} .clear{clear:both;display:block;height:0;visibility:hidden;}
+body{
+	background:#60702d;
+	font:normal 10pt Arial, Helvetica, sans-serif;
+	color:#2a2a2a;
+	line-height:1.6;
+}
+a{
+	color:#196fb1;
+}
+#cjsp-wrapper{
+	width:1000px;
+	margin:0 auto;
+}
+#cjsp-logo{
+	text-align:center;
+	padding:90px 0 15px 0;
+}
+#cjsp-content{
+	background:url(images/contentbg.png) no-repeat;
+	width:1000px;
+	height:342px;
+}
+.cjsp-topsection{
+    height:140px;
+}
+.cjsp-heading{
+	font-weight:normal;
+	font-size:24pt;
+	text-align:center;
+	padding:7px 0 0px 0;
+}
+.cjsp-msg{
+	font-size:12pt;
+	margin:0 auto;
+	width:620px;
+	text-align:center;
+	height:52px;
+	overflow:hidden;
+}
+#cjsp-countdown{
+	margin:0 auto;
+	width:400px;
+	font-size:13pt;
+	padding:16px 0 0 105px;
+}
+#cjsp-subscribeform{
+	position:relative;
+	width:370px;
+	height:30px;
+	margin:52px 0 0 320px;
+}
+.cjsp-inputbox{
+	font:italic 12pt Georgia;
+	color:#999999;
+	border:0px;
+	background:none;
+	width:250px;
+	position:absolute;
+	top:5px;
+	left:0px;
+}
+.cjsp-submit{
+	width:100px;
+	height:30px;
+	position:absolute;
+	top:0px;
+	right:7px;
+	background:none;
+	border:0px;
+	display:block;
+	cursor:pointer;
+}
+.cjsp-spammsg{
+	margin:7px 0 0 0;
+	text-align:center;
+	font-size:8pt;
+	color:#7a7a7a;
+}
+.cjsp-connect{
+	margin:10px 0 0 0;
+	text-align:center;
+}
+.cjsp-sploading{
+	background:url(images/loading.gif) center no-repeat !important;
+}
+.cjsp-credit, .cjsp-credit a{
+	text-align:center;
+	padding:10px 0 0 0;
+	font:normal 10px verdana;
+	color:#FFFFFF;
+}
