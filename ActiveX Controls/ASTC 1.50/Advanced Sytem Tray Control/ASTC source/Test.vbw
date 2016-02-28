@@ -1,0 +1,5 @@
+frmBalloon = 0, 0, 0, 0, C, 44, 58, 732, 483, C
+frmsubclass = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmAfterPublish = 0, 0, 0, 0, C, 0, 0, 688, 425, C
+frmTrayIcon = 88, 116, 798, 483, Z, 22, 29, 710, 454, C
+frmTrayList = 0, 0, 0, 0, C, 0, 0, 0, 0, C

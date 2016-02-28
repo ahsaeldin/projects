@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet>
+  <view uin="gja04dckxsu0wg_v">
+    <property name="$name" value="Get_System_Tray_Informtions" />
+    <property name="$defaultDiagram" value="True" />
+    <property name="$metaclass" value="Package Diagram" />
+    <reference referencedUin="csharp:e_class:src:Get System Tray Informtions:Get_System_Tray_Informtions.WinForm">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="91,1,311,284" />
+      <reference referencedUin="csharp:e_field:src:Get System Tray Informtions:Get_System_Tray_Informtions.WinForm.components" />
+      <reference referencedUin="csharp:e_field:src:Get System Tray Informtions:Get_System_Tray_Informtions.WinForm.MSFlexGrid1" />
+      <reference referencedUin="csharp:e_field:src:Get System Tray Informtions:Get_System_Tray_Informtions.WinForm.axTrayList1" />
+      <reference referencedUin="csharp:e_field:src:Get System Tray Informtions:Get_System_Tray_Informtions.WinForm.ButHide" />
+      <reference referencedUin="csharp:e_field:src:Get System Tray Informtions:Get_System_Tray_Informtions.WinForm.ButRestore" />
+      <reference referencedUin="csharp:e_field:src:Get System Tray Informtions:Get_System_Tray_Informtions.WinForm.ButRefresh" />
+      <reference referencedUin="csharp:e_method:src:Get System Tray Informtions:Get_System_Tray_Informtions.WinForm.WinForm()" />
+      <reference referencedUin="csharp:e_method:src:Get System Tray Informtions:Get_System_Tray_Informtions.WinForm.Dispose(bool)" />
+      <reference referencedUin="csharp:e_method:src:Get System Tray Informtions:Get_System_Tray_Informtions.WinForm.InitializeComponent()" />
+      <reference referencedUin="csharp:e_method:src:Get System Tray Informtions:Get_System_Tray_Informtions.WinForm.Main()" />
+      <reference referencedUin="csharp:e_method:src:Get System Tray Informtions:Get_System_Tray_Informtions.WinForm.initFlexGrid()" />
+      <reference referencedUin="csharp:e_method:src:Get System Tray Informtions:Get_System_Tray_Informtions.WinForm.FillFlexGrid()" />
+      <reference referencedUin="csharp:e_method:src:Get System Tray Informtions:Get_System_Tray_Informtions.WinForm.WinForm_Load(object,System.EventArgs)" />
+      <reference referencedUin="csharp:e_method:src:Get System Tray Informtions:Get_System_Tray_Informtions.WinForm.ButHide_Click(object,System.EventArgs)" />
+      <reference referencedUin="csharp:e_method:src:Get System Tray Informtions:Get_System_Tray_Informtions.WinForm.ButRestore_Click(object,System.EventArgs)" />
+      <reference referencedUin="csharp:e_method:src:Get System Tray Informtions:Get_System_Tray_Informtions.WinForm.ButRefresh_Click(object,System.EventArgs)" />
+      <reference referencedUin="csharp:e_method:src:Get System Tray Informtions:Get_System_Tray_Informtions.WinForm.RestoreIcon(ASTC.TrayIconInfo)" />
+      <reference referencedUin="csharp:e_field:src:Get System Tray Informtions:Get_System_Tray_Informtions.WinForm.OldTrayInfo" />
+    </reference>
+    <reference referencedUin="csharp:e_class:src:Get System Tray Informtions:Get_System_Tray_Informtions.ShellNotify">
+      <property name="$shortcutReference" value="true" />
+      <property name="foreground_color" value="Black" />
+      <property name="background_color" value="White" />
+      <property name="bounds" value="417,1,397,103" />
+      <reference referencedUin="csharp:e_method:src:Get System Tray Informtions:Get_System_Tray_Informtions.ShellNotify.Shell_NotifyIcon(int,Get_System_Tray_Informtions.ShellNotify.NOTIFYICONDATA)" />
+      <reference referencedUin="csharp:e_class:src:Get System Tray Informtions:Get_System_Tray_Informtions.ShellNotify.NOTIFYICONDATA" />
+    </reference>
+  </view>
+</nodeSet>

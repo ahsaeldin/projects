@@ -1,0 +1,13 @@
+REGEDIT
+; This .REG file may be used by your SETUP program.
+;   If a SETUP program is not available, the entries below will be
+;   registered in your InitInstance automatically with a call to
+;   CWinApp::RegisterShellFileTypes and COleObjectFactory::UpdateRegistryAll.
+
+
+HKEY_CLASSES_ROOT\Balloon.Application = Balloon Application
+HKEY_CLASSES_ROOT\Balloon.Application\CLSID = {541A05E5-213E-4A9E-BED7-2668E4BAF463}
+
+HKEY_CLASSES_ROOT\CLSID\{541A05E5-213E-4A9E-BED7-2668E4BAF463} = Balloon Application
+HKEY_CLASSES_ROOT\CLSID\{541A05E5-213E-4A9E-BED7-2668E4BAF463}\ProgId = Balloon.Application
+HKEY_CLASSES_ROOT\CLSID\{541A05E5-213E-4A9E-BED7-2668E4BAF463}\LocalServer32 = BALLOON.EXE

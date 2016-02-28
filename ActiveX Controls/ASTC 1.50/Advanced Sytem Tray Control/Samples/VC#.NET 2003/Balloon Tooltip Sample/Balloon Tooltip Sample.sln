@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Balloon Tooltip Sample", "Balloon Tooltip Sample.csproj", "{7E6139E4-A21D-48F9-97D8-BFE5570BC266}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{7E6139E4-A21D-48F9-97D8-BFE5570BC266}.Debug.ActiveCfg = Debug|.NET
+		{7E6139E4-A21D-48F9-97D8-BFE5570BC266}.Debug.Build.0 = Debug|.NET
+		{7E6139E4-A21D-48F9-97D8-BFE5570BC266}.Release.ActiveCfg = Release|.NET
+		{7E6139E4-A21D-48F9-97D8-BFE5570BC266}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

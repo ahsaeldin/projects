@@ -1,0 +1,42 @@
+// TrayIcon.odl : type library source for TrayIcon.exe
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (TrayIcon.tlb).
+
+[ uuid(53533170-97DF-404B-8722-BFBAC7EDE402), version(1.0) ]
+library TrayIcon
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+
+	//  Primary dispatch interface for CTrayIconDoc
+	
+	[ uuid(2646A23E-7E8C-4384-976A-68E4B45C082E) ]
+	dispinterface ITrayIcon
+	{
+		properties:
+			// NOTE - ClassWizard will maintain property information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_PROP(CTrayIconDlgAutoProxy)
+			//}}AFX_ODL_PROP
+			
+		methods:
+			// NOTE - ClassWizard will maintain method information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_METHOD(CTrayIconDlgAutoProxy)
+			//}}AFX_ODL_METHOD
+
+	};
+
+	//  Class information for CTrayIconDoc
+	
+	[ uuid(70AACC8F-6DCA-498D-8DD2-B6F5F649EE60) ]
+	coclass TrayIcon
+	{
+		[default] dispinterface ITrayIcon;
+	};
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};

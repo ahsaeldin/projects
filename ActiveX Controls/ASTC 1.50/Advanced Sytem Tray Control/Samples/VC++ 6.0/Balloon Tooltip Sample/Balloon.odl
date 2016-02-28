@@ -1,0 +1,42 @@
+// Balloon.odl : type library source for Balloon.exe
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (Balloon.tlb).
+
+[ uuid(78325EAF-7676-4308-A359-70B1FB2095EC), version(1.0) ]
+library Balloon
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+
+	//  Primary dispatch interface for CBalloonDoc
+	
+	[ uuid(04E62242-8FD3-4C9B-ABFE-BBD9D0D8BDB7) ]
+	dispinterface IBalloon
+	{
+		properties:
+			// NOTE - ClassWizard will maintain property information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_PROP(CBalloonDlgAutoProxy)
+			//}}AFX_ODL_PROP
+			
+		methods:
+			// NOTE - ClassWizard will maintain method information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_METHOD(CBalloonDlgAutoProxy)
+			//}}AFX_ODL_METHOD
+
+	};
+
+	//  Class information for CBalloonDoc
+	
+	[ uuid(541A05E5-213E-4A9E-BED7-2668E4BAF463) ]
+	coclass Balloon
+	{
+		[default] dispinterface IBalloon;
+	};
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};

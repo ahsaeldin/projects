@@ -1,0 +1,6 @@
+Line 13: Class ASTC.Balloon of control Balloon2 was not a loaded control class.
+Line 19: Class ASTC.Balloon of control Balloon1 was not a loaded control class.
+Line 16: The property name _ExtentX in Balloon2 is invalid.
+Line 17: The property name _ExtentY in Balloon2 is invalid.
+Line 22: The property name _ExtentX in Balloon1 is invalid.
+Line 23: The property name _ExtentY in Balloon1 is invalid.

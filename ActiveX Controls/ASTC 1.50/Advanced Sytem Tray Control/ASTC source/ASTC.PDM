@@ -1,0 +1,359 @@
+[Root]
+Most Recent Package=Dep File 2
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\888888888888888
+Controls Design-Time Support=Yes
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+Astc.CHI=
+psapi.dll=
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+C:\WINDOWS\SYSTEM\MsStkPrp.dll=This file is needed for usercontrol design-time support.
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\WINDOWS\Desktop\New Folder\astc.ocx=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+D:\ASTC 1.50\Advanced Sytem Tray Control\ASTC source\Astc.chm=Yes
+C:\WINDOWS\SYSTEM\HHCTRL.OCX=Yes
+C:\WINDOWS\SYSTEM\ITSS.DLL=Yes
+C:\WINDOWS\SYSTEM\ITIRCL.DLL=Yes
+C:\WINDOWS\HH.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\SYSTEM\MSSTKPRP.DLL=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\WINDOWS\Desktop\New Folder\astc.ocx=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+D:\ASTC 1.50\Advanced Sytem Tray Control\ASTC source\Astc.chm=$(AppPath)
+C:\WINDOWS\SYSTEM\HHCTRL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\ITSS.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\ITIRCL.DLL=$(WinSysPath)
+C:\WINDOWS\HH.EXE=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\MSSTKPRP.DLL=$(WinSysPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\WINDOWS\Desktop\New Folder\astc.ocx=No
+D:\ASTC 1.50\Advanced Sytem Tray Control\ASTC source\Astc.chm=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=ASTC
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=D:\888888888888888
+ProjectFolder=D:\ASTC 1.50\Advanced Sytem Tray Control\ASTC source
+ServerSideCab=
+File1=D:\888888888888888\setup.exe
+File2=D:\888888888888888\Setup.Lst
+File3=D:\888888888888888\astc.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\WINDOWS\Desktop\99999999
+Controls Design-Time Support=Yes
+
+[Package|Standard Setup Package 2|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 2|Files Found]
+
+[Package|Standard Setup Package 2|Files Released]
+Astc.CHI=
+
+[Package|Standard Setup Package 2|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\Psapi.dll=
+
+[Package|Standard Setup Package 2|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 2|Files Added]
+C:\WINDOWS\SYSTEM\MsStkPrp.dll=This file is needed for usercontrol design-time support.
+
+[Package|Standard Setup Package 2|Files Removed]
+
+[Package|Standard Setup Package 2|Files In Project]
+C:\WINDOWS\Desktop\astc.ocx=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\Psapi.dll=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+D:\ASTC 1.50\Advanced Sytem Tray Control\ASTC source\Astc.chm=Yes
+C:\WINDOWS\SYSTEM\HHCTRL.OCX=Yes
+C:\WINDOWS\SYSTEM\ITSS.DLL=Yes
+C:\WINDOWS\SYSTEM\ITIRCL.DLL=Yes
+C:\WINDOWS\SYSTEM\hh.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\SYSTEM\MSSTKPRP.DLL=Yes
+
+[Package|Standard Setup Package 2|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 2|Install Locations]
+C:\WINDOWS\Desktop\astc.ocx=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\Psapi.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+D:\ASTC 1.50\Advanced Sytem Tray Control\ASTC source\Astc.chm=$(AppPath)
+C:\WINDOWS\SYSTEM\HHCTRL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\ITSS.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\ITIRCL.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\hh.exe=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\MSSTKPRP.DLL=$(WinSysPath)
+
+[Package|Standard Setup Package 2|Configure Shared Files]
+Applicable=Yes
+C:\WINDOWS\Desktop\astc.ocx=No
+D:\ASTC 1.50\Advanced Sytem Tray Control\ASTC source\Astc.chm=No
+
+[Package|Standard Setup Package 2|Distribution]
+Type=single
+Size=
+Title=ASTC
+
+[Package|Standard Setup Package 2|Package]
+PackageFolder=c:\WINDOWS\Desktop\99999999
+ProjectFolder=D:\ASTC 1.50\Advanced Sytem Tray Control\ASTC source
+ServerSideCab=
+File1=c:\WINDOWS\Desktop\99999999\setup.exe
+File2=c:\WINDOWS\Desktop\99999999\Setup.Lst
+File3=c:\WINDOWS\Desktop\99999999\astc.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Dep File 1|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\WINDOWS\Desktop\dep
+Controls Design-Time Support=Yes
+
+[Package|Dep File 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Dep File 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File 1|Files Found]
+
+[Package|Dep File 1|Files Released]
+Astc.CHI=
+
+[Package|Dep File 1|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\Psapi.dll=
+
+[Package|Dep File 1|Out-of-Date Dependency Information]
+
+[Package|Dep File 1|Files Added]
+C:\WINDOWS\SYSTEM\MsStkPrp.dll=This file is needed for usercontrol design-time support.
+
+[Package|Dep File 1|Files Removed]
+
+[Package|Dep File 1|Files In Project]
+C:\WINDOWS\Desktop\astc.ocx=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\Psapi.dll=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+D:\ASTC 1.50\Advanced Sytem Tray Control\ASTC source\Astc.chm=Yes
+C:\WINDOWS\SYSTEM\HHCTRL.OCX=Yes
+C:\WINDOWS\SYSTEM\ITSS.DLL=Yes
+C:\WINDOWS\SYSTEM\ITIRCL.DLL=Yes
+C:\WINDOWS\SYSTEM\hh.exe=Yes
+C:\WINDOWS\SYSTEM\MSSTKPRP.DLL=Yes
+
+[Package|Dep File 1|Configure Registry Files]
+Applicable=
+
+[Package|Dep File 1|Configure Remote Servers]
+Applicable=
+
+[Package|Dep File 1|Install Locations]
+C:\WINDOWS\Desktop\astc.ocx=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\Psapi.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+D:\ASTC 1.50\Advanced Sytem Tray Control\ASTC source\Astc.chm=$(AppPath)
+C:\WINDOWS\SYSTEM\HHCTRL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\ITSS.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\ITIRCL.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\hh.exe=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSSTKPRP.DLL=$(WinSysPath)
+
+[Package|Dep File 1|Configure Shared Files]
+Applicable=
+
+[Package|Dep File 1|DepFile]
+DepCabFile=astc.CAB
+DepCabRun=astc.INF
+
+[Package|Dep File 1|Package]
+PackageFolder=C:\WINDOWS\Desktop\dep
+ProjectFolder=D:\ASTC 1.50\Advanced Sytem Tray Control\ASTC source
+ServerSideCab=
+File1=C:\WINDOWS\Desktop\dep\astc.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Dep File 2|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=I:\
+Controls Design-Time Support=Yes
+
+[Package|Dep File 2|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Dep File 2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File 2|Files Found]
+
+[Package|Dep File 2|Files Released]
+Astc.CHI=
+
+[Package|Dep File 2|Missing Dependency Information]
+I:\WINDOWS\system32\psapi.dll=
+
+[Package|Dep File 2|Out-of-Date Dependency Information]
+I:\WINDOWS\system32\MSCOMCTL.OCX=
+
+[Package|Dep File 2|Files Added]
+I:\WINDOWS\System32\MsStkPrp.dll=This file is needed for usercontrol design-time support.
+
+[Package|Dep File 2|Files Removed]
+
+[Package|Dep File 2|Files In Project]
+I:\Documents and Settings\Ahmed\Desktop\New Folder\Cprinsti.ocx=Yes
+I:\WINDOWS\system32\msvbvm60.dll=Yes
+I:\WINDOWS\system32\oleaut32.dll=Yes
+I:\WINDOWS\system32\olepro32.dll=Yes
+I:\WINDOWS\system32\asycfilt.dll=Yes
+I:\WINDOWS\system32\stdole2.tlb=Yes
+I:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+I:\WINDOWS\system32\psapi.dll=Yes
+I:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+M:\CprinGold Software\ASTC 1.50\Advanced Sytem Tray Control\ASTC source\Astc.chm=Yes
+I:\WINDOWS\system32\hhctrl.ocx=Yes
+I:\WINDOWS\system32\itss.dll=Yes
+I:\WINDOWS\system32\itircl.dll=Yes
+I:\WINDOWS\system32\hh.exe=Yes
+I:\WINDOWS\system32\msstkprp.dll=Yes
+
+[Package|Dep File 2|Configure Registry Files]
+Applicable=
+
+[Package|Dep File 2|Configure Remote Servers]
+Applicable=
+
+[Package|Dep File 2|Install Locations]
+I:\Documents and Settings\Ahmed\Desktop\New Folder\Cprinsti.ocx=$(AppPath)
+I:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+I:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+I:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+I:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+I:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+I:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+I:\WINDOWS\system32\psapi.dll=$(WinSysPath)
+I:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+M:\CprinGold Software\ASTC 1.50\Advanced Sytem Tray Control\ASTC source\Astc.chm=$(AppPath)
+I:\WINDOWS\system32\hhctrl.ocx=$(WinSysPath)
+I:\WINDOWS\system32\itss.dll=$(WinSysPath)
+I:\WINDOWS\system32\itircl.dll=$(WinSysPath)
+I:\WINDOWS\system32\hh.exe=$(WinSysPath)
+I:\WINDOWS\system32\msstkprp.dll=$(WinSysPath)
+
+[Package|Dep File 2|Configure Shared Files]
+Applicable=
+
+[Package|Dep File 2|DepFile]
+DepCabFile=Cprinsti.CAB
+DepCabRun=Cprinsti.INF
+
+[Package|Dep File 2|Package]
+PackageFolder=I:\
+ProjectFolder=M:\CprinGold Software\ASTC 1.50\Advanced Sytem Tray Control\ASTC source
+ServerSideCab=
+File1=I:\Cprinsti.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

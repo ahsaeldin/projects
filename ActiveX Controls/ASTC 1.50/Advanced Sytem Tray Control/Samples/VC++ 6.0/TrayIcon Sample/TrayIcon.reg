@@ -1,0 +1,13 @@
+REGEDIT
+; This .REG file may be used by your SETUP program.
+;   If a SETUP program is not available, the entries below will be
+;   registered in your InitInstance automatically with a call to
+;   CWinApp::RegisterShellFileTypes and COleObjectFactory::UpdateRegistryAll.
+
+
+HKEY_CLASSES_ROOT\TrayIcon.Application = TrayIcon Application
+HKEY_CLASSES_ROOT\TrayIcon.Application\CLSID = {70AACC8F-6DCA-498D-8DD2-B6F5F649EE60}
+
+HKEY_CLASSES_ROOT\CLSID\{70AACC8F-6DCA-498D-8DD2-B6F5F649EE60} = TrayIcon Application
+HKEY_CLASSES_ROOT\CLSID\{70AACC8F-6DCA-498D-8DD2-B6F5F649EE60}\ProgId = TrayIcon.Application
+HKEY_CLASSES_ROOT\CLSID\{70AACC8F-6DCA-498D-8DD2-B6F5F649EE60}\LocalServer32 = TRAYICON.EXE

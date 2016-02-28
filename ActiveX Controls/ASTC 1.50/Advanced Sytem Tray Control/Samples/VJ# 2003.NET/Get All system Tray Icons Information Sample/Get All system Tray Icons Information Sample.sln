@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{E6FDF86B-F3D1-11D4-8576-0002A516ECE8}") = "Get All system Tray Icons Information Sample", "Get All system Tray Icons Information Sample.vjsproj", "{486CA1F1-8A05-467D-9589-51C463E85719}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{486CA1F1-8A05-467D-9589-51C463E85719}.Debug.ActiveCfg = Debug|.NET
+		{486CA1F1-8A05-467D-9589-51C463E85719}.Debug.Build.0 = Debug|.NET
+		{486CA1F1-8A05-467D-9589-51C463E85719}.Release.ActiveCfg = Release|.NET
+		{486CA1F1-8A05-467D-9589-51C463E85719}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

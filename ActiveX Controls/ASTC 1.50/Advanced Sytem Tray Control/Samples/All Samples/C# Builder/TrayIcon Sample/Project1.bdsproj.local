@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2006/01/23 14:15:07.279.dll,D:\Full Samples\C#Builder\TrayIcon Sample\ComImports\AxInterop.ASTC.dll=</Transaction>
+    <Transaction>2006/01/23 14:15:17.982.dll,D:\Full Samples\C#Builder\TrayIcon Sample\ComImports\Interop.ASTC.dll=</Transaction>
+  </Transactions>
+</BorlandProject>

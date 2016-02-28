@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TrayIcon", "TrayIcon.vbproj", "{F9E57BBE-B739-42B2-8255-BE8ABCF59D25}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{F9E57BBE-B739-42B2-8255-BE8ABCF59D25}.Debug.ActiveCfg = Debug|.NET
+		{F9E57BBE-B739-42B2-8255-BE8ABCF59D25}.Debug.Build.0 = Debug|.NET
+		{F9E57BBE-B739-42B2-8255-BE8ABCF59D25}.Release.ActiveCfg = Release|.NET
+		{F9E57BBE-B739-42B2-8255-BE8ABCF59D25}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,8 @@
+1.Balloon Tooltip Sample
+  A sample code demonstrates how to use Balloon ActiveX control to display a balloon tooltip for
+  any control.
+
+2.TrayIcon Sample
+    A sample code demonstrate how to add your software icon to system tray area
+    As well as how to call the advanced features related to system tray area from within
+    your application.
