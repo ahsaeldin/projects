@@ -1,0 +1,15 @@
+﻿More about Datler Classes and how tos:
+
+ConnectionFactory.vb:Create a connection objects of type DbConnection
+DatabaseFactory.vb:Create an objects of type Database
+Database.vb:Holds all database data, handles all operations on database and has a DbConnection property
+SQLiteDatabase.vb:sub class of Database
+
+How to add a new database "like MySQL":
+1. Add a class called MySQLDatabase.
+2. Class MySQLDatabase Inherits Database
+3. Add the database to the two factories "ConnectionFactory" and "DatabaseFactory".
+
+How to use Datler in general:-
+1.Create a new connection to your desired database.
+2.Create a new database class using the newly created connection.

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Balora.Datler.DatabaseFactory" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAFAAAQAAAAAAAAAIIAABA=</HashCode>
+      <FileName>Datler\DatabaseFactory.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Balora.Datler.Database" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kAYAIEAACQAAAAAABAAAAAAAAAFAACgAAAAAABACABA=</HashCode>
+      <FileName>Datler\Database.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Balora.Datler.ConnectionFactory" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIgAAAAAAQAAAEAAAAAQAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Datler\ConnectionFactory.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Balora.Datler.SQLiteDatabase" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hIQAKEAACSABCCgEBAAAAEAAQAFgACgAAEAAAhACAAA=</HashCode>
+      <FileName>Datler\SQLite\SQLiteDatabase.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Balora.Datler.IDatabase" Collapsed="true">
+    <Position X="4.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAYAIEAACQAAAAAABAAAAAAAAAEAAAgAAAAAABAAAAA=</HashCode>
+      <FileName>Datler\Interfaces\IDatabase.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Balora.Datler.IConnectionfactory" Collapsed="true">
+    <Position X="3" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Datler\Interfaces\IConnectionFactory.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Module Name="Balora.Datler.GlobalEnums" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Datler\ConnectionFactory.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

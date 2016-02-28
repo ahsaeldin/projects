@@ -1,0 +1,28 @@
+﻿1.CAG property in Balora.vb
+2.is_x28549 Function and x28549 variable in Globals.vb
+3.GetLicense function in RunTimeActivationLicenseProvider Class
+4.RuntimeActivationLicense class
+5.Constructor in every class you wants to protect
+        Public Sub New()
+            If IsNothing(x28549) Then
+                is_x28549(Me.GetType, Me)
+            End If
+        End Sub
+
+How to activate balora for using:-
+
+1.Pass the md5 value of the hardcoded Guid written in 
+   GetLicense function, to CAG property from within 
+   the clients who wants to consume balora.
+
+2.When the client want to consume a protect class,
+the constructor checks for licensing using is_x28549
+function.
+
+3.is_x28549 function calls validate that calls
+GetLicense function in RunTimeActivationLicenseProvider 
+Class.
+
+4.GetLicense compare the value in CAG with the value that is
+hardcoded in it and if oke then return a RuntimeActivationLicense 
+class.

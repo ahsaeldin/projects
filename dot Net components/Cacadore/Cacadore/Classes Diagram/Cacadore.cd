@@ -1,0 +1,497 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Cacadore.Triggers.DumpTrigger" Collapsed="true">
+    <Position X="14.5" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAgAIAIAAAAwAAgQAAAAAAAAAAAAAAAEgEAAEAAAAIg=</HashCode>
+      <FileName>Cacadore Triangle\Triggers\DumpTrigger.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cacadore.Globals" Collapsed="true">
+    <Position X="9.75" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAQgAAAAAACAAAQAAgQAECAAAAAAgABCQAAAEBAAA=</HashCode>
+      <FileName>Core Classes\Globals.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Cacadore.TaskErrors" Collapsed="true">
+    <Position X="3" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAACAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core Classes\TaskErrors.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Cacadore.Watcher" Collapsed="true">
+    <Position X="7.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAgAAAAEhATABAAAMgQAAAwAAAAAAAA=</HashCode>
+      <FileName>Core Classes\Watcher.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Cacadore.AddOn" Collapsed="true">
+    <Position X="3" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core Classes\AddOn.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Cacadore.Commands" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAFAkCAAAAEgEAAAoAAIBBBEgQAABBAEAAAIGQAAQ=</HashCode>
+      <FileName>Commands.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Cacadore.TaskVariables" Collapsed="true">
+    <Position X="12" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAEAAwgAAAAAgGAAAEAAQQAAAEBEA=</HashCode>
+      <FileName>Core Classes\TaskVariables.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Cacadore.TasksCollection" Collapsed="true">
+    <Position X="14.25" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAIAAAAAIAAAAAAg=</HashCode>
+      <FileName>Core Classes\TasksCollection.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Cacadore.Task" Collapsed="true">
+    <Position X="5.25" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkTo4waMNgcZZ4hEAxbgeUBEtQd7hgkqRDVArDASY=</HashCode>
+      <FileName>Core Classes\Task.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Cacadore.Variable" Collapsed="true">
+    <Position X="9.75" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAIgAAAAAAIAgAAgAAAA=</HashCode>
+      <FileName>Core Classes\Variable.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Cacadore.ActionsCollection" Collapsed="true">
+    <Position X="5.25" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAIAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core Classes\ActionsCollection.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Cacadore.History" Collapsed="true">
+    <Position X="3" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QgAAAAAAAAAAAACAAAAACAgAAAgAAAAQIAABgQAEQAA=</HashCode>
+      <FileName>Core Classes\History.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Cacadore.TaskProperties" Collapsed="true">
+    <Position X="16.5" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEQAAAAAAABAEEAAARABAABAAIEKAAAAAEEAA=</HashCode>
+      <FileName>Core Classes\TaskProperties.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Cacadore.GroupsCollection" Collapsed="true">
+    <Position X="12" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Core Classes\GroupsCollection.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Cacadore.Shape" Collapsed="true">
+    <Position X="7.5" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAgAAAAAAAAAABAAQAAAAAAgQAAAAAAAAA=</HashCode>
+      <FileName>Core Classes\Shape.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Cacadore.TriggersCollection" Collapsed="true">
+    <Position X="5.25" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIACAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core Classes\TriggersCollection.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Cacadore.Action" Collapsed="true">
+    <Position X="9.75" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAECAIAAAAAIcYECwAAIAQAEBkDEFAAAACAAABBMAA=</HashCode>
+      <FileName>Core Classes\Action.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Left" Position="0.1" />
+  </Class>
+  <Class Name="Cacadore.Group" Collapsed="true">
+    <Position X="16.75" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAIAECAAAAAAAAAAAAAQAAAEAABAAAAAAAAgAAIA=</HashCode>
+      <FileName>Core Classes\Group.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Cacadore.TaskFlowPresenter" Collapsed="true">
+    <Position X="7.5" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAIAAAAAAAkAAAAAAAAQAAAAAAAAAAAAAAAAQSAA=</HashCode>
+      <FileName>Core Classes\TaskFlowPresenter.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Cacadore.TaskState" Collapsed="true">
+    <Position X="18.75" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAIAIAAJARgAABCAQCAAAAAQggAIiAAABVFwBAA=</HashCode>
+      <FileName>Core Classes\TaskState.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Cacadore.CacadoreBase" Collapsed="true">
+    <Position X="10.75" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAIBAACAAQAAgAAAAAAAAAABAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Core Classes\CacadoreBase.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Cacadore.Settings" Collapsed="true">
+    <Position X="14.25" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAMAAgAAQAIBAIAAAAEAAEFAAAAAAAQAgAAAAgAA=</HashCode>
+      <FileName>Core Classes\Settings.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Cacadore.Trigger" Collapsed="true">
+    <Position X="12" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAQAIIAEAAAwAAgQAgAAIAQAAAECAAAGgEAwEAAAAIg=</HashCode>
+      <FileName>Core Classes\Trigger.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Left" Position="0.1" />
+  </Class>
+  <Class Name="Cacadore.Crud" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.25" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAAEAAACAAAAAAAAAAAEAAAAEAAAgAAAAAAgAAAAA=</HashCode>
+      <FileName>Cacadore Cruding\Crud.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Cacadore.Licenser.RunTimeActivationLicenseProvider" Collapsed="true">
+    <Position X="11.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cacadore Licenser\RunTimeActivationLicenseProvider.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cacadore.Licenser.RuntimeActivationLicense" Collapsed="true">
+    <Position X="11.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cacadore Licenser\RuntimeActivationLicense.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cacadore.My.MySettings" Collapsed="true">
+    <Position X="11.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cacadore.Actions.MessageBoxes.ShowMessageBox" Collapsed="true">
+    <Position X="8.5" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAQQAAQAAAAAAEBAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cacadore Triangle\Actions\MessageBoxes\ShowMessageBox.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cacadore.HistoryEntry" Collapsed="true">
+    <Position X="18.75" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAEAAAgAAAEAAAAAAAAAIgAAAAEAAAgAAAkAAA=</HashCode>
+      <FileName>Core Classes\HistoryEntry.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Cacadore.GlobalEntry" Collapsed="true">
+    <Position X="18.75" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAQAAIABAAAAAAAgAAgAAAA=</HashCode>
+      <FileName>Core Classes\GlobalEntry.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Cacadore.Triggers.ScheduleTrigger" Collapsed="true">
+    <Position X="14.5" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAgAIAIAAAAwAAgQAAAAIAAAAAAAAAAEgEAAEAAAAIg=</HashCode>
+      <FileName>Cacadore Triangle\Triggers\ScheduleTrigger.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cacadore.ActionExceptionsManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAIBAAIAAAAIAIAAAgAAQAJAAA=</HashCode>
+      <FileName>Cacadore Triangle\Actions Exceptions\ExceptionsManager.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Cacadore.ActionExceptionHandler" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAADAAAAAAIAQIAAEAAAACBAgAAIAAAJAAAgIAAhCAA=</HashCode>
+      <FileName>Cacadore Triangle\Actions Exceptions\ExceptionHandler.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Cacadore.Actions.System.ExitProcess" Collapsed="true">
+    <Position X="7.5" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JAAACAAAAAAAAQQAAUAAAAAAEBCAEBAABAKAAAAAAAA=</HashCode>
+      <FileName>Cacadore Triangle\Actions\System\ExitProcess.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cacadore.Actions.System.TakeScreenShot" Collapsed="true">
+    <Position X="3.25" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAQQAAQAAAAAAEBAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cacadore Triangle\Actions\System\TakeScreenShot.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cacadore.Actions.System.StartApplication" Collapsed="true">
+    <Position X="9.75" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BJAACAAACAAAAQQhAQAAAgiAEDAAEAIAAAOBAAIAQAA=</HashCode>
+      <FileName>Cacadore Triangle\Actions\System\StartApplication.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cacadore.Actions.System.ShutdownPC" Collapsed="true">
+    <Position X="14" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAIAAAAECAAAAAQRgAIAAAAAAAAAMAAAAAKAAAAAAFA=</HashCode>
+      <FileName>Cacadore Triangle\Actions\System\ShutdownPC.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Cacadore.ITaskVariables" Collapsed="true">
+    <Position X="8.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAIAAQAAAAEBEA=</HashCode>
+      <FileName>Core Interfaces\ITaskVariables.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Cacadore.IVariable" Collapsed="true">
+    <Position X="6.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAgAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Core Interfaces\IVariable.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Cacadore.ITask" Collapsed="true">
+    <Position X="4.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgBIAQQAMAQQQAgEAAAAAACEkAEAAAgCRCRAhCACA=</HashCode>
+      <FileName>Core Interfaces\ITask.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Cacadore.IGroupsCollection" Collapsed="true">
+    <Position X="6.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core Interfaces\ICollections.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Cacadore.ITasksCollection" Collapsed="true">
+    <Position X="6.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Core Interfaces\ICollections.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Cacadore.IActionsCollection" Collapsed="true">
+    <Position X="4.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core Interfaces\ICollections.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Cacadore.ITriggersCollection" Collapsed="true">
+    <Position X="4.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core Interfaces\ICollections.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Cacadore.IHistoryEntry" Collapsed="true">
+    <Position X="3" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAgAAAAAAAAAAAAAAgAAAAAAAAgAAAgAAA=</HashCode>
+      <FileName>Core Interfaces\IHistoryEntry.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Cacadore.IHistory" Collapsed="true">
+    <Position X="8.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core Interfaces\IHistory.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Cacadore.ITaskProperties" Collapsed="true">
+    <Position X="4.75" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAEAAAARAAAAAAAIACAAAAAEAAA=</HashCode>
+      <FileName>Core Interfaces\ITaskProperties.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Cacadore.ITaskState" Collapsed="true">
+    <Position X="3" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIABgAAAAAAAAAAAARAAAICAAAAAFQAAA=</HashCode>
+      <FileName>Core Interfaces\ITaskState.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Cacadore.IShape" Collapsed="true">
+    <Position X="6.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAgAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Core Interfaces\IShape.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Cacadore.IAddon" Collapsed="true">
+    <Position X="6.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core Interfaces\IAddOn.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Cacadore.IGroup" Collapsed="true">
+    <Position X="6.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAIAEAAAAAAAAAAAAAAQAAAEAABAAAAAAAAgAAAA=</HashCode>
+      <FileName>Core Interfaces\IGroup.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Cacadore.ITaskFlowPresenter" Collapsed="true">
+    <Position X="3" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAIAAAAAAAgAAAAAAAAQAAAAAAAAAAAAAAAAASAA=</HashCode>
+      <FileName>Core Interfaces\ITaskFlowPresenter.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Cacadore.IGlobals" Collapsed="true">
+    <Position X="4.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQgAAAAAAAAAAAAAgQAAAAAAAAAgAAAQAAAEAAAA=</HashCode>
+      <FileName>Core Interfaces\IGlobals.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Cacadore.IGlobalEntry" Collapsed="true">
+    <Position X="3" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Core Interfaces\IGlobals.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Cacadore.ICrud" Collapsed="true">
+    <Position X="8.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAAAAEAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Cacadore Cruding\ICRUD.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Cacadore.ISettings" Collapsed="true">
+    <Position X="4.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core Interfaces\ISettings.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Cacadore.ITrigger" Collapsed="true">
+    <Position X="3" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAQAAIAAAAAgAAAAAAAAAAAAAAECAAAGAEAAEAAAAIA=</HashCode>
+      <FileName>Core Interfaces\ITrigger.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Cacadore.IAction" Collapsed="true">
+    <Position X="3" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAECAAAAAAAAYYEAQAAAAQAEBkBEEAAAAAAAAAAMAA=</HashCode>
+      <FileName>Core Interfaces\IAction.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Cacadore.ITaskErrors" Collapsed="true">
+    <Position X="8.25" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core Interfaces\ITaskErrors.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Cacadore.ICrudable" Collapsed="true">
+    <Position X="8.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core Interfaces\ICrudable.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Cacadore.ITaskListner" Collapsed="true">
+    <Position X="8.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgABAAAAEAAAAAgAAAAAAAAEAAAAAAkAAAQAAAAAA=</HashCode>
+      <FileName>Core Interfaces\ITaskListner.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Cacadore.IActionExceptionsManager" Collapsed="true">
+    <Position X="10" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAIBAAAAAAAIAIAAAgAAQAIAAA=</HashCode>
+      <FileName>Cacadore Triangle\Actions Exceptions\IActionExceptionsManager.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Cacadore.IExceptionHandler" Collapsed="true">
+    <Position X="10" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAIAQIAAAAAAACAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Cacadore Triangle\Actions Exceptions\IExceptionHandler.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Module Name="Cacadore.My.Resources.Resources" Collapsed="true">
+    <Position X="10" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAB4AAAAAAAABkEAAwSBAAAAAAAAAAAAAIZE=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="Cacadore.My.MySettingsProperty" Collapsed="true">
+    <Position X="10" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="Cacadore.CacadorePrivateCalls" Collapsed="true">
+    <Position X="10" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>CacadorePrivateCalls.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="Cacadore.CacadoreGloby" Collapsed="true">
+    <Position X="10" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAEAAAAAAAAABAABAAEAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CacadoreGloby.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

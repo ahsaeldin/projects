@@ -1,0 +1,4 @@
+﻿1.Copy and backup the form (don't ever remove it) it will remain here.
+2.Inherit the copied version from UserControl rather than Form.
+3.Fix the raised errors
+4.Expose the events you want from ErrorReporterControl to outside so I can use it from the connector.

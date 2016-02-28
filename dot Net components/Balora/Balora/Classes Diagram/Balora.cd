@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Balora.SysInfo" Collapsed="true">
+    <Position X="4.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SysManage\SysInfo.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Balora.RandomBytesGenerator" Collapsed="true">
+    <Position X="2.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Individual Classes\RandomBytesGenerator.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Balora.MacroCodeGenerator" Collapsed="true">
+    <Position X="4.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAASAABAAAACAAAAAAAAAAAAAAAAAAAABAAAAAACAAE=</HashCode>
+      <FileName>Individual Classes\MacroCodeGenerator.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Balora.BaloraBase" Collapsed="true">
+    <Position X="6.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAICAAAAAAgAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BaloraBase.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Balora.Settings" Collapsed="true">
+    <Position X="10" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAIAAAAAAAoAMAAAIAQAAACAAAAAA=</HashCode>
+      <FileName>Individual Classes\Balora.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Balora.Alerter" Collapsed="true">
+    <Position X="15.5" Y="6.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAQAAAAAABAAAAAAAAIAAAA=</HashCode>
+      <FileName>Individual Classes\Balora.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Balora.xResources" Collapsed="true">
+    <Position X="0.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAEAAAAAAAAAABAACAAAAAAAAAAgAABAA=</HashCode>
+      <FileName>Individual Classes\xResources.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Left" Position="0.1" />
+  </Class>
+  <Class Name="Balora.Util" Collapsed="true">
+    <Position X="6.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IEwIKBAACCgBAGhAEAAABGiKAAPAgAIgAEUAIkgEUCA=</HashCode>
+      <FileName>Individual Classes\Util.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Balora.Mailer" Collapsed="true">
+    <Position X="2.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBAAAAgCIBgqIcAsIFACAggIAEAFEGiAAIQhJIAAE=</HashCode>
+      <FileName>Individual Classes\Mailer.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Balora.HTMLReportEngine" Collapsed="true">
+    <Position X="8.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Individual Classes\HTMLReportEngine.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Balora.CodeGen" Collapsed="true">
+    <Position X="6" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CICICBAAICgABAIBKAAiQCoIEAAAAAAgBgAAA0BggEQ=</HashCode>
+      <FileName>Individual Classes\CodeGen.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Balora.AsynchronousWebRequest" Collapsed="true">
+    <Position X="0.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAgEKAAIAAAAAgAAACAQAAIAAAAAQAAAAAAQ=</HashCode>
+      <FileName>Individual Classes\AsynchronousWebRequest.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Balora.XMLEngine" Collapsed="true">
+    <Position X="10" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Individual Classes\XMLEngine.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Balora.ErrorReporter.ErrorReporter" Collapsed="true">
+    <Position X="2.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAkAAQAAgAgmQAAFBAIAAoABAAACMBAgQMAAACMAA=</HashCode>
+      <FileName>ErrorReporter\ErrorReporter.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Balora.ErrorReporter.ErrorReportingUI" Collapsed="true">
+    <Position X="5.25" Y="11" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AKIAAAAASCCAglAAAECAAAACAAAAAAIAwQAAAAAIAAA=</HashCode>
+      <FileName>ErrorReporter\ErrorReportingUI.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Balora.ErrorReporter.ErrorReporterControl" Collapsed="true">
+    <Position X="7.25" Y="11" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ErrorReporter\ErrorReporterControl.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Balora.Datler.Database" Collapsed="true">
+    <Position X="11.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kAYAIEAACQAAAAAABAAAAAAAAAFAACgAAAAAABACABA=</HashCode>
+      <FileName>Datler\Database.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Balora.Datler.DevartSQLiteDatabase" Collapsed="true">
+    <Position X="11.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hIQAKGAACSABCCgEhAAAAEAAQAFgACgAAEBAAhACAAA=</HashCode>
+      <FileName>Datler\SQLite\DevartSQLiteDatabase.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Balora.Datler.DatabaseFactory" Collapsed="true">
+    <Position X="13.5" Y="8.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAEAAAQAAAAAAAAAIIAABA=</HashCode>
+      <FileName>Datler\DatabaseFactory.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Balora.Datler.ConnectionFactory" Collapsed="true">
+    <Position X="13.5" Y="6.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAIgAAAAAAQAAAEAAAAAQAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Datler\ConnectionFactory.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Balora.Licenser.RunTimeActivationLicenseProvider" Collapsed="true">
+    <Position X="11.75" Y="4" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Licenser\RunTimeActivationLicenseProvider.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Balora.Licenser.RuntimeActivationLicense" Collapsed="true">
+    <Position X="11.75" Y="3" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Licenser\RuntimeActivationLicense.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Balora.Serializer.BinarySerializer" Collapsed="true">
+    <Position X="8" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAQEAAAAAAEAAAAAACAAAAAAQAAAQAAAAAAAA=</HashCode>
+      <FileName>Individual Classes\Serializer.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Balora.Serializer.XMLSerialr" Collapsed="true">
+    <Position X="11.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Individual Classes\Serializer.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Balora.BackgroundWorkerHelper" Collapsed="true">
+    <Position X="8.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAIBARCAAAACAAIAAAAAAAAABAAABAAAgAAABAAA=</HashCode>
+      <FileName>Individual Classes\BackgroundWorkerHelper.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Balora.Servnst" Collapsed="true">
+    <Position X="14.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QACgAABAAAAAAAAAAAAAAgAAgAAAEBAAAAAAAAAAAAI=</HashCode>
+      <FileName>Individual Classes\Servnst.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Balora.CroXGen" Collapsed="true">
+    <Position X="16.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAABAgAAAIAIAAAAAAAAIhAAQACAJABAAgAABBCA=</HashCode>
+      <FileName>Individual Classes\CroXGen.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Balora.SysManage" Collapsed="true">
+    <Position X="3" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MIAAAAgAgQAAIAAABAAgAYAAAAAAAAQAAAAAAASEIAA=</HashCode>
+      <FileName>SysManage\SysManage.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Balora.RegexMatcher" Collapsed="true">
+    <Position X="4.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Individual Classes\RegexMatcher.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Balora.IntProcCom" Collapsed="true">
+    <Position X="10.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAEAAAA=</HashCode>
+      <FileName>IPC\IntProcCom.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Balora.PathsHelper" Collapsed="true">
+    <Position X="12.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAoAAAAAAAAAAAAAAAAABAAAYAAAAAAAAABAFAIg=</HashCode>
+      <FileName>Individual Classes\PathsHelper.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Balora.Ipc.NamedPipes.MessageEveArgs" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAIAAAAAA=</HashCode>
+      <FileName>IPC\NamedPipes\Classes\MessageEventArgs.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Balora.Ipc.NamedPipes.Message" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAkgAAAAQkQIAAgAAAAAAAEkAABAAAAAAA=</HashCode>
+      <FileName>IPC\NamedPipes\Classes\Message.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Balora.Ipc.NamedPipes.PipeServer" Collapsed="true">
+    <Position X="1.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAAAACgRAAAEASAOAAAAAAIAAACAgSRAAAAAAABAA=</HashCode>
+      <FileName>IPC\NamedPipes\Classes\PipeServer.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Balora.Ipc.NamedPipes.PipeClient" Collapsed="true">
+    <Position X="3" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAEAAAgEAAEAASAGAAAIAAAAIQAAwiAAAAAABABFg=</HashCode>
+      <FileName>IPC\NamedPipes\Classes\PipeClient.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Balora.Ipc.NamedPipes.NamedPipesBase" Collapsed="true">
+    <Position X="5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQRgAABQQDADcMDAaCAAAAAIADAACQAAEAAAQgwAAhA=</HashCode>
+      <FileName>IPC\NamedPipes\Classes\NamedPipesBase.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Balora.Encryption.Hash" Collapsed="true">
+    <Position X="26" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAABEAAAAAAAAACAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Individual Classes\Encryption.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Balora.Encryption.Symmetric" Collapsed="true">
+    <Position X="21.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAABAJEGAAAQQAADAEAAABAAAAABAAAQABAAAAAA=</HashCode>
+      <FileName>Individual Classes\Encryption.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Balora.Encryption.Asymmetric" Collapsed="true">
+    <Position X="26" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EQEgAIBIgABAmSAQAAAAEABAAAYABKICAAgBFhgAQAA=</HashCode>
+      <FileName>Individual Classes\Encryption.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Balora.Encryption.Data" Collapsed="true">
+    <Position X="26.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABKAAAABAAAAAgEAEAAIIEAgJBAAAAAAAgMCAAAKAA=</HashCode>
+      <FileName>Individual Classes\Encryption.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Balora.Encryption.Utils" Collapsed="true">
+    <Position X="16.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAgAAAAAAAEAAAIAAgAAAAAAGAIAAAAAIAAA=</HashCode>
+      <FileName>Individual Classes\Encryption.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Balora.Ipc.MMF.MMF" Collapsed="true">
+    <Position X="26.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IPC\MemoryMappedFiles\MMF.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Balora.My.MySettings" Collapsed="true">
+    <Position X="20" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Balora.Result" Collapsed="true">
+    <Position X="21.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Individual Classes\Util.vb</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Balora.LoadedAssembly" Collapsed="true">
+    <Position X="20" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAECAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Individual Classes\Util.vb</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="Balora.IListener" Collapsed="true">
+    <Position X="20" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Listener &amp; Broadcaster\IListener.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Balora.IBroadcaster" Collapsed="true">
+    <Position X="20" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAgAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Listener &amp; Broadcaster\IBroadcaster.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Balora.Ipc.NamedPipes.IPipeClient" Collapsed="true">
+    <Position X="21.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAQACAAAIAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IPC\NamedPipes\Interfaces\IClient.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Balora.Ipc.NamedPipes.IPipeServer" Collapsed="true">
+    <Position X="23.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAEAQACAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>IPC\NamedPipes\Interfaces\IServer.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Balora.Ipc.NamedPipes.IMessage" Collapsed="true">
+    <Position X="21.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAkgAAAAAAQAAAAAAAAAAAEEAABAAAAAAA=</HashCode>
+      <FileName>IPC\NamedPipes\Interfaces\IMessage.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Balora.Ipc.NamedPipes.INamedPipesBase" Collapsed="true">
+    <Position X="20" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQRAAAAQQAAAYADAACAAAAAAAAAACAAAAAAAQAAAAgA=</HashCode>
+      <FileName>IPC\NamedPipes\Interfaces\INamedPipesBase.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Balora.Ipc.NamedPipes.IMessageEveArgs" Collapsed="true">
+    <Position X="23.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>IPC\NamedPipes\Interfaces\IMessageEveArgs.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Balora.Datler.IConnectionfactory" Collapsed="true">
+    <Position X="21.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Datler\Interfaces\IConnectionFactory.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Balora.Datler.IDatabase" Collapsed="true">
+    <Position X="23.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAYAIEAACQAAAAAABAAAAAAAAAEAAAgAAAAAABAAAAA=</HashCode>
+      <FileName>Datler\Interfaces\IDatabase.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Module Name="Balora.PublicEnums" Collapsed="true">
+    <Position X="21.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PublicEnums.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="Balora.BaloraPrivateCalls" Collapsed="true">
+    <Position X="20" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BaloraPrivateCalls.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="Balora.Win32API" Collapsed="true">
+    <Position X="20" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Misc Files\Win32API.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="Balora.Ipc.NamedPipes.NamedPipeHelper" Collapsed="true">
+    <Position X="20" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IPC\NamedPipes\Classes\NamedPipeHelper.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="Balora.My.Resources.Resources" Collapsed="true">
+    <Position X="23.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="Balora.Datler.GlobalEnums" Collapsed="true">
+    <Position X="21.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Datler\ConnectionFactory.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="Balora.My.MySettingsProperty" Collapsed="true">
+    <Position X="23.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
