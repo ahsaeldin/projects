@@ -1,0 +1,5 @@
+[History]
+B0=PerfectMacroRecorder/Registre/savestring
+B1=PerfectMacroRecorder/frmOptions2/cmdOk_Click
+B2=PerfectMacroRecorder/Registre/getstring
+B3=PerfectMacroRecorder/API_CALL2/LogOn

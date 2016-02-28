@@ -1,0 +1,84 @@
+[Root]
+Most Recent Package=Dep File 1
+
+
+[Package|Dep File 1|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=h:\Documents and Settings\AHMED.CPRIN\Desktop\himan\2
+
+[Package|Dep File 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Dep File 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File 1|Files Found]
+
+[Package|Dep File 1|Files Released]
+SMART.CHI=
+
+[Package|Dep File 1|Missing Dependency Information]
+H:\Documents and Settings\AHMED.CPRIN\Desktop\ASTC.ocx=
+
+[Package|Dep File 1|Out-of-Date Dependency Information]
+H:\WINDOWS\system32\mscomctl.ocx=
+
+[Package|Dep File 1|Files Added]
+
+[Package|Dep File 1|Files Removed]
+
+[Package|Dep File 1|Files In Project]
+J:\Smack\Smack\Smack\Package Under Win98\Smack.exe=Yes
+H:\WINDOWS\system32\msvbvm60.dll=Yes
+H:\WINDOWS\system32\oleaut32.dll=Yes
+H:\WINDOWS\system32\olepro32.dll=Yes
+H:\WINDOWS\system32\asycfilt.dll=Yes
+H:\WINDOWS\system32\stdole2.tlb=Yes
+H:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+H:\WINDOWS\system32\TABCTL32.OCX=Yes
+H:\WINDOWS\system32\mscomctl.ocx=Yes
+H:\Documents and Settings\AHMED.CPRIN\Desktop\ASTC.ocx=Yes
+J:\Smack\Smack\Smack\SMART.CHM=Yes
+H:\WINDOWS\system32\hhctrl.ocx=Yes
+H:\WINDOWS\system32\itss.dll=Yes
+H:\WINDOWS\system32\itircl.dll=Yes
+H:\WINDOWS\system32\hh.exe=Yes
+
+[Package|Dep File 1|Configure Registry Files]
+Applicable=
+
+[Package|Dep File 1|Configure Remote Servers]
+Applicable=
+
+[Package|Dep File 1|Install Locations]
+J:\Smack\Smack\Smack\Package Under Win98\Smack.exe=$(AppPath)
+H:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+H:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+H:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+H:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+H:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+H:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+H:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+H:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+H:\Documents and Settings\AHMED.CPRIN\Desktop\ASTC.ocx=$(WinSysPath)
+J:\Smack\Smack\Smack\SMART.CHM=$(AppPath)
+H:\WINDOWS\system32\hhctrl.ocx=$(WinSysPath)
+H:\WINDOWS\system32\itss.dll=$(WinSysPath)
+H:\WINDOWS\system32\itircl.dll=$(WinSysPath)
+H:\WINDOWS\system32\hh.exe=$(WinSysPath)
+
+[Package|Dep File 1|Configure Shared Files]
+Applicable=
+
+[Package|Dep File 1|DepFile]
+DepCabFile=Smack.CAB
+DepCabRun=Smack.INF
+
+[Package|Dep File 1|Package]
+PackageFolder=h:\Documents and Settings\AHMED.CPRIN\Desktop\himan\2
+ProjectFolder=J:\Smack\Smack\Smack
+ServerSideCab=
+File1=h:\Documents and Settings\AHMED.CPRIN\Desktop\himan\2\Smack.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

@@ -1,0 +1,521 @@
+[Root]
+Most Recent Package=Dep File 2
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\999999999999
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+I:\WINDOWS\system32\acomte445.ocx=
+I:\WINDOWS\system32\jbet33.ocx=
+D:\Cp\win32\Win32 Type Library best one\Win32 Type Library\JHWin32.tlb=
+I:\WINDOWS\system32\TLBINF32.DLL=
+I:\WINDOWS\system32\shlwapi.dll=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+I:\WINDOWS\system32\MSCOMCTL.OCX=
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+I:\Documents and Settings\Ahmed\Desktop\Perfect Macro Recorder.exe=Yes
+I:\WINDOWS\system32\msvbvm60.dll=Yes
+I:\WINDOWS\system32\oleaut32.dll=Yes
+I:\WINDOWS\system32\olepro32.dll=Yes
+I:\WINDOWS\system32\asycfilt.dll=Yes
+I:\WINDOWS\system32\stdole2.tlb=Yes
+I:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+I:\WINDOWS\system32\shlwapi.dll=Yes
+I:\WINDOWS\system32\TLBINF32.DLL=Yes
+D:\Cp\win32\Win32 Type Library best one\Win32 Type Library\JHWin32.tlb=Yes
+I:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+I:\WINDOWS\system32\COMDLG32.OCX=Yes
+I:\WINDOWS\system32\jbet33.ocx=Yes
+I:\WINDOWS\system32\acomte445.ocx=Yes
+I:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+I:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+I:\WINDOWS\system32\VB6STKIT.DLL=Yes
+I:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+I:\Documents and Settings\Ahmed\Desktop\Perfect Macro Recorder.exe=$(AppPath)
+I:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+I:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+I:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+I:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+I:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+I:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+I:\WINDOWS\system32\shlwapi.dll=$(WinSysPath)
+I:\WINDOWS\system32\TLBINF32.DLL=$(WinSysPath)
+D:\Cp\win32\Win32 Type Library best one\Win32 Type Library\JHWin32.tlb=$(WinSysPath)
+I:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+I:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+I:\WINDOWS\system32\jbet33.ocx=$(WinSysPath)
+I:\WINDOWS\system32\acomte445.ocx=$(WinSysPath)
+I:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+I:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+I:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+I:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+I:\Documents and Settings\Ahmed\Desktop\Perfect Macro Recorder.exe=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Perfect Macro Recorder 1.50
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Perfect Macro Recorder 1.50
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Perfect Macro Recorder 1.50]
+Icon1="Perfect Macro Recorder.exe"
+Title1=Perfect Macro Recorder 1.50
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=c:\999999999999
+ProjectFolder=M:\Perfection Tools\Perfect Macro Recorder v1.50\Code
+ServerSideCab=
+File1=c:\999999999999\setup.exe
+File2=c:\999999999999\Setup.Lst
+File3=c:\999999999999\Perfect Macro Recorder.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\Documents and Settings\moopy\Desktop\444
+
+[Package|Standard Setup Package 2|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 2|Files Found]
+
+[Package|Standard Setup Package 2|Files Released]
+ArmAccess.DLL=
+
+[Package|Standard Setup Package 2|Missing Dependency Information]
+C:\WINDOWS\system32\acomte445.ocx=
+C:\WINDOWS\system32\jbet33.ocx=
+F:\win32\Win32 Type Library best one\Win32 Type Library\JHWin32.tlb=
+C:\WINDOWS\system32\TLBINF32.DLL=
+C:\WINDOWS\system32\shlwapi.dll=
+
+[Package|Standard Setup Package 2|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\mscomctl.ocx=
+
+[Package|Standard Setup Package 2|Files Added]
+
+[Package|Standard Setup Package 2|Files Removed]
+
+[Package|Standard Setup Package 2|Files In Project]
+C:\Documents and Settings\moopy\Desktop\Perfect Macro Recorder.exe=Yes
+C:\WINDOWS\system32\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\shlwapi.dll=Yes
+C:\WINDOWS\system32\TLBINF32.DLL=Yes
+F:\win32\Win32 Type Library best one\Win32 Type Library\JHWin32.tlb=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\jbet33.ocx=Yes
+C:\WINDOWS\system32\acomte445.ocx=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 2|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 2|Install Locations]
+C:\Documents and Settings\moopy\Desktop\Perfect Macro Recorder.exe=$(AppPath)
+C:\WINDOWS\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\shlwapi.dll=$(WinSysPath)
+C:\WINDOWS\system32\TLBINF32.DLL=$(WinSysPath)
+F:\win32\Win32 Type Library best one\Win32 Type Library\JHWin32.tlb=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\jbet33.ocx=$(WinSysPath)
+C:\WINDOWS\system32\acomte445.ocx=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 2|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\moopy\Desktop\Perfect Macro Recorder.exe=No
+
+[Package|Standard Setup Package 2|Distribution]
+Type=single
+Size=
+Title=Perfect Macro Recorder 1.50
+
+[Package|Standard Setup Package 2|IconGroups]
+Group0=Perfect Macro Recorder 1.50
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 2|Perfect Macro Recorder 1.50]
+Icon1="Perfect Macro Recorder.exe"
+Title1=Perfect Macro Recorder 1.50
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 2|Package]
+PackageFolder=c:\Documents and Settings\moopy\Desktop\444
+ProjectFolder=I:\Perfection Tools Software\Perfect Macro Recorder v2.00.00\Code
+ServerSideCab=
+File1=c:\Documents and Settings\moopy\Desktop\444\setup.exe
+File2=c:\Documents and Settings\moopy\Desktop\444\Setup.Lst
+File3=c:\Documents and Settings\moopy\Desktop\444\Perfect Macro Recorder.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 3|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\Users\ahmed\Desktop\sfs
+
+[Package|Standard Setup Package 3|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 3|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 3|Files Found]
+
+[Package|Standard Setup Package 3|Files Released]
+JHWin32.tlb=
+ArmAccess.DLL=
+
+[Package|Standard Setup Package 3|Missing Dependency Information]
+C:\Windows\System32\acomte445.ocx=
+C:\Windows\System32\jbet33.ocx=
+C:\Windows\System32\TLBINF32.DLL=
+C:\Windows\System32\shlwapi.dll=
+
+[Package|Standard Setup Package 3|Out-of-Date Dependency Information]
+C:\Windows\System32\MSCOMCT2.OCX=
+
+[Package|Standard Setup Package 3|Files Added]
+
+[Package|Standard Setup Package 3|Files Removed]
+
+[Package|Standard Setup Package 3|Files In Project]
+C:\Users\ahmed\Desktop\Perfect Macro Recorder.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\System32\shlwapi.dll=Yes
+C:\Windows\System32\TLBINF32.DLL=Yes
+C:\Windows\System32\MSCOMCTL.OCX=Yes
+C:\Windows\System32\jbet33.ocx=Yes
+C:\Windows\System32\acomte445.ocx=Yes
+C:\Windows\System32\Comdlg32.ocx=Yes
+C:\Windows\System32\MSCOMCT2.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 3|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 3|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 3|Install Locations]
+C:\Users\ahmed\Desktop\Perfect Macro Recorder.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\shlwapi.dll=$(WinSysPath)
+C:\Windows\System32\TLBINF32.DLL=$(WinSysPath)
+C:\Windows\System32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Windows\System32\jbet33.ocx=$(WinSysPath)
+C:\Windows\System32\acomte445.ocx=$(WinSysPath)
+C:\Windows\System32\Comdlg32.ocx=$(WinSysPath)
+C:\Windows\System32\MSCOMCT2.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 3|Configure Shared Files]
+Applicable=Yes
+C:\Users\ahmed\Desktop\Perfect Macro Recorder.exe=No
+
+[Package|Standard Setup Package 3|Distribution]
+Type=single
+Size=
+Title=Perfect Macro Recorder 1.50
+
+[Package|Standard Setup Package 3|IconGroups]
+Group0=Perfect Macro Recorder 1.50
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 3|Perfect Macro Recorder 1.50]
+Icon1="Perfect Macro Recorder.exe"
+Title1=Perfect Macro Recorder 1.50
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 3|Package]
+PackageFolder=c:\Users\ahmed\Desktop\sfs
+ProjectFolder=H:\Perfection Tools Software\Perfect Macro Recorder v2.00.00\Code
+ServerSideCab=
+File1=c:\Users\ahmed\Desktop\sfs\setup.exe
+File2=c:\Users\ahmed\Desktop\sfs\Setup.Lst
+File3=c:\Users\ahmed\Desktop\sfs\Perfect Macro Recorder.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Dep File 1|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=c:\Documents and Settings\moopy\Desktop\444
+
+[Package|Dep File 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Dep File 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File 1|Files Found]
+
+[Package|Dep File 1|Files Released]
+ArmAccess.DLL=
+JHWin32.tlb=
+
+[Package|Dep File 1|Missing Dependency Information]
+C:\WINDOWS\system32\acomte445.ocx=
+C:\WINDOWS\system32\jbet33.ocx=
+F:\win32\Win32 Type Library best one\Win32 Type Library\JHWin32.tlb=
+C:\WINDOWS\system32\TLBINF32.DLL=
+C:\WINDOWS\system32\shlwapi.dll=
+
+[Package|Dep File 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\mscomctl.ocx=
+C:\Windows\System32\MSCOMCT2.OCX=
+
+[Package|Dep File 1|Files Added]
+
+[Package|Dep File 1|Files Removed]
+
+[Package|Dep File 1|Files In Project]
+C:\WINDOWS\system32\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\shlwapi.dll=Yes
+C:\WINDOWS\system32\TLBINF32.DLL=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\jbet33.ocx=Yes
+C:\WINDOWS\system32\acomte445.ocx=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\Users\ahmed\Desktop\Perfect Macro Recorder.exe=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+
+[Package|Dep File 1|Configure Registry Files]
+Applicable=No
+
+[Package|Dep File 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Dep File 1|Install Locations]
+C:\Documents and Settings\moopy\Desktop\Perfect Macro Recorder.exe=$(AppPath)
+C:\WINDOWS\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\shlwapi.dll=$(WinSysPath)
+C:\WINDOWS\system32\TLBINF32.DLL=$(WinSysPath)
+F:\win32\Win32 Type Library best one\Win32 Type Library\JHWin32.tlb=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\jbet33.ocx=$(WinSysPath)
+C:\WINDOWS\system32\acomte445.ocx=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Users\ahmed\Desktop\Perfect Macro Recorder.exe=$(AppPath)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+
+[Package|Dep File 1|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\moopy\Desktop\Perfect Macro Recorder.exe=No
+
+[Package|Dep File 1|Distribution]
+Type=single
+Size=
+Title=Perfect Macro Recorder 1.50
+
+[Package|Dep File 1|IconGroups]
+Group0=Perfect Macro Recorder 1.50
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Dep File 1|Perfect Macro Recorder 1.50]
+Icon1="Perfect Macro Recorder.exe"
+Title1=Perfect Macro Recorder 1.50
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Dep File 1|DepFile]
+DepCabFile=Perfect Macro Recorder.CAB
+DepCabRun=Perfect Macro Recorder.INF
+
+[Package|Dep File 1|Package]
+PackageFolder=c:\Documents and Settings\moopy\Desktop\444
+ProjectFolder=H:\Perfection Tools Software\Perfect Macro Recorder v2.00.00\Code
+ServerSideCab=
+File1=c:\Documents and Settings\moopy\Desktop\444\Perfect Macro Recorder.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Dep File 2|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\Users\ahmed\Desktop\helllllllllllo
+
+[Package|Dep File 2|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Dep File 2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File 2|Files Found]
+
+[Package|Dep File 2|Files Released]
+JHWin32.tlb=
+ArmAccess.DLL=
+
+[Package|Dep File 2|Missing Dependency Information]
+C:\Windows\System32\acomte445.ocx=
+C:\Windows\System32\jbet33.ocx=
+C:\Windows\System32\TLBINF32.DLL=
+C:\Windows\System32\shlwapi.dll=
+
+[Package|Dep File 2|Out-of-Date Dependency Information]
+C:\Windows\System32\MSCOMCT2.OCX=
+
+[Package|Dep File 2|Files Added]
+
+[Package|Dep File 2|Files Removed]
+
+[Package|Dep File 2|Files In Project]
+C:\Users\ahmed\Desktop\Perfect Macro Recorder.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\System32\shlwapi.dll=Yes
+C:\Windows\System32\TLBINF32.DLL=Yes
+C:\Windows\System32\MSCOMCTL.OCX=Yes
+C:\Windows\System32\jbet33.ocx=Yes
+C:\Windows\System32\acomte445.ocx=Yes
+C:\Windows\System32\Comdlg32.ocx=Yes
+C:\Windows\System32\MSCOMCT2.OCX=Yes
+
+[Package|Dep File 2|Configure Registry Files]
+Applicable=
+
+[Package|Dep File 2|Configure Remote Servers]
+Applicable=
+
+[Package|Dep File 2|Install Locations]
+C:\Users\ahmed\Desktop\Perfect Macro Recorder.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\shlwapi.dll=$(WinSysPath)
+C:\Windows\System32\TLBINF32.DLL=$(WinSysPath)
+C:\Windows\System32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Windows\System32\jbet33.ocx=$(WinSysPath)
+C:\Windows\System32\acomte445.ocx=$(WinSysPath)
+C:\Windows\System32\Comdlg32.ocx=$(WinSysPath)
+C:\Windows\System32\MSCOMCT2.OCX=$(WinSysPath)
+
+[Package|Dep File 2|Configure Shared Files]
+Applicable=
+
+[Package|Dep File 2|DepFile]
+DepCabFile=Perfect Macro Recorder.CAB
+DepCabRun=Perfect Macro Recorder.INF
+
+[Package|Dep File 2|Package]
+PackageFolder=C:\Users\ahmed\Desktop\helllllllllllo
+ProjectFolder=H:\Perfection Tools Software\Perfect Macro Recorder v2.00.00\Code
+ServerSideCab=
+File1=C:\Users\ahmed\Desktop\helllllllllllo\Perfect Macro Recorder.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

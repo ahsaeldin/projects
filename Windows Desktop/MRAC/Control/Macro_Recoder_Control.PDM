@@ -1,0 +1,93 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\tttttttttttttt
+Controls Design-Time Support=Yes
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+Macro Recorder Control.CHI=
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+C:\WINDOWS\SYSTEM\MsStkPrp.dll=This file is needed for usercontrol design-time support.
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+D:\Macro Recorder Control\Macro Recorder Control\Control\Macro_Recoder_Control.ocx=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\Macro Recorder Control\Macro Recorder Control\Control\Macro Recorder Control.chm=Yes
+C:\WINDOWS\SYSTEM\HHCTRL.OCX=Yes
+C:\WINDOWS\SYSTEM\ITSS.DLL=Yes
+C:\WINDOWS\SYSTEM\ITIRCL.DLL=Yes
+C:\WINDOWS\SYSTEM\hh.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\SYSTEM\MSSTKPRP.DLL=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+D:\Macro Recorder Control\Macro Recorder Control\Control\Macro_Recoder_Control.ocx=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\Macro Recorder Control\Macro Recorder Control\Control\Macro Recorder Control.chm=$(AppPath)
+C:\WINDOWS\SYSTEM\HHCTRL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\ITSS.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\ITIRCL.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\hh.exe=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\MSSTKPRP.DLL=$(WinSysPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+D:\Macro Recorder Control\Macro Recorder Control\Control\Macro_Recoder_Control.ocx=No
+D:\Macro Recorder Control\Macro Recorder Control\Control\Macro Recorder Control.chm=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Macro_Recoder_Control
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=D:\tttttttttttttt
+ProjectFolder=D:\Macro Recorder Control\Macro Recorder Control\Control
+ServerSideCab=
+File1=D:\tttttttttttttt\setup.exe
+File2=D:\tttttttttttttt\Setup.Lst
+File3=D:\tttttttttttttt\Macro_Recoder_Control.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

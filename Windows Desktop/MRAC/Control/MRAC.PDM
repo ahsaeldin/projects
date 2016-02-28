@@ -1,0 +1,158 @@
+[Root]
+Most Recent Package=Dep File 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\9999999999999999
+Controls Design-Time Support=Yes
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+I:\WINDOWS\System32\MsStkPrp.dll=This file is needed for usercontrol design-time support.
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+I:\Documents and Settings\Ahmed\Desktop\New Folder\mrac.ocx=Yes
+I:\WINDOWS\system32\msvbvm60.dll=Yes
+I:\WINDOWS\system32\oleaut32.dll=Yes
+I:\WINDOWS\system32\olepro32.dll=Yes
+I:\WINDOWS\system32\asycfilt.dll=Yes
+I:\WINDOWS\system32\stdole2.tlb=Yes
+I:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+I:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+I:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+I:\WINDOWS\system32\VB6STKIT.DLL=Yes
+I:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+I:\WINDOWS\system32\msstkprp.dll=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+I:\Documents and Settings\Ahmed\Desktop\New Folder\mrac.ocx=$(AppPath)
+I:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+I:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+I:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+I:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+I:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+I:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+I:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+I:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+I:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+I:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+I:\WINDOWS\system32\msstkprp.dll=$(WinSysPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+I:\Documents and Settings\Ahmed\Desktop\New Folder\mrac.ocx=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Macro Recorder ActiveX Control
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=c:\9999999999999999
+ProjectFolder=M:\CprinGold Software\MRAC 1.50\Control
+ServerSideCab=
+File1=c:\9999999999999999\setup.exe
+File2=c:\9999999999999999\Setup.Lst
+File3=c:\9999999999999999\mrac.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Dep File 1|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=c:\888888888
+Controls Design-Time Support=Yes
+
+[Package|Dep File 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Dep File 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File 1|Files Found]
+
+[Package|Dep File 1|Files Released]
+
+[Package|Dep File 1|Missing Dependency Information]
+
+[Package|Dep File 1|Out-of-Date Dependency Information]
+
+[Package|Dep File 1|Files Added]
+i:\windows\system32\msstkprp.dll=This file is needed for usercontrol design-time support.
+
+[Package|Dep File 1|Files Removed]
+
+[Package|Dep File 1|Files In Project]
+I:\Documents and Settings\Ahmed\Desktop\New Folder\mrac.ocx=Yes
+I:\WINDOWS\system32\msvbvm60.dll=Yes
+I:\WINDOWS\system32\oleaut32.dll=Yes
+I:\WINDOWS\system32\olepro32.dll=Yes
+I:\WINDOWS\system32\asycfilt.dll=Yes
+I:\WINDOWS\system32\stdole2.tlb=Yes
+I:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+I:\WINDOWS\system32\msstkprp.dll=Yes
+
+[Package|Dep File 1|Configure Registry Files]
+Applicable=No
+
+[Package|Dep File 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Dep File 1|Install Locations]
+I:\Documents and Settings\Ahmed\Desktop\New Folder\mrac.ocx=$(AppPath)
+I:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+I:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+I:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+I:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+I:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+I:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+I:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+I:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+I:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+I:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+I:\WINDOWS\system32\msstkprp.dll=$(WinSysPath)
+
+[Package|Dep File 1|Configure Shared Files]
+Applicable=Yes
+I:\Documents and Settings\Ahmed\Desktop\New Folder\mrac.ocx=No
+
+[Package|Dep File 1|Distribution]
+Type=single
+Size=
+Title=Macro Recorder ActiveX Control
+
+[Package|Dep File 1|DepFile]
+DepCabFile=mrac.CAB
+DepCabRun=mrac.INF
+
+[Package|Dep File 1|Package]
+PackageFolder=c:\888888888
+ProjectFolder=M:\CprinGold Software\MRAC 1.50\Control
+ServerSideCab=
+File1=c:\888888888\mrac.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

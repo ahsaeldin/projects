@@ -1,0 +1,31 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MouseKeyboardLibrary", "MouseKeyboardLibrary\MouseKeyboardLibrary.csproj", "{71C08572-C0D6-493C-ABC8-7B5E1D931613}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlobalMacroRecorder", "GlobalMacroRecorder\GlobalMacroRecorder.csproj", "{AE7C2731-1EEB-4D78-9684-456DE18976DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApplication", "SampleApplication\SampleApplication.csproj", "{D5EE837D-1F5E-405B-B89B-2424CEE83775}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71C08572-C0D6-493C-ABC8-7B5E1D931613}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71C08572-C0D6-493C-ABC8-7B5E1D931613}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71C08572-C0D6-493C-ABC8-7B5E1D931613}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71C08572-C0D6-493C-ABC8-7B5E1D931613}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE7C2731-1EEB-4D78-9684-456DE18976DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE7C2731-1EEB-4D78-9684-456DE18976DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE7C2731-1EEB-4D78-9684-456DE18976DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE7C2731-1EEB-4D78-9684-456DE18976DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5EE837D-1F5E-405B-B89B-2424CEE83775}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5EE837D-1F5E-405B-B89B-2424CEE83775}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5EE837D-1F5E-405B-B89B-2424CEE83775}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5EE837D-1F5E-405B-B89B-2424CEE83775}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

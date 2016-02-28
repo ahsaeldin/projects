@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0E6026D5-0CCC-4BCD-BF40-A68130E6E897}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>CuteMacro.My.MyApplication</StartupObject>
+    <RootNamespace>CuteMacro</RootNamespace>
+    <AssemblyName>Perfect Macro Recorder</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+    <ApplicationIcon>Resources\PMR_V2.00.ico</ApplicationIcon>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <SignAssembly>false</SignAssembly>
+    <DelaySign>false</DelaySign>
+    <TargetZone>LocalIntranet</TargetZone>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>C:\Documents and Settings\Gama Systems\Desktop\AHMED SAAD\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <UpdateUrl>http://localhost/CuteMacro/ASDFASDF.php%3fasdfasdfasdf/</UpdateUrl>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+    <RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <DefineConstants>is_x2342="True"</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <DefineConstants>
+    </DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="External Libs\Encryption.vb" />
+    <Compile Include="External Libs\IntelliProtector.vb" />
+    <Compile Include="Modules\ExecutableMacroHelperFunctions.vb" />
+    <Compile Include="Balora\xResources.vb" />
+    <Compile Include="Balora\Util.vb" />
+    <Compile Include="UI\AboutBox.Designer.vb">
+      <DependentUpon>AboutBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\AboutBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Balora\Balora.vb" />
+    <Compile Include="Balora\CodeGen.vb" />
+    <Compile Include="UI\CompileForm.Designer.vb">
+      <DependentUpon>CompileForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\CompileForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Balora\ExecutableMacro.vb" />
+    <Compile Include="UI\FrmBackGround.Designer.vb">
+      <DependentUpon>FrmBackGround.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FrmBackGround.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FrmDelay.Designer.vb">
+      <DependentUpon>FrmDelay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FrmDelay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FrmKeyStroke.Designer.vb">
+      <DependentUpon>FrmKeyStroke.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FrmKeyStroke.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmMoreItems.Designer.vb">
+      <DependentUpon>frmMoreItems.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmMoreItems.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmMouse.Designer.vb">
+      <DependentUpon>frmMouse.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmMouse.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmProgress.Designer.vb">
+      <DependentUpon>frmProgress.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmProgress.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Classes\IntProcCom.vb" />
+    <Compile Include="Classes\Macro.vb" />
+    <Compile Include="UI\MainForm.Designer.vb">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\MainForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="UI\Options.Designer.vb">
+      <DependentUpon>Options.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Options.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\StopRecordingForm.Designer.vb">
+      <DependentUpon>StopRecordingForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\StopRecordingForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\util.vb" />
+    <Compile Include="Modules\Win32API.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="UI\AboutBox.resx">
+      <DependentUpon>AboutBox.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\CompileForm.resx">
+      <DependentUpon>CompileForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FrmBackGround.resx">
+      <DependentUpon>FrmBackGround.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FrmDelay.resx">
+      <DependentUpon>FrmDelay.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FrmKeyStroke.resx">
+      <DependentUpon>FrmKeyStroke.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmMoreItems.resx">
+      <DependentUpon>frmMoreItems.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmMouse.resx">
+      <DependentUpon>frmMouse.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmProgress.resx">
+      <DependentUpon>frmProgress.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\MainForm.resx">
+      <DependentUpon>MainForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Options.resx">
+      <DependentUpon>Options.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\StopRecordingForm.resx">
+      <DependentUpon>StopRecordingForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Classes Diagrams\BaloraClassDiagarm.cd" />
+    <None Include="My Project\app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MouseKeyboardLibrary11\MouseKeyboardLibrary\MouseKeyboardLibrary.csproj">
+      <Project>{71C08572-C0D6-493C-ABC8-7B5E1D931613}</Project>
+      <Name>MouseKeyboardLibrary</Name>
+      <Private>True</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="IWshRuntimeLibrary">
+      <Guid>{F935DC20-1CF0-11D0-ADB9-00C04FD58A0B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pause-Record.Icon.ico" />
+    <None Include="Resources\recording.ico" />
+    <None Include="Resources\PausePlayback.ico" />
+    <None Include="Resources\Playback.ico" />
+    <None Include="Resources\StopRecording.ico" />
+    <None Include="Resources\icon_48.ico" />
+    <None Include="Resources\icon_32.ico" />
+    <None Include="Resources\label_blue_buy.ico" />
+    <None Include="Resources\label_blue_buy.png" />
+    <None Include="Resources\label_blue_buy1.png" />
+    <None Include="Resources\label_blue_buy2.png" />
+    <None Include="Resources\label_blue_buy3.png" />
+    <None Include="Resources\label_blue_buy1.ico" />
+    <Content Include="Resources\PMR_V2.00.ico" />
+    <Content Include="Resources\Systray.ico" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>if /I "$(ConfigurationName)" == "Release" Eazfuscator.NET.exe "$(TargetPath)" --msbuild-project-path "$(ProjectPath)" --msbuild-project-configuration "$(ConfigurationName)" --msbuild-project-platform "$(PlatformName)" --msbuild-solution-path "$(SolutionPath)" -n --newline-flush -v 3.1</PostBuildEvent>
+  </PropertyGroup>
+</Project>

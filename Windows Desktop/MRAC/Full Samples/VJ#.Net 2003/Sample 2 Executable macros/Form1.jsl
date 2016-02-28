@@ -1,0 +1,215 @@
+/*
+'====================================================================================
+'Publisher      CprinGold Software.
+'               http://www.cpringold.com
+'               support@cpringold.com
+'
+'
+' Description:  A sample code demonstrates how to use MacroRecorder
+'               ActiveX control v1.50 to record and replay mouse clicks, keystrokes
+'               and bundle them into an executble file [.exe] in order to replay later.
+'=====================================================================================
+*/
+package WindowsApplication1;
+
+import System.Drawing.*;
+import System.Collections.*;
+import System.ComponentModel.*;
+import System.Windows.Forms.*;
+import System.Data.*;
+
+/**
+ * Summary description for Form1.
+ */
+public class Form1 extends System.Windows.Forms.Form
+{
+	System.Windows.Forms.GroupBox GroupBox1;
+	System.Windows.Forms.Label Label2;
+	System.Windows.Forms.Label Label1;
+	System.Windows.Forms.Button butSaveExe;
+	System.Windows.Forms.Button RecordBut;
+
+	System.Windows.Forms.SaveFileDialog SaveFileDialog1;
+	private AxMacroRecorderActX.AxMacroRecorder axMacroRecorder1;
+	private System.ComponentModel.IContainer components;
+
+	public Form1()
+	{
+		//
+		// Required for Windows Form Designer support
+		//
+		InitializeComponent();
+
+		//
+		// TODO: Add any constructor code after InitializeComponent call
+		//
+	}
+
+	/**
+	 * Clean up any resources being used.
+	 */
+	protected void Dispose(boolean disposing)
+	{
+		if (disposing)
+		{
+			if (components != null)
+			{
+				components.Dispose();
+			}
+		}
+		super.Dispose(disposing);
+	}
+
+	#region Windows Form Designer generated code
+	/**
+	 * Required method for Designer support - do not modify
+	 * the contents of this method with the code editor.
+	 */
+	private void InitializeComponent()
+	{
+		System.Resources.ResourceManager resources = new System.Resources.ResourceManager(Form1.class.ToType());
+		this.GroupBox1 = new System.Windows.Forms.GroupBox();
+		this.Label2 = new System.Windows.Forms.Label();
+		this.Label1 = new System.Windows.Forms.Label();
+		this.butSaveExe = new System.Windows.Forms.Button();
+		this.RecordBut = new System.Windows.Forms.Button();
+		this.SaveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+		this.axMacroRecorder1 = new AxMacroRecorderActX.AxMacroRecorder();
+		this.GroupBox1.SuspendLayout();
+		((System.ComponentModel.ISupportInitialize)(this.axMacroRecorder1)).BeginInit();
+		this.SuspendLayout();
+		// 
+		// GroupBox1
+		// 
+		this.GroupBox1.get_Controls().Add(this.Label2);
+		this.GroupBox1.get_Controls().Add(this.Label1);
+		this.GroupBox1.get_Controls().Add(this.butSaveExe);
+		this.GroupBox1.get_Controls().Add(this.RecordBut);
+		this.GroupBox1.get_Controls().Add(this.axMacroRecorder1);
+		this.GroupBox1.set_Location(new System.Drawing.Point(8, 0));
+		this.GroupBox1.set_Name("GroupBox1");
+		this.GroupBox1.set_Size(new System.Drawing.Size(464, 128));
+		this.GroupBox1.set_TabIndex(2);
+		this.GroupBox1.set_TabStop(false);
+		// 
+		// Label2
+		// 
+		this.Label2.set_Location(new System.Drawing.Point(8, 72));
+		this.Label2.set_Name("Label2");
+		this.Label2.set_Size(new System.Drawing.Size(448, 24));
+		this.Label2.set_TabIndex(15);
+		this.Label2.set_Text("2.Click Save as Exe button to stop recording and save the macro as an exectutable" +
+			" file.");
+		// 
+		// Label1
+		// 
+		this.Label1.set_Font(new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((ubyte)(System.Byte)(((ubyte)178)))));
+		this.Label1.set_Location(new System.Drawing.Point(8, 16));
+		this.Label1.set_Name("Label1");
+		this.Label1.set_Size(new System.Drawing.Size(208, 16));
+		this.Label1.set_TabIndex(14);
+		this.Label1.set_Text("1. Click Record button to start recording.");
+		// 
+		// butSaveExe
+		// 
+		this.butSaveExe.set_Location(new System.Drawing.Point(8, 96));
+		this.butSaveExe.set_Name("butSaveExe");
+		this.butSaveExe.set_Size(new System.Drawing.Size(88, 24));
+		this.butSaveExe.set_TabIndex(13);
+		this.butSaveExe.set_Text("&Save As Exe");
+		this.butSaveExe.add_Click( new System.EventHandler(this.StopRecordBut_Click) );
+		// 
+		// RecordBut
+		// 
+		this.RecordBut.set_Location(new System.Drawing.Point(8, 40));
+		this.RecordBut.set_Name("RecordBut");
+		this.RecordBut.set_Size(new System.Drawing.Size(88, 24));
+		this.RecordBut.set_TabIndex(12);
+		this.RecordBut.set_Text("&Record");
+		this.RecordBut.add_Click( new System.EventHandler(this.RecordBut_Click) );
+		// 
+		// axMacroRecorder1
+		// 
+		this.axMacroRecorder1.set_ContainingControl(this);
+		this.axMacroRecorder1.set_Enabled(true);
+		this.axMacroRecorder1.set_Location(new System.Drawing.Point(416, 8));
+		this.axMacroRecorder1.set_Name("axMacroRecorder1");
+		this.axMacroRecorder1.set_OcxState(((System.Windows.Forms.AxHost.State)(resources.GetObject("axMacroRecorder1.OcxState"))));
+		this.axMacroRecorder1.set_Size(new System.Drawing.Size(35, 35));
+		this.axMacroRecorder1.set_TabIndex(3);
+		this.axMacroRecorder1.add_RecordStart( new System.EventHandler(this.axMacroRecorder1_RecordStart) );
+		this.axMacroRecorder1.add_SaveComplete( new AxMacroRecorderActX.__MacroRecorder_SaveCompleteEventHandler(this.axMacroRecorder1_SaveComplete) );
+		// 
+		// Form1
+		// 
+		this.set_AutoScaleBaseSize(new System.Drawing.Size(5, 13));
+		this.set_ClientSize(new System.Drawing.Size(480, 134));
+		this.get_Controls().Add(this.GroupBox1);
+		this.set_Name("Form1");
+		this.set_StartPosition(System.Windows.Forms.FormStartPosition.CenterScreen);
+		this.set_Text("VJ# Macro Recorder");
+		this.GroupBox1.ResumeLayout(false);
+		((System.ComponentModel.ISupportInitialize)(this.axMacroRecorder1)).EndInit();
+		this.ResumeLayout(false);
+
+	}
+	#endregion
+
+	/**
+	 * The main entry point for the application.
+	 */
+	/** @attribute System.STAThread() */
+	public static void main(String[] args) 
+	{
+		Application.Run(new Form1());
+	}
+
+	private void RecordBut_Click (Object sender, System.EventArgs e)
+	{
+		if (this.get_WindowState() != FormWindowState.Minimized)
+			this.set_WindowState(FormWindowState.Minimized);
+		axMacroRecorder1.Record();   
+	}
+
+	private void StopRecordBut_Click (Object sender, System.EventArgs e)
+	{
+		if (axMacroRecorder1.get_IsRecord())
+		{
+			 axMacroRecorder1.StopRecord();
+
+			 SaveFileDialog1.set_FileName ("macro1");
+			 SaveFileDialog1.ShowDialog(); 
+			 
+			 /*  
+			 'Note that
+			 'Macro Recorder ActiveX Control will add the ".exe" extension
+			 'to the file path automatically
+			 'For example suppose that you want to save the macro to c:\
+			 'you can use one of the following
+			 'MacroRecorder1.SaveAsExE ("c:\macro.exe")
+			 'MacroRecorder1.SaveAsExE ("c:\macro")     'Macro Recorder will add the .exe extension to the file
+			 */
+			 axMacroRecorder1.SaveAsExE(SaveFileDialog1.get_FileName());
+			 /*
+			 'You can use command line parameters for the executable macro file to change the replay speed
+			 'For example if you save an executable macro to macro1.exe
+			 'macro1 /h    for high replay speed.
+			 'macro1 /n    for normal replay speed "the default one"
+			 'macro1 /l    for low replay speed.
+			 */
+
+		}
+	}
+
+	private void axMacroRecorder1_SaveComplete (Object sender, AxMacroRecorderActX.__MacroRecorder_SaveCompleteEvent e)
+	{
+		if (e.macFilePath != "") 
+			MessageBox.Show("Macro Saved To " + e.macFilePath);
+	}
+
+	private void axMacroRecorder1_RecordStart (Object sender, System.EventArgs e)
+	{
+		MessageBox.Show("Press Ctrl+Esc to stop Recording.");
+	}
+
+}
