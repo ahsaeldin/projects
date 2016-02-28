@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{E6FDF86B-F3D1-11D4-8576-0002A516ECE8}") = "VJTrayIcons", "VJTrayIcons.vjsproj", "{90CD67F2-D321-4282-A8DE-3275F505DE54}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{90CD67F2-D321-4282-A8DE-3275F505DE54}.Debug.ActiveCfg = Debug|.NET
+		{90CD67F2-D321-4282-A8DE-3275F505DE54}.Debug.Build.0 = Debug|.NET
+		{90CD67F2-D321-4282-A8DE-3275F505DE54}.Release.ActiveCfg = Release|.NET
+		{90CD67F2-D321-4282-A8DE-3275F505DE54}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
