@@ -1,0 +1,7 @@
+<Files ~ "^\.ht">
+ Order allow,deny
+ Deny from all
+ Satisfy All
+</Files>
+
+ErrorDocument 404 http://www.perfect-macro-recorder.com/404.shtml

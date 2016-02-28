@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+.ddsmoothmenu{
+	width:900px;
+	clear:both;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	height:38px;
+	visibility:hidden;/*hide the menu and display it after fully loading the document so it displayed rounded already*/
+}
+
+.ddsmoothmenu ul{
+	z-index:100;
+	margin-left: 70px;
+	list-style-type: none;
+}
+
+/*Top level list items*/
+.ddsmoothmenu ul li{
+	position: relative;
+	display: inline;
+	float: left;
+}
+		
+/*Top level menu link items style*/
+.ddsmoothmenu ul li a{
+	text-align:center;
+	display: block;
+	background: #494B4D; /*background of menu items (default state)*/
+	color: white;
+	padding: 12px 10px;
+	clear:both;
+	text-decoration: none;
+	width:90px;
+	margin-top:0px;
+}
+
+.ddsmoothmenu ul li a:link, .ddsmoothmenu ul li a:visited{
+	color: white;
+}
+
+.ddsmoothmenu ul li a:hover{
+	background:#9EC040; /*background of menu items during onmouseover (hover state)*/
+	color: white;
+}
+	
+/*1st sub level menu*/
+.ddsmoothmenu ul li ul{
+	position: absolute;
+	margin-left:-40px;
+	left: 0;
+	display: none; /*collapse all sub menus to begin with*/
+	visibility: hidden;
+}
+
+/*Sub level menu list items (undo style from Top level List Items)*/
+.ddsmoothmenu ul li ul li{
+	float: none;
+}
+
+/* Sub level menu links style */
+.ddsmoothmenu ul li ul li a{
+	font: normal 13px Verdana;
+	width: 160px; /*width of sub menus*/
+	padding: 5px;
+	margin: 0;
+	border-top-width: 0;
+	border-bottom: 1px solid gray;
+}
+
+/* Holly Hack for IE \*/
+* html .ddsmoothmenu{height: 1%;} /*Holly Hack for IE7 and below*/
+
+/* ######### CSS classes applied to down and right arrow images  ######### */
+
+.downarrowclass{
+	position: absolute;
+	top: 15px;
+	right: 7px;
+}

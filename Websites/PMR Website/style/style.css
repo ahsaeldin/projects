@@ -1,0 +1,447 @@
+@charset "UTF-8";
+
+body{
+	background-color: #D7DFE2;
+	color: #000;
+	margin:0px;
+	padding:0px;
+	font: 10px  verdana, arial, sans-serif;
+}
+
+img{
+	border:none;
+	outline:none;
+}
+a{
+	color:#3A5AC1;
+	background-color:inherit;
+}
+a:hover{
+	color:#C66D04;
+	background-color:inherit;
+	cursor:pointer; /*to make sure that pointer will be displayed @ every a element even it's href isn't defined*/
+}
+/*to remove outline surounding the link after has been clicked*/
+a:active{
+	outline:none;
+}
+
+a:focus{
+	outline:none;
+	/*-moz-outline-style:none;*/
+}
+p{
+	text-align:justify;
+	padding:2px 0 2px 0;
+	margin:0px;
+	line-height:15px;
+}
+hr{
+	border:#FFF;
+	border-bottom:1px #a7ef6e dashed;	
+}
+*.orange{
+	font-weight:bold;
+	color:#FF7F27;
+	background-color:inherit;
+	font-size:16px;
+}
+*.green-bold-font{
+	color:#008000;
+	background-color:inherit;
+	font-weight:bold;
+}
+span.orange{
+	font-size:14px;
+}
+*.enlarge-to-16{
+	font-size:14px;
+}
+*.enlarge-to-18{
+	font-size:18px;
+}
+*#main-container{
+	width:900px;
+	height:auto;
+	margin:auto;
+	background-color:#FFFFFF;
+	color:inherit;
+}
+
+*.no-underline{
+	text-decoration:none;
+}
+*#header{
+	width:900px;
+	height:auto;
+	margin:auto;
+}
+
+*#logo{
+	padding:15px 0 0 30px;
+	float:left;
+}
+
+*.boldme{
+	font-weight:bold;	
+}
+
+*.underlineme{
+	text-decoration:underline;
+}
+/*----------------middle green box-----------*/
+*#green-box{
+	width:900px;
+	height:388px;
+	clear:both;
+	background-image:url(../images/why-perfect-macro-recorder1.png);
+	background-color:#9EC040;
+	background-position:430px 0px;
+	background-repeat:no-repeat;
+}
+
+*.clock{
+	float:left;
+	padding-top:10px;
+	padding-left:10px;
+	padding-bottom:10px;
+}
+
+*.link-list{
+	float:left;
+	padding-left:30px;
+	list-style-image:url(../images/orange_bullet.gif);
+}
+
+*.link-list li{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	padding-right:50px;
+	float:left;
+}
+
+*.link-list li a{
+	font-weight:bold;
+	text-decoration:none;
+}
+
+*.link-list li a:hover{
+	text-decoration:underline;
+}
+/*--------------------------main-content-------------------*/
+*#main-content{
+	width:auto;
+	height:auto;
+	clear:both;
+}
+
+*#home-content{
+	width: auto;
+	height: auto;
+	margin:0 20px 0 20px;
+	float:left;
+	padding:10px 0 0 0;
+	color:#322;
+	background-color:inherit;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	text-align:justify;
+}
+
+*#home-content-left{
+	width:650px;
+	float:left;	
+	padding:10px 10px 0 0;
+}
+
+*.firstcontent{
+	border-bottom:1px #a7ef6e dashed;
+}
+*#home-content-right{
+	width: 200px;
+	float:left;	
+	padding-top:10px;
+}
+
+img.center{ 
+	display: block;  
+	margin-left: auto;   
+	margin-right: auto;
+}
+*.paragraph-title{
+	font-weight:bold;
+	color:#FFB000;
+	background-color:inherit;
+}
+*.paragraph-cont{
+	font-weight:normal;
+	font-size:14px;
+	color:#322;
+	background-color:inherit;
+	text-align:justify;
+}
+
+*#button-right{
+	padding-left:20px;
+	display:block;
+}
+
+*#button-left{
+	float:left;
+	padding-top:60px;
+	padding-right:44px;
+}
+
+*.sidebar-div{
+	padding-left:15px;
+	border-bottom:1px #a7ef6e dashed;
+}
+
+*#testmonials-cell{
+	padding-right:10px;
+}
+*.sidebar-cell{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:13px;
+}
+/*----------------------top right navigation-------------------------*/
+*#right-nav{
+	width:240px;height: auto;
+	right:150px; 
+	top:250px;
+	float:right;
+	position:relative;
+
+}
+
+*#order-button{
+	width:240px;height: auto;
+	right:150px; 
+	top:250px;
+	float:right;
+	position:relative;
+
+}
+/*----------------------Volume Discounts----------------------*/
+*#discounts{
+	font-family:Verdana, Geneva, sans-serif;
+	width:auto;
+	border-collapse:collapse;
+}
+*#discounts td, *#discounts th {
+	font-size:1em;
+	border:1px solid #98bf21;
+	padding:3px 7px 2px 7px;
+	text-align:center;
+}
+*#discounts th {
+	font-size:1.1em;
+	padding-top:5px;
+	padding-bottom:4px;
+	background-color:#A00000; /*A7C942*/
+	color:#ffffff;
+}
+*#discounts tr.alt td {
+	color:#000000;
+	background-color:#EAF2D3;
+}
+/*-----------------------------four rounded div containers------------------*/
+*.four-boxes{
+	top:12px;
+	width:auto;
+	position:relative;
+	float:left;
+	height:450px;
+	left:10px;
+}
+
+*.top-left-container,
+*.bottom-left-container {
+	position:relative;	
+	background: #ffffff;
+	border: 1px solid #848284;
+	padding:3px 3px 0 3px;
+	left:30px;
+	width:400px;
+	height:188px;
+	float:left;
+}
+
+*.top-right-container,
+*.bottom-right-container{
+	position:relative;
+	background: #ffffff;
+	border: 1px solid #848284;
+	padding:3px 3px 0 3px;
+	right:30px;
+	width:400px;
+	height:188px;
+	float:right;
+}
+
+*.content-box-container {
+	position:relative;	
+	background: #ffffff;
+	border: 1px solid #848284;
+	padding:3px 3px 0 3px;
+	left:50px;
+	width:860px;
+	height:auto;
+}
+
+*.shadow1,*.shadow3 {
+	background: #DBDADB;
+}
+
+*.shadow3 {
+	margin-top:30px;
+}
+  
+*.shadow2,*.shadow4 {
+	background: #B8B6B8;
+}
+
+*.shadow1,
+*.shadow2,
+*.shadow3,
+*.shadow4,
+*.top-left-container,
+*.top-right-container,
+*.bottom-left-container,
+*.bottom-right-container,
+*.content-box-container {
+	position: relative;
+	left: -1px;
+	top: -1px;
+	float:left;
+}
+ 
+*.inBetween{
+	width:30px;
+	height:188px;
+	float:left;
+}
+
+*.top-rect{
+	background-color:#FF9;/*9EC040*/
+	font-family:Verdana, Geneva, sans-serif;
+	font-weight:bold;
+	font-size:14px;
+	padding:10px 0 10px 10px;
+	color:#000
+}
+
+*.top-rect-left-img{
+	background:url(../images/save-your-time-using-macro-recorder.png) no-repeat
+}
+*.top-rect-right-img{
+	background:url(../images/perform-complex-operations-by-macro-recorder.png) no-repeat;
+	top:20px
+}
+*.bottom-rect-left-img{
+	background:url(../images/let-perfect-macro-recorder-automate-repetitive-tasks-for-you.png) no-repeat;
+	top:20px
+}
+*.bottom-rect-right-img{
+	background:url(../images/create-stand-alone-executable-macros-using-perfect-macro-recorder.png) no-repeat;
+	top:20px
+}
+*.top-rect-left-img,
+*.top-rect-right-img,
+*.bottom-rect-left-img,
+*.bottom-rect-right-img{
+	position:absolute;
+	width:200px;
+	height:200px;
+	left:250px;
+	
+}
+*.text-cont{
+	color:#322;
+	background-color:inherit;
+	text-align:justify;
+	width:230px;
+	padding-left:10px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	padding-top:10px
+}
+/*-----------------------------footer------------------*/
+*#footer{
+	clear:both;
+	width: auto;
+	height:38px;
+	color: #fff;
+	background-color:#444444;
+}
+
+*#footer br{
+	float:none;
+}
+
+*.footer-links{
+	text-align:center;
+	padding-top:5px;
+	font-weight: bold;
+	font-size:12px;
+}
+
+*.footer-links a{
+	text-decoration:none;
+	color: #fff;
+	background-color:inherit;
+}
+
+*.footer-links a:hover{
+	text-decoration:underline;
+}
+
+*.screenshot-description p,
+*.screenshot-description{
+ 	width:297px;
+	text-align:center;
+	padding-top:10px;
+	font:Verdana, Geneva, sans-serif;
+	font-size:12px;
+}
+*.small-screenshot-description-left{
+ 	width:240px;
+	float:left;
+	text-align:center;
+	padding-top:10px;
+	margin-left:180px;
+	font:Verdana, Geneva, sans-serif;
+	font-size:12px;
+}
+*.small-screenshot-description-left p{
+	text-align:center;
+}
+*.small-screenshot-description-right{
+ 	width:240px;
+	float:left;	
+	text-align:center;
+	padding-top:10px;
+	font:Verdana, Geneva, sans-serif;
+	font-size:12px;
+}
+*.small-screenshot-description-right p{
+	text-align:center;
+}
+*.sanscomic{
+	font-family:"Comic Sans MS",Georgia, "Times New Roman";
+	color:#039;
+}
+*.headTitle{
+	color:#3868c8;
+	font-size:18px;
+	font-weight:bold;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+*.Turquoise{
+	color:#3868c8;
+	text-align:left;
+}
+*.orangeListImage{
+	list-style-image:url(../images/orange_arrow.gif);
+	text-align:left;
+}

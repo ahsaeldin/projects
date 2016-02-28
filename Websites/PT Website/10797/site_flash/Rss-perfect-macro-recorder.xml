@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<rss version="2.0">
+  <channel>
+    <title>Perfect Macro Recorder</title>
+    <description>Easily automate recurring boring tasks using Perfect Macro Recorder. Use Perfect Macro Recorder to records keystrokes, mouse events, and clicks then replay them later, you can also convert the macro to an executable file [*.exe] that can be run stand alone without Perfect Macro Recorder. Key benefits * Keyboard and Mouse Macro Recorder Perfect Macro Recorder save all the movements of mouse and keyboard and play them later then you can use Perfect Macro Recorder to play them later with different speeds(slow,high,normal). * Replay using a global hot key You can replay macros using global hot keys. A global hot key is a key combination such as "Ctrl+Alt+S". * Give a long vacation to your hands and wrists Perfect Macro Recorder can also help to reduce the pain on your hands and wrists. * Automate your everyday tasks without any programming knowledge The main advantage of using a macro recorder is that is allows a user to easily perform complex operations over and over that may not be feasible without custom computer programming / scripting. * Maintenance of your computer Maintenance your computer or network With Perfect Macro Recorder. * Create a stand a lone macro Convert your macro to an EXE file which runs on any windows-compatible computer, no installations needed. * Testing Record test scenarios and save them to individual .EXEs to be run later.</description>
+    <link>http://www.perfect-macro-recorder.com</link>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <lastBuildDate>Monday, 23 Oct 2006 19:23:19 +0200</lastBuildDate>
+    <pubDate>Sun, 22 Oct 2006 19:23:16 +0200</pubDate>
+    <generator>FeedForAll v1.0 (1.0.2.0)</generator>
+    <item>
+      <title>Download link</title>
+      <description>http://www.perfectiontools.com/downloads.html</description>
+      <link></link>
+      <pubDate>Sun, 22 Oct 2006 19:23:16 +0200</pubDate>
+    </item>
+ </channel>
+</rss>

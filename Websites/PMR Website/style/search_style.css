@@ -1,0 +1,75 @@
+/*
+This script is powered by Tzine
+http://tutorialzine.com/2010/09/google-powered-site-search-ajax-jquery/
+*/
+@charset "utf-8";
+
+*#page{
+	/* The main container div */
+	float:right;
+	margin-right:20px;
+	margin-top:30px;
+}
+*#submitButton{
+	background:url('../images/search-button.png') no-repeat  ;
+	width:40px;
+	height:19px;
+	border:none;
+	cursor:pointer;
+	vertical-align:top;
+}
+*#s{
+	/* The search text box. */
+	background:url('../images/search-box.png') no-repeat;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:15px;
+	height:18px;
+	line-height:18px;
+	margin-right:5px;
+	outline:medium none;
+	padding:0 0 0 21px;
+	text-shadow:1px 1px 0 white;
+	
+}
+div.jquery-ajax-loader {
+	background: url(../images/jquery.ajaxLoader.gif) no-repeat center;
+}
+
+li.web{ width:15px;}
+li.web.active,
+li.web:hover{ background-position:left bottom;}
+
+p.notFound{
+	text-align:center;
+	padding:0 0 40px;
+}
+
+.webResult{ text-shadow:1px 1px 0 #586a75;margin-bottom:50px;}
+.webResult h2{ 
+	background-color:#FF9;
+	font-size:18px;
+	font-weight:normal;
+	padding:8px 20px;
+	
+	/* Applying CSS3 rounded corners */
+	-moz-border-radius:18px;
+	-webkit-border-radius:18px;
+	border-radius:18px;
+}
+
+.webResult h2 b{ color:#F06; }
+.webResult h2 a{ color:#000;border:none;}
+.webResult p{ line-height:1.5;padding:15px 20px;}
+.webResult p b{ color:#F06;}
+.webResult > a{ margin-left:20px;}
+
+#more{
+	width:83px;
+	height:24px;
+	background:url(../images/more-results.png) no-repeat;
+	cursor:pointer;
+	margin:40px auto;
+}
+
+#more:hover{
+}

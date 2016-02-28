@@ -1,0 +1,46 @@
+<Files ~ "^\.ht">
+ Order allow,deny
+ Deny from all
+ Satisfy All
+</Files>
+
+
+RewriteEngine on
+redirect permanent /EasyWindow&amp;SystemTrayIconsHider.exe http://www.perfectiontools.com/EasyWindowSystemTrayIconsHider.exe
+AuthUserFile "/home/asaad/.htpasswds/public_html/www.perfectiontools.com/passwd"
+RewriteCond %{HTTP_HOST} ^perfectiontools.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www.perfectiontools.com$
+RewriteRule ^perfect_macro_recorder\.html$ "http\:\/\/www\.perfect\-macro\-recorder\.com\/moreinfo\.html" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^perfectiontools.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www.perfectiontools.com$
+RewriteRule ^pmrscreenshots\.html$ "http\:\/\/www\.perfect\-macro\-recorder\.com\/screenshots\.html" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^perfectiontools.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www.perfectiontools.com$
+RewriteRule ^downloads\.html$ "http\:\/\/www\.perfect\-macro\-recorder\.com\/downloads\.html" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^perfectiontools.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www.perfectiontools.com$
+RewriteRule ^g_PerfectMacroRecorder\.html$ "http\:\/\/www\.perfect\-macro\-recorder\.com\/moreinfo\.html" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^perfectiontools.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www.perfectiontools.com$
+RewriteRule ^Perfect-Macro-Recorder\.exe$ "http\:\/\/www\.perfect\-macro\-recorder\.com\/PerfectMacroRecorder\.exe" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^perfectiontools.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www.perfectiontools.com$
+RewriteRule ^purchasepmr\.html$ "http\:\/\/www\.perfect\-macro\-recorder\.com\/order\.html" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^perfectiontools.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www.perfectiontools.com$
+RewriteRule ^pmrfeatures\.html$ "http\:\/\/www\.perfect\-macro\-recorder\.com\/features\.html" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^perfectiontools.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www.perfectiontools.com$
+RewriteRule ^pmrfaqs\.html$ "http\:\/\/www\.perfect\-macro\-recorder\.com\/faqs\.html" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^perfectiontools.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www.perfectiontools.com$
+RewriteRule ^perfect\-macro\-recorder\.html$ "http\:\/\/www\.perfect\-macro\-recorder\.com\/moreinfo\.html" [R=301,L]
+AuthName "T-PMR"

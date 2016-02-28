@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XML_DIZ_INFO>
+	<MASTER_PAD_VERSION_INFO>
+		<MASTER_PAD_VERSION>3.01</MASTER_PAD_VERSION>
+		<MASTER_PAD_EDITOR>PADGen 3.0.1.35 http://www.padgen.org</MASTER_PAD_EDITOR>
+		<MASTER_PAD_INFO>Portable Application Description, or PAD for short, is a data set that is used by shareware authors to disseminate information to anyone interested in their software products. To find out more go to http://www.asp-shareware.org/pad</MASTER_PAD_INFO>
+	</MASTER_PAD_VERSION_INFO>
+	<Company_Info>
+		<Company_Name>Perfection Tools Software</Company_Name>
+		<Address_1>---------</Address_1>
+		<Address_2>---------</Address_2>
+		<City_Town>---------</City_Town>
+		<State_Province>---------</State_Province>
+		<Zip_Postal_Code>---------</Zip_Postal_Code>
+		<Country>---------</Country>
+		<Company_WebSite_URL>http://www.perfectiontools.com/</Company_WebSite_URL>
+		<Contact_Info>
+			<Author_First_Name>---------</Author_First_Name>
+			<Author_Last_Name>---------</Author_Last_Name>
+			<Author_Email>support@perfectiontools.com</Author_Email>
+			<Contact_First_Name>---------</Contact_First_Name>
+			<Contact_Last_Name>---------</Contact_Last_Name>
+			<Contact_Email>support@perfectiontools.com</Contact_Email>
+		</Contact_Info>
+		<Support_Info>
+			<Sales_Email>sales@perfectiontools.com</Sales_Email>
+			<Support_Email>support@perfectiontools.com</Support_Email>
+			<General_Email>genral@perfectiontools.com</General_Email>
+			<Sales_Phone>---------</Sales_Phone>
+			<Support_Phone>---------</Support_Phone>
+			<General_Phone>---------</General_Phone>
+			<Fax_Phone>---------</Fax_Phone>
+		</Support_Info>
+	</Company_Info>
+	<Program_Info>
+		<Program_Name>Easy Text Inserter</Program_Name>
+		<Program_Version>1.00</Program_Version>
+		<Program_Release_Month>06</Program_Release_Month>
+		<Program_Release_Day>15</Program_Release_Day>
+		<Program_Release_Year>2008</Program_Release_Year>
+		<Program_Cost_Dollars />
+		<Program_Cost_Other_Code />
+		<Program_Cost_Other />
+		<Program_Type>Shareware</Program_Type>
+		<Program_Release_Status>New Release</Program_Release_Status>
+		<Program_Install_Support>Install and Uninstall</Program_Install_Support>
+		<Program_OS_Support>Win98,WinME,Windows2000,WinXP,Windows2003,Windows Vista Starter,Windows Vista Home Basic,Windows Vista Home Premium,Windows Vista Business,Windows Vista Enterprise,Windows Vista Ultimate</Program_OS_Support>
+		<Program_Language>English</Program_Language>
+		<Program_Change_Info />
+		<Program_Specific_Category>Utilities</Program_Specific_Category>
+		<Program_Category_Class>System Utilities::Automation Tools</Program_Category_Class>
+		<Program_System_Requirements>· Intel Pentium II 300 (or equivalent) , 128 MB RAM &amp; 10 MB disk space for the installed program </Program_System_Requirements>
+		<File_Info>
+			<File_Size_Bytes>2985875</File_Size_Bytes>
+			<File_Size_K>2915</File_Size_K>
+			<File_Size_MB>2.85</File_Size_MB>
+		</File_Info>
+		<Expire_Info>
+			<Has_Expire_Info>N</Has_Expire_Info>
+			<Expire_Count>15</Expire_Count>
+			<Expire_Based_On>Days</Expire_Based_On>
+			<Expire_Other_Info />
+			<Expire_Month />
+			<Expire_Day />
+			<Expire_Year />
+		</Expire_Info>
+	</Program_Info>
+	<Program_Descriptions>
+		<English>
+			<Keywords>keyboard utility,keyrecorder,recording,phrase,express,phrasexpress,quickphrase,AutoText,type,speed,automation,typing,autocomplete,autocorrect,autoreplace</Keywords>
+			<Char_Desc_45>Automate typing of repetitive phrases</Char_Desc_45>
+			<Char_Desc_80>Easy Text Inserter automate typing of repetitive phrases in any text editor</Char_Desc_80>
+			<Char_Desc_250>automate typing of repetitive phrases in any text editor</Char_Desc_250>
+			<Char_Desc_450>Easy Text Inserter automates typing of repetitive phrases in any text editor. this Software is to save your time when typing repetitive phrases. Just you assign a keyword and the corresponding phrase then you hit the keyword whenever you need to type the phrase and Easy Text Inserter will replace it with the corresponding phrase.</Char_Desc_450>
+			<Char_Desc_2000>Easy Text Inserter automates typing of repetitive phrases in any text editor. The Main Idea of this Software is to save your time when typing repetitive phrases. Just you assign a keyword and the corresponding phrase then you hit the keyword whenever you need to type the phrase and Easy Text Inserter will replace it with the corresponding phrase. For example if you type the keyword (tha), it will be replaced by the phrase "Thank you very much for your time and consideration".</Char_Desc_2000>
+		</English>
+	</Program_Descriptions>
+	<Web_Info>
+		<Application_URLs>
+			<Application_Info_URL>http://www.perfectiontools.com/easy-text-inserter.html</Application_Info_URL>
+			<Application_Order_URL>http://www.perfectiontools.com/purchase_4.html</Application_Order_URL>
+			<Application_Screenshot_URL>http://www.perfectiontools.com/images/EasyTextInserter.png</Application_Screenshot_URL>
+			<Application_Icon_URL>http://www.perfectiontools.com/images/EasyTextInserter_Ico.png</Application_Icon_URL>
+			<Application_XML_File_URL>http://www.perfectiontools.com/Easy-Text-Inserter.xml</Application_XML_File_URL>
+		</Application_URLs>
+		<Download_URLs>
+			<Primary_Download_URL>http://www.perfectiontools.com/easytextinserter.exe</Primary_Download_URL>
+			<Secondary_Download_URL />
+			<Additional_Download_URL_1 />
+			<Additional_Download_URL_2 />
+		</Download_URLs>
+	</Web_Info>
+	<Permissions>
+		<Distribution_Permissions />
+		<EULA>END-USER LICENSE AGREEMENT FOR EASY TEXT INSERTER IMPORTANT PLEASE READ THE TERMS AND CONDITIONS OF THIS LICENSE AGREEMENT CAREFULLY BEFORE CONTINUING WITH THIS PROGRAM INSTALL: Perfection Tools Software End-User License Agreement ("EULA") is a legal agreement between you (either an individual or a single entity) and Perfection Tools Software. for the Perfection Tools software product(s) identified above which may include associated software components, media, printed materials, and "online" or electronic documentation ("SOFTWARE PRODUCT"). By installing, copying, or otherwise using the SOFTWARE PRODUCT, you agree to be bound by the terms of this EULA. This license agreement represents the entire agreement concerning the program between you and Perfection Tools Software, (referred to as "licenser"), and it supersedes any prior proposal, representation, or understanding between the parties. If you do not agree to the terms of this EULA, do not install or use the SOFTWARE PRODUCT. 
+
+The SOFTWARE PRODUCT is protected by copyright laws and international copyright treaties, as well as other intellectual property laws and treaties. The SOFTWARE PRODUCT is licensed, not sold. 
+
+1. GRANT OF LICENSE. 
+The SOFTWARE PRODUCT is licensed as follows: 
+(a) Installation and Use.
+Perfection Tools Software grants you the right to install and use copies of the SOFTWARE PRODUCT on your computer running a validly licensed copy of the operating system for which the SOFTWARE PRODUCT was designed [e.g., Windows 95, Windows NT, Windows 98, Windows 2000 , Windows 2003, Windows XP, Windows ME, Windows Vista].
+(b) Backup Copies.
+You may also make copies of the SOFTWARE PRODUCT as may be necessary for backup and archival purposes.
+
+2. DESCRIPTION OF OTHER RIGHTS AND LIMITATIONS.
+(a) Maintenance of Copyright Notices.
+You must not remove or alter any copyright notices on any and all copies of the SOFTWARE PRODUCT.
+(b) Distribution.
+You may not distribute registered copies of the SOFTWARE PRODUCT to third parties. Evaluation versions available for download from Perfection Tools Software website may be freely distributed.
+(c) Prohibition on Reverse Engineering, Decompilation, and Disassembly.
+You may not reverse engineer, decompile, or disassemble the SOFTWARE PRODUCT, except and only to the extent that such activity is expressly permitted by applicable law notwithstanding this limitation. 
+(d) Rental.
+You may not rent, lease, or lend the SOFTWARE PRODUCT.
+(e) Support Services.
+Perfection Tools Software may provide you with support services related to the SOFTWARE PRODUCT ("Support Services"). Any supplemental software code provided to you as part of the Support Services shall be considered part of the SOFTWARE PRODUCT and subject to the terms and conditions of this EULA. 
+(f) Compliance with Applicable Laws.
+You must comply with all applicable laws regarding use of the SOFTWARE PRODUCT.
+
+3. TERMINATION 
+Without prejudice to any other rights, Perfection Tools Software may terminate this EULA if you fail to comply with the terms and conditions of this EULA. In such event, you must destroy all copies of the SOFTWARE PRODUCT in your possession.
+
+4. COPYRIGHT
+All title, including but not limited to copyrights, in and to the SOFTWARE PRODUCT and any copies thereof are owned by Perfection Tools Software or its suppliers. All title and intellectual property rights in and to the content which may be accessed through use of the SOFTWARE PRODUCT is the property of the respective content owner and may be protected by applicable copyright or other intellectual property laws and treaties. This EULA grants you no rights to use such content. All rights not expressly granted are reserved by Perfection Tools Software. 
+
+5. NO WARRANTIES 
+Perfection Tools Software expressly disclaims any warranty for the SOFTWARE PRODUCT. The SOFTWARE PRODUCT is provided As Is without any express or implied warranty of any kind, including but not limited to any warranties of merchantability, noninfringement, or fitness of a particular purpose. Perfection Tools Software does not warrant or assume responsibility for the accuracy or completeness of any information, text, graphics, links or other items contained within the SOFTWARE PRODUCT. Perfection Tools Software makes no warranties respecting any harm that may be caused by the transmission of a computer virus, worm, time bomb, logic bomb, or other such computer program. Perfection Tools Software further expressly disclaims any warranty or representation to Authorized Users or to any third party.
+
+6. LIMITATION OF LIABILITY
+In no event shall Perfection Tools Software be liable for any damages (including, without limitation, lost profits, business interruption, or lost information) rising out of Authorized Users' use of or inability to use the SOFTWARE PRODUCT, even if Perfection Tools Software has been advised of the possibility of such damages. In no event will Perfection Tools Software be liable for loss of data or for indirect, special, incidental, consequential (including lost profit), or other damages based in contract, tort or otherwise. Perfection Tools Software shall have no liability with respect to the content of the SOFTWARE PRODUCT or any part thereof, including but not limited to errors or omissions contained therein, libel, infringements of rights of publicity, privacy, trademark rights, business interruption, personal injury, loss of privacy, moral rights or the disclosure of confidential information.</EULA>
+	</Permissions>
+	<Affiliates>
+		<Affiliates_FORM>Y</Affiliates_FORM>
+		<Affiliates_VERSION>1.2</Affiliates_VERSION>
+		<Affiliates_URL>http://www.asp-shareware.org/pad/extensions/Affiliates.htm</Affiliates_URL>
+		<Affiliates_Information_Page />
+		<Affiliates_Avangate_Order_Page />
+		<Affiliates_Avangate_Vendor_ID />
+		<Affiliates_Avangate_Product_ID />
+		<Affiliates_Avangate_Maximum_Commission_Rate />
+		<Affiliates_BMTMicro_Order_Page />
+		<Affiliates_BMTMicro_Vendor_ID />
+		<Affiliates_BMTMicro_Product_ID />
+		<Affiliates_BMTMicro_Maximum_Commission_Rate />
+		<Affiliates_clixGalore_Order_Page />
+		<Affiliates_clixGalore_Vendor_ID />
+		<Affiliates_clixGalore_Product_ID />
+		<Affiliates_clixGalore_Maximum_Commission_Rate />
+		<Affiliates_CommissionJunction_Order_Page />
+		<Affiliates_CommissionJunction_Vendor_ID />
+		<Affiliates_CommissionJunction_Product_ID />
+		<Affiliates_CommissionJunction_Maximum_Commission_Rate />
+		<Affiliates_DigiBuy_Order_Page />
+		<Affiliates_DigiBuy_Vendor_ID />
+		<Affiliates_DigiBuy_Product_ID />
+		<Affiliates_DigiBuy_Maximum_Commission_Rate />
+		<Affiliates_DigitalCandle_Order_Page />
+		<Affiliates_DigitalCandle_Vendor_ID />
+		<Affiliates_DigitalCandle_Product_ID />
+		<Affiliates_DigitalCandle_Maximum_Commission_Rate />
+		<Affiliates_Emetrix_Order_Page />
+		<Affiliates_Emetrix_Vendor_ID />
+		<Affiliates_Emetrix_Product_ID />
+		<Affiliates_Emetrix_Maximum_Commission_Rate />
+		<Affiliates_eSellerate_Order_Page />
+		<Affiliates_eSellerate_Vendor_ID />
+		<Affiliates_eSellerate_Product_ID />
+		<Affiliates_eSellerate_Maximum_Commission_Rate />
+		<Affiliates_Kagi_Order_Page />
+		<Affiliates_Kagi_Vendor_ID />
+		<Affiliates_Kagi_Product_ID />
+		<Affiliates_Kagi_Maximum_Commission_Rate />
+		<Affiliates_LinkShare_Order_Page />
+		<Affiliates_LinkShare_Vendor_ID />
+		<Affiliates_LinkShare_Product_ID />
+		<Affiliates_LinkShare_Maximum_Commission_Rate />
+		<Affiliates_NorthStarSol_Order_Page />
+		<Affiliates_NorthStarSol_Vendor_ID />
+		<Affiliates_NorthStarSol_Product_ID />
+		<Affiliates_NorthStarSol_Maximum_Commission_Rate />
+		<Affiliates_Order1_Order_Page />
+		<Affiliates_Order1_Vendor_ID />
+		<Affiliates_Order1_Product_ID />
+		<Affiliates_Order1_Maximum_Commission_Rate />
+		<Affiliates_Osolis_Order_Page />
+		<Affiliates_Osolis_Vendor_ID />
+		<Affiliates_Osolis_Product_ID />
+		<Affiliates_Osolis_Maximum_Commission_Rate />
+		<Affiliates_Plimus_Order_Page />
+		<Affiliates_Plimus_Vendor_ID />
+		<Affiliates_Plimus_Product_ID />
+		<Affiliates_Plimus_Maximum_Commission_Rate />
+		<Affiliates_Regnet_Order_Page />
+		<Affiliates_Regnet_Vendor_ID />
+		<Affiliates_Regnet_Product_ID />
+		<Affiliates_Regnet_Maximum_Commission_Rate />
+		<Affiliates_Regnow_Order_Page />
+		<Affiliates_Regnow_Vendor_ID />
+		<Affiliates_Regnow_Product_ID />
+		<Affiliates_Regnow_Maximum_Commission_Rate />
+		<Affiliates_Regsoft_Order_Page />
+		<Affiliates_Regsoft_Vendor_ID />
+		<Affiliates_Regsoft_Product_ID />
+		<Affiliates_Regsoft_Maximum_Commission_Rate />
+		<Affiliates_ShareIt_Order_Page />
+		<Affiliates_ShareIt_Vendor_ID />
+		<Affiliates_ShareIt_Product_ID />
+		<Affiliates_ShareIt_Maximum_Commission_Rate />
+		<Affiliates_Shareasale_Order_Page />
+		<Affiliates_Shareasale_Vendor_ID />
+		<Affiliates_Shareasale_Product_ID />
+		<Affiliates_Shareasale_Maximum_Commission_Rate />
+		<Affiliates_SWReg_Order_Page />
+		<Affiliates_SWReg_Vendor_ID />
+		<Affiliates_SWReg_Product_ID />
+		<Affiliates_SWReg_Maximum_Commission_Rate />
+		<Affiliates_V-Share_Order_Page />
+		<Affiliates_V-Share_Vendor_ID />
+		<Affiliates_V-Share_Product_ID />
+		<Affiliates_V-Share_Maximum_Commission_Rate />
+		<Affiliates_VFree_Order_Page />
+		<Affiliates_VFree_Vendor_ID />
+		<Affiliates_VFree_Product_ID />
+		<Affiliates_VFree_Maximum_Commission_Rate />
+		<Affiliates_Yaskifo_Order_Page />
+		<Affiliates_Yaskifo_Vendor_ID />
+		<Affiliates_Yaskifo_Product_ID />
+		<Affiliates_Yaskifo_Maximum_Commission_Rate />
+	</Affiliates>
+	<ASP>
+		<ASP_FORM>Y</ASP_FORM>
+		<ASP_Member>N</ASP_Member>
+		<ASP_Member_Number />
+	</ASP>
+</XML_DIZ_INFO>

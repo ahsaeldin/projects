@@ -1,0 +1,18 @@
+pageinfo = [[0,0,0,0,null],
+	[0,0,0,0,null],
+	[0,0,0,0,null],
+	[0,0,0,0,null],
+	[0,0,0,0,null],
+	[0,0,0,0,null],
+	[0,0,0,0,null],
+	[0,0,0,0,null],
+	[0,0,0,0,null]];
+pagedata = [ ["create_executable_macros.htm","How to use Perfect Macro Recorder &#62; Create executable macros","Create executable macros",""],
+["editing_a_macro.htm","How to use Perfect Macro Recorder &#62; Editing a macro","Editing a macro",""],
+["how_to_order_.htm","How to order?","How to order?",""],
+["overview_of_perfect_macro_reco.htm","Overview of Perfect Macro Recorder","Overview of Perfect Macro Recorder",""],
+["playing_a_macro.htm","How to use Perfect Macro Recorder &#62; Playing a macro","Playing a macro",""],
+["recording_a_macro.htm","How to use Perfect Macro Recorder &#62; Recording a macro","Recording a macro",""],
+["saving_and_loading_a_macro.htm","How to use Perfect Macro Recorder &#62; Saving and loading a macro","Saving and loading a macro",""],
+["settings.htm","How to use Perfect Macro Recorder &#62; Settings","Settings",""],
+["support_and_email_addresses.htm","Support and email addresses","Support and email addresses",""]];
