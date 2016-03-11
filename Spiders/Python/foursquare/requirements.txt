@@ -1,0 +1,3 @@
+requests == 2.7.0
+ujson == 1.33
+foursquare == 20130707
