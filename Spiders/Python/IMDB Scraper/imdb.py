@@ -10,7 +10,7 @@ from lxml import html
 def download_file(url, filename):
     file_req = requests.get(url, stream=True)
     if file_req.status_code == 200:
-        with open(filename, 'wb') as f:
+        with open(filename, "wb" as f:
             file_req.raw.decode_content = True
             shutil.copyfileobj(file_req.raw, f)
 
