@@ -6,7 +6,7 @@ from random import choice
 def SaveLstIntoFile(prodURLs, fileName):
     iFile = open(fileName, "ab")
     for prodURL in prodURLs:
-        iFile.write(prodURL + '\r\n')
+        iFile.write(prodURL + "\r\n")
     iFile.close()
 
 def loadProxies(fileName):
