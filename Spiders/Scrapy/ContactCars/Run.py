@@ -9,5 +9,5 @@ if __name__ == '__main__':
     if args_no > 1:
        arg = sys.argv[1]
 
-    if arg == 'contactcars' or arg == '':
+    if arg == 'contactcars' or arg == "":
        cmdline.execute("scrapy crawl contactcars -o contactcars.csv -t csv".split())
