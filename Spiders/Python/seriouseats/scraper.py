@@ -18,7 +18,7 @@ with open('recipes.txt') as f:
 
 br = mechanize.Browser()
 
-root = ET.Element("root")
+root = ET.Element('root')
 
 count = 0
 for URL in URLs:
